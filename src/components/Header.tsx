@@ -21,7 +21,7 @@ export default function Header() {
               <Image
                 className="lg:flex"
                 src={logo}
-                alt={logo}
+                alt={"logo"}
                 width={90}
                 height={70}
               />
