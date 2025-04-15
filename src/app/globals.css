@@ -1,5 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 @import "tailwindcss";
 @import "tw-animate-css";
+
+.lobster {
+  font-family: "Lobster", sans-serif;
+}
 
 @custom-variant dark (&:is(.dark *));
 
@@ -43,44 +48,45 @@
 }
 
 :root {
-  --accent: 206 49% 82%;
-  --accent-foreground: 206 46% 24%;
-  --background: 200 33% 96%;
-  --background-accent: 203 34% 86%;
-  --border: 202 31% 76%;
-  --card: 200 33% 96%;
-  --card-foreground: 204 45% 4%;
-  --foreground: 204 45% 4%;
-  --input: 202 31% 76%;
-  --muted: 203 34% 86%;
-  --muted-foreground: 201 22% 30%;
-  --popover: 200 33% 96%;
-  --popover-foreground: 204 45% 4%;
-  --primary: 200 98% 39%;
-  --primary-foreground: #93dbff;
-  --ring: 204 45% 4%;
-  --secondary: 232 52% 84%;
-  --secondary-foreground: 232 47% 28%;
+  --accent: hsl(255, 76%, 90%);
+  --accent-foreground: hsl(256, 74%, 28%);
+  --background: hsl(200, 36%, 95%);
+  --background-accent: hsl(201, 33%, 85%);
+  --border: hsl(199, 31%, 75%);
+  --card: hsl(200, 36%, 95%);
+  --card-foreground: hsl(197, 47%, 3%);
+  --foreground: hsl(197, 47%, 3%);
+  --input: hsl(199, 31%, 75%);
+  --muted: hsl(201, 33%, 85%);
+  --muted-foreground: hsl(200, 23%, 28%);
+  --popover: hsl(200, 36%, 95%);
+  --popover-foreground: hsl(197, 47%, 3%);
+  --primary: hsl(196, 99%, 38%);
+  --primary-foreground: #ffffff;
+  --ring: hsl(197, 47%, 3%);
+  --secondary: hsl(182, 73%, 83%);
+  --secondary-foreground: hsl(182, 68%, 21%);
 }
+
 .dark {
-  --accent: 206 47% 33%;
-  --accent-foreground: 207 49% 89%;
-  --background: #18242b;
-  --background-accent: 202 28% 13%;
-  --border: 200 25% 21%;
-  --card: 204 45% 4%;
-  --card-foreground: 200 33% 96%;
-  --foreground: 200 33% 96%;
-  --input: 200 25% 21%;
-  --muted: 202 28% 13%;
-  --muted-foreground: 202 23% 57%;
-  --popover: 204 45% 4%;
-  --popover-foreground: 200 33% 96%;
-  --primary: 200 99% 57%;
-  --primary-foreground: 200 96% 20%;
-  --ring: 200 33% 96%;
-  --secondary: 232 47% 28%;
-  --secondary-foreground: 231 52% 90%;
+  --accent: hsl(256, 73%, 39%);
+  --accent-foreground: hsl(255, 77%, 95%);
+  --background: hsl(288, 100%, 5%);
+  --background-accent: hsl(198, 28%, 12%);
+  --border: hsl(199, 24%, 20%);
+  --card: hsl(197, 47%, 3%);
+  --card-foreground: hsl(200, 36%, 95%);
+  --foreground: hsl(200, 36%, 95%);
+  --input: hsl(199, 24%, 20%);
+  --muted: hsl(198, 28%, 12%);
+  --muted-foreground: hsl(200, 21%, 55%);
+  --popover: hsl(197, 47%, 3%);
+  --popover-foreground: hsl(200, 36%, 95%);
+  --primary: hsl(0, 0%, 100%);
+  --primary-foreground: hsl(196, 98%, 19%);
+  --ring: hsl(200, 36%, 95%);
+  --secondary: hsl(181, 68%, 28%);
+  --secondary-foreground: hsl(182, 73%, 90%);
 }
 
 body {

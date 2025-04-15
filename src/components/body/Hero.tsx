@@ -9,19 +9,19 @@ const images = [hero1, hero2, hero3]; // Array of images
 
 export default function Hero() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
-  const [isModalOpen, setIsModalOpen] = useState(true); // Modal starts open
+  // const [isModalOpen, setIsModalOpen] = useState(true); // Modal starts open
 
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentImageIndex(prevIndex => (prevIndex + 1) % images.length);
-    }, 3000); // Change image every 2 seconds
+    }, 8000); // Change image every 2 seconds
 
     return () => clearInterval(interval); // Cleanup interval on component unmount
   }, []);
 
-  const closeModal = () => {
-    setIsModalOpen(false);
-  };
+  // const closeModal = () => {
+  //   setIsModalOpen(false);
+  // };
 
   return (
     <div className="relative mx-auto w-full h-[300px] lg:h-[90vh] overflow-hidden">
@@ -42,7 +42,7 @@ export default function Hero() {
       ))}
 
       {/* Modal */}
-      {isModalOpen && (
+      {/* {isModalOpen && (
         <div className="fixed inset-0 flex justify-center items-center bg-black bg-opacity-50">
           <div className="bg-cyan-950 shadow-lg p-6 rounded text-center">
             <h2 className="mb-4 font-bold text-amber-100 text-lg lg:text-2xl">
@@ -66,7 +66,7 @@ export default function Hero() {
             </button>
           </div>
         </div>
-      )}
+      )} */}
     </div>
   );
 }

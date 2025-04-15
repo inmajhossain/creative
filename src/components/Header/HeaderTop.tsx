@@ -10,9 +10,9 @@ import { ModeToggle } from "./ModeToggle";
 
 export function HeaderTop() {
   return (
-    <div className="top-0 sticky bg-black w-full text-white">
+    <div className="top-0 sticky bg-black mx-auto w-full text-white">
       <div className="flex lg:flex-row flex-col justify-between items-center gap-[20px] lg:gap-0 py-[5px] w-full container">
-        <div className="flex flex-row items-center gap-[20px]">
+        <div className="flex flex-row items-center gap-[20px] text-[13px] lg:text-[16px]">
           <Link
             href="tel:+8801708517968"
             className="flex items-center gap-[5px]"

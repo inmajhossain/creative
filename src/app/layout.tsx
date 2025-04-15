@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import { Inter, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import { ThemeProvider } from "@/components/theme-provider";
-import Header from "@/components/Header";
-import { HeaderTop } from "@/components/HeaderTop";
+import { ThemeProvider } from "@/components/Header/theme-provider";
+import Header from "@/components/Header/Header";
+import Footer from "@/components/Footer/Footer";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -36,6 +36,7 @@ export default function RootLayout({
         >
           <Header />
           {children}
+          <Footer />
         </ThemeProvider>
       </body>
     </html>

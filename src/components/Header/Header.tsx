@@ -4,7 +4,7 @@ import Link from "next/link";
 import { ModeToggle } from "./ModeToggle";
 import Image from "next/image";
 import logo from "@/image/logo.png";
-import { Button } from "./ui/button";
+import { Button } from "../ui/button";
 import Navbar from "./Navbar";
 import { HeaderTop } from "./HeaderTop";
 import Certification from "./Certification";
