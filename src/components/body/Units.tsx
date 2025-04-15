@@ -82,7 +82,7 @@ export default function Units() {
                   Everyday{" "}
                 </h4>
                 <h4 className="mt-[-20px] lg:mt-0 text-[30px] dark:text-amber-100 lg:text-left text-center">
-                  50,0000 Yards
+                  50,000 Yards
                 </h4>
                 <h4 className="mt-[-20px] lg:mt-0 mb-[15px] lg:mb-0 text-[20px] lg:text-left text-center">
                   ( Fifty Thousand Yards )
@@ -144,7 +144,7 @@ export default function Units() {
                   Everyday
                 </h4>
                 <h4 className="mt-[-20px] lg:mt-0 text-[30px] dark:text-amber-100 lg:text-left text-center">
-                  60,0000 Yards
+                  60,000 Yards
                 </h4>
                 <h4 className="mt-[-20px] lg:mt-0 mb-[15px] lg:mb-0 text-[20px] lg:text-left text-center">
                   ( Sixty Thousand Yards )
@@ -176,7 +176,7 @@ export default function Units() {
                   Everyday
                 </h4>
                 <h4 className="mt-[-20px] lg:mt-0 text-[30px] dark:text-amber-100 lg:text-left text-center">
-                  17,0000 Yards
+                  17,000 Yards
                 </h4>
                 <h4 className="mt-[-20px] lg:mt-0 mb-[15px] lg:mb-0 text-[20px] lg:text-left text-center">
                   ( Seventeen Thousand Yards )
@@ -208,7 +208,7 @@ export default function Units() {
                   Everyday
                 </h4>
                 <h4 className="mt-[-20px] lg:mt-0 text-[30px] dark:text-amber-100 lg:text-left text-center">
-                  20,0000 Yards
+                  20,000 Yards
                 </h4>
                 <h4 className="mt-[-20px] lg:mt-0 mb-[15px] lg:mb-0 text-[20px] lg:text-left text-center">
                   ( Twenty Thousand Yards )
@@ -240,7 +240,7 @@ export default function Units() {
                   Everyday
                 </h4>
                 <h4 className="mt-[-20px] lg:mt-0 text-[30px] dark:text-amber-100 lg:text-left text-center">
-                  40,0000 Pcs
+                  40,000 Pcs
                 </h4>
                 <h4 className="mt-[-20px] lg:mt-0 mb-[15px] lg:mb-0 text-[20px] lg:text-left text-center">
                   ( Forty Thousand Pcs )
@@ -272,7 +272,7 @@ export default function Units() {
                   Everyday
                 </h4>
                 <h4 className="mt-[-20px] lg:mt-0 text-[30px] dark:text-amber-100 lg:text-left text-center">
-                  10,0000 Pcs
+                  10,000 Pcs
                 </h4>
                 <h4 className="mt-[-20px] lg:mt-0 mb-[15px] lg:mb-0 text-[20px] lg:text-left text-center">
                   ( Ten Thousand Pcs )
