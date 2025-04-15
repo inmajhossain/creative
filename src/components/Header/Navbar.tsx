@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { SetStateAction, useState } from "react";
 import Link from "next/link"; // Assuming you're using Next.js
 import { FaBars, FaTimes } from "react-icons/fa"; // Importing icons for the hamburger menu
 
@@ -6,8 +6,8 @@ const Navbar = () => {
   const [activeLink, setActiveLink] = useState("/home"); // Default active link
   const [isMenuOpen, setIsMenuOpen] = useState(false); // State to manage menu visibility
 
-  const handleLinkClick = link => {
-    setActiveLink(link);
+  const handleLinkClick = (Link: SetStateAction<string>) => {
+    setActiveLink(Link);
     setIsMenuOpen(false); // Close the menu when a link is clicked
   };
 
@@ -26,7 +26,7 @@ const Navbar = () => {
 
       {/* Navigation Links */}
       <div
-        className={`lg:flex lg:justify-around lg:w-[600px] text-[18px] flex flex-col lg:flex-row items-end text-right w-[100px]   ${
+        className={`lg:flex lg:justify-around lg:w-[600px] text-[18px] flex flex-col lg:flex-row items-end text-right w-[100px] ${
           isMenuOpen ? "block" : "hidden"
         } lg:block`}
       >
