@@ -21,7 +21,7 @@ const eslintConfig = [
     extends: [
       "next/core-web-vitals",
       "next/typescript",
-      ["standard"],
+      "standard",
       "prettier",
     ],
     rules: {
