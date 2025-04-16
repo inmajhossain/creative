@@ -113,3 +113,22 @@ body {
     @apply text-5xl;
   }
 }
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 50s linear infinite;
+}
+
+@media (prefers-reduced-motion) {
+  .animate-scroll {
+    animation: none;
+  }
+}

@@ -1,4 +1,5 @@
 "use client";
+import Carousel from "@/components/body/Carousel";
 import Dedicated from "@/components/body/Dedicated";
 import Directors from "@/components/body/Directors";
 import Hero from "@/components/body/Hero";
@@ -15,8 +16,8 @@ export default function Home() {
   return (
     <div className="">
       {isModalOpen && (
-        <div className="fixed inset-0 flex justify-center items-center bg-black bg-opacity-50">
-          <div className="bg-cyan-950 shadow-lg p-6 rounded text-center">
+        <div className="fixed inset-0 flex justify-center items-center bg-black bg-opacity-50 mt-[60px] lg:mt-0">
+          <div className="bg-emerald-800 shadow-lg p-6 rounded text-center">
             <h2 className="mb-4 font-bold text-amber-100 text-lg lg:text-2xl">
               Garments Accessories Manufacturer & Supplier.
             </h2>
@@ -42,6 +43,7 @@ export default function Home() {
       {!isModalOpen && (
         <div>
           <Hero />
+          <Carousel />
           <Directors />
           <Units />
           <Dedicated />

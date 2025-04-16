@@ -24,7 +24,7 @@ export default function Hero() {
   // };
 
   return (
-    <div className="relative mx-auto w-full h-[300px] lg:h-[90vh] overflow-hidden">
+    <div className="relative mx-auto mt-[50px] lg:mt-0 w-full h-[300px] lg:h-[90vh] overflow-hidden">
       {images.map((src, index) => (
         <div
           key={index}
