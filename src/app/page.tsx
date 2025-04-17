@@ -5,7 +5,7 @@ import Directors from "@/components/body/Directors";
 import Hero from "@/components/body/Hero";
 import Units from "@/components/body/Units";
 import { useState, useEffect } from "react";
-import Form from "./contact/form";
+import Form from "../components/body/form";
 
 export default function Home() {
   const [isModalOpen, setIsModalOpen] = useState(true); // Modal starts open
