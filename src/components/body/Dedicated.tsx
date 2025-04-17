@@ -8,7 +8,7 @@ export default function Dedicated() {
       {/* Uper Part Start */}
 
       <div>
-        <h3 className="mx-auto mt-[20px] lg:w-[600px] text-[30px] lg:text-[45px] text-center">
+        <h3 className="mx-auto mt-[20px] lg:w-[600px] font-semibold text-[30px] lg:text-[45px] text-center">
           Empowers{" "}
           <span className="hover:shadow-[0_0_7px_4px_#61caff] px-[10px] py-[5px] rounded-full text-cyan-400 transition-all duration-800">
             Dedication{" "}

@@ -4,7 +4,8 @@ import Dedicated from "@/components/body/Dedicated";
 import Directors from "@/components/body/Directors";
 import Hero from "@/components/body/Hero";
 import Units from "@/components/body/Units";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import Form from "./contact/form";
 
 export default function Home() {
   const [isModalOpen, setIsModalOpen] = useState(true); // Modal starts open
@@ -12,6 +13,37 @@ export default function Home() {
   const closeModal = () => {
     setIsModalOpen(false);
   };
+  //For Loading Use Start (Step-2)
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const loadingPage = async () => {
+      setTimeout(() => {
+        setLoading(false);
+      }); // Simulate a loading delay
+    };
+
+    loadingPage();
+  }, []);
+
+  if (loading)
+    return (
+      <div className="flex flex-col items-center gap-[30px] mx-auto mt-[150px] lg:mt-[350px] w-[500px] h-[800px]">
+        <div className="flex gap-[30px]">
+          <div className="border-4 border-sky-900 border-b-transparent rounded-full w-10 h-10 animate-spin"></div>
+          <div className="border-4 border-red-600 border-b-transparent rounded-full w-10 h-10 animate-spin"></div>
+          <div className="border-4 border-orange-600 border-b-transparent rounded-full w-10 h-10 animate-spin"></div>
+          <div className="border-4 border-emerald-600 border-b-transparent rounded-full w-10 h-10 animate-spin"></div>
+          <div className="border-4 border-indigo-600 border-b-transparent rounded-full w-10 h-10 animate-spin"></div>
+        </div>
+        <div>
+          <h2 className="font-semibold text-[30px] text-indigo-500 text-center">
+            Loading.......
+          </h2>
+        </div>
+      </div>
+    );
+  //For Loading Use End
 
   return (
     <div className="">
@@ -47,6 +79,7 @@ export default function Home() {
           <Directors />
           <Units />
           <Dedicated />
+          <Form />
         </div>
       )}
     </div>

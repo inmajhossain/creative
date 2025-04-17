@@ -114,7 +114,7 @@ export default function Units() {
     <div className="flex flex-col justify-around items-center mx-auto mt-16 mb-12 w-full lg:w-[1280px]">
       {/* Title Section */}
       <div>
-        <h3 className="mt-5 lg:w-[600px] lg:text-[45px] text-3xl text-center">
+        <h3 className="mt-5 lg:w-[600px] font-semibold lg:text-[45px] text-3xl text-center">
           Production{" "}
           <span className="hover:shadow-[0_0_7px_4px_#61caff] px-2.5 py-1.5 rounded-full text-cyan-400 transition-all duration-800">
             Capacity{" "}
