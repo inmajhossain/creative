@@ -7,6 +7,7 @@ import Units from "@/components/body/Units";
 import { useState, useEffect } from "react";
 import Form from "../components/body/form";
 import { motion } from "framer-motion";
+import Drawstring from "@/components/Product/Drawstring";
 
 export default function Home() {
   const [isModalOpen, setIsModalOpen] = useState(true); // Modal starts open
@@ -88,6 +89,7 @@ export default function Home() {
           <Directors />
           <Units />
           <Dedicated />
+          <Drawstring />
           <Form />
         </motion.div>
       )}

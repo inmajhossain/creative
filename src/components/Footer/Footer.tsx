@@ -28,7 +28,7 @@ export default function Footer() {
             />
           </Link>
 
-          <h2 className="mx-auto w-[390px] font-bold text-[27px] text-white dark:text-cyan-400 text-center">
+          <h2 className="mx-auto w-[390px] font-bold text-[25px] text-white dark:text-cyan-400 text-center">
             Creative Tape Industries Ltd.
           </h2>
         </div>

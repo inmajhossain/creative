@@ -32,7 +32,7 @@ const Navbar = () => {
       >
         <Link
           href="/"
-          className={`text-white dark:text-cyan-400 dark:hover:text-white ${
+          className={`text-black dark:text-cyan-400 dark:hover:text-white ${
             activeLink === "/" ? "border-b-2 border-cyan-400" : ""
           }`}
           onClick={() => handleLinkClick("/home")}
@@ -41,7 +41,7 @@ const Navbar = () => {
         </Link>
         <Link
           href="/about"
-          className={`text-white dark:text-cyan-400 dark:hover:text-white ${
+          className={`text-black dark:text-cyan-400 dark:hover:text-white ${
             activeLink === "/about" ? "border-b-2 border-cyan-400" : ""
           }`}
           onClick={() => handleLinkClick("/about")}
@@ -50,7 +50,7 @@ const Navbar = () => {
         </Link>
         <Link
           href="/machineries"
-          className={`text-white dark:text-cyan-400 dark:hover:text-white ${
+          className={`text-black dark:text-cyan-400 dark:hover:text-white ${
             activeLink === "/machineries" ? "border-b-2 border-cyan-400" : ""
           }`}
           onClick={() => handleLinkClick("/machineries")}
@@ -58,18 +58,18 @@ const Navbar = () => {
           Our Machineries
         </Link>
         <Link
-          href="/products"
-          className={`text-white dark:text-cyan-400 dark:hover:text-white ${
-            activeLink === "/products" ? "border-b-2 border-cyan-400" : ""
+          href="/product"
+          className={`text-black dark:text-cyan-400 dark:hover:text-white ${
+            activeLink === "/product" ? "border-b-2 border-cyan-400" : ""
           }`}
           onClick={() => handleLinkClick("/products")}
         >
           Products
         </Link>
         <Link
-          href="/production"
-          className={` text-white dark:text-cyan-400 dark:hover:text-white ${
-            activeLink === "/production" ? "border-b-2 border-cyan-400" : ""
+          href="/capecity"
+          className={` text-black dark:text-cyan-400 dark:hover:text-white ${
+            activeLink === "/capecity" ? "border-b-2 border-cyan-400" : ""
           }`}
           onClick={() => handleLinkClick("/production")}
         >

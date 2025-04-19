@@ -83,7 +83,7 @@ export default function Units() {
       type: "slider",
       focusAt: "center",
       perView: 1,
-      autoplay: 5000,
+      autoplay: 2000,
       animationDuration: 2000,
       gap: 0,
       classes: {
