@@ -18,7 +18,7 @@ export default function Dedicated() {
 
       {/* Upper Part End */}
       {/* Bottom Part Start */}
-      <div className="flex lg:flex-row flex-col justify-between items-center mx-auto mb-[50px] px-[20px] lg:px-[70px] py-[20px] border-2 border-cyan-400 w-[380px] lg:w-[1280px] lg:h-[500px]">
+      <div className="flex lg:flex-row flex-col justify-between items-center mx-auto mb-[50px] px-[20px] py-[20px] w-[380px] lg:w-[1280px] lg:h-[500px]">
         {/* Left Start */}
         <div className="flex flex-col justify-between items-center lg:items-start gap-[20px] mb-[20px] lg:mb-0 lg:w-[600px] lg:text-left text-center">
           <h2 className="text-[20px] lg:text-[32px] lg:leading-tight">

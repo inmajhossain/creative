@@ -70,7 +70,7 @@ const duplicatedLogos = [...logos, ...logos];
 
 export default function LogoCarousel() {
   return (
-    <div className="relative bg-white mx-auto mt-[50px] lg:mt-[-120px] py-2 w-full h-[100px] lg:h-[120px] overflow-hidden">
+    <div className="relative bg-white/60 mx-auto mt-[50px] lg:mt-[-120px] py-2 w-full h-[100px] lg:h-[120px] overflow-hidden">
       <div className="absolute inset-0 flex items-center mx-auto w-full">
         <div className="flex mx-auto animate-scroll">
           {duplicatedLogos.map((logo, index) => (

@@ -1,4 +1,5 @@
 "use client";
+import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import hero1 from "@/image/CREATIVE-TAP-INDUSTRY-scaled.webp"; // Replace with your actual image paths
@@ -24,7 +25,16 @@ export default function Hero() {
   // };
 
   return (
-    <div className="relative mx-auto mt-[50px] lg:mt-0 w-full h-[300px] lg:h-[90vh] overflow-hidden">
+    <motion.div
+      animate={{
+        y: [1000, 0],
+      }}
+      transition={{
+        duration: 4,
+        delay: 0,
+      }}
+      className="relative mx-auto mt-[50px] lg:mt-0 w-full h-[300px] lg:h-[90vh] overflow-hidden"
+    >
       {images.map((src, index) => (
         <div
           key={index}
@@ -37,6 +47,7 @@ export default function Hero() {
             alt={`Image ${index + 1}`}
             layout="fill" // Use layout fill to cover the parent div
             // Ensure the image covers the div without distortion
+            className="opacity-70"
           />
         </div>
       ))}
@@ -67,6 +78,6 @@ export default function Hero() {
           </div>
         </div>
       )} */}
-    </div>
+    </motion.div>
   );
 }

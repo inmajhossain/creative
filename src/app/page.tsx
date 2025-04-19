@@ -6,6 +6,7 @@ import Hero from "@/components/body/Hero";
 import Units from "@/components/body/Units";
 import { useState, useEffect } from "react";
 import Form from "../components/body/form";
+import { motion } from "framer-motion";
 
 export default function Home() {
   const [isModalOpen, setIsModalOpen] = useState(true); // Modal starts open
@@ -73,14 +74,22 @@ export default function Home() {
         </div>
       )}
       {!isModalOpen && (
-        <div>
+        <motion.div
+        // animate={{
+        //   rotate: [180, 0],
+        // }}
+        // transition={{
+        //   delay: 0,
+        //   duration: 5,
+        // }}
+        >
           <Hero />
           <Carousel />
           <Directors />
           <Units />
           <Dedicated />
           <Form />
-        </div>
+        </motion.div>
       )}
     </div>
   );

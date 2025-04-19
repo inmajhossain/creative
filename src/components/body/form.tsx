@@ -54,12 +54,19 @@ const Form = () => {
       <div className="flex lg:flex-row flex-col justify-around items-center px-[20px] lg:px-[50px] border-2 border-cyan-400 w-[370px] lg:w-[1280px]">
         {/* Left Side */}
         <div className="w-[640px]">
+          {/* <Image
+            src={email}
+            alt={"email"}
+            width={300}
+            height={300}
+            className="hidden lg:flex hover:shadow-[0_0_40px_25px_#61caff] mx-auto border-2 rounded-full rotate-360 transition-all animate-pulse duration-5000 transform"
+          /> */}
           <Image
             src={email}
             alt={"email"}
             width={300}
             height={300}
-            className="hidden lg:flex hover:shadow-[0_0_40px_25px_#61caff] mx-auto border-2 rounded-full transform-view hover:rotate-360 transition-all duration-1000"
+            className="hidden lg:flex shadow-[0_0_30px_20px_#61caff] mx-auto border-2 rounded-full hover:rotate-360 transition-all animate-pulse duration-5000 transform"
           />
         </div>
 
