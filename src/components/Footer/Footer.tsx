@@ -49,11 +49,11 @@ export default function Footer() {
             <FaHandPointRight className="hidden lg:flex" />
             Our Machineries
           </Link>
-          <Link href="/products" className="flex items-center gap-[10px]">
+          <Link href="/product" className="flex items-center gap-[10px]">
             <FaHandPointRight className="hidden lg:flex" />
             Products
           </Link>
-          <Link href="/production" className="flex items-center gap-[10px]">
+          <Link href="/capecity" className="flex items-center gap-[10px]">
             <FaHandPointRight className="hidden lg:flex" />
             Production Capacity
           </Link>
@@ -64,19 +64,19 @@ export default function Footer() {
           <h3 className="flex items-center gap-[10px] mb-[10px] text-[20px] text-amber-100">
             | Products
           </h3>
-          <Link href="/elastic" className="flex items-center gap-[10px]">
+          <Link href="/product" className="flex items-center gap-[10px]">
             <FaHandPointRight />
             Elastic Unit
           </Link>
-          <Link href="/twilltape" className="flex items-center gap-[10px]">
+          <Link href="/product" className="flex items-center gap-[10px]">
             <FaHandPointRight /> Twill Tape & Belt Unit
           </Link>
-          <Link href="/drawstring" className="flex items-center gap-[10px]">
+          <Link href="/product" className="flex items-center gap-[10px]">
             <FaHandPointRight />
             Drawstring Unit With Tipping
           </Link>
 
-          <Link href="/production" className="flex items-center gap-[10px]">
+          <Link href="/capecity" className="flex items-center gap-[10px]">
             <FaHandPointRight />
             Production Capacity
           </Link>

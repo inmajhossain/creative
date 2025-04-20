@@ -139,7 +139,7 @@ export default function UnitDetails() {
             </h3>
           </div>
           {/* Third */}
-          <div className="flex flex-col justify-around items-center lg:items-start gap-[10px] bg-cyan-900/30 p-[30px] lg:w-[1100px] lg:text-left text-center">
+          <div className="flex flex-col justify-around items-center lg:items-start gap-[10px] bg-cyan-900/30 p-[30px] lg:w-[1100px] lg:text-left text-center id-twilltape">
             <h2 className="py-[10px] border-cyan-400 border-b-2 w-full text-amber-200 text-3xl">
               Twill Tape Unit – Woven to Impress
             </h2>
