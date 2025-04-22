@@ -6,7 +6,7 @@ import Hero from "@/components/body/Hero";
 import Units from "@/components/body/Units";
 import { useState, useEffect } from "react";
 import Form from "../components/body/form";
-import { motion } from "framer-motion";
+
 import Drawstring from "@/components/Product/Drawstring";
 import UnitDetails from "@/components/Product/UnitDetails";
 import Elastic from "@/components/Product/Elastic";
@@ -78,15 +78,7 @@ export default function Home() {
         </div>
       )}
       {!isModalOpen && (
-        <motion.div
-        // animate={{
-        //   rotate: [180, 0],
-        // }}
-        // transition={{
-        //   delay: 0,
-        //   duration: 5,
-        // }}
-        >
+        <div>
           <Hero />
           <Carousel />
           <Directors />
@@ -94,10 +86,11 @@ export default function Home() {
           <Dedicated />
           <UnitDetails />
           <Elastic />
+
           <Drawstring />
           <TwillTape />
           <Form />
-        </motion.div>
+        </div>
       )}
     </div>
   );

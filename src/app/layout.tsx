@@ -5,7 +5,6 @@ import { ThemeProvider } from "@/components/Header/theme-provider";
 import Header from "@/components/Header/Header";
 import Footer from "@/components/Footer/Footer";
 import BackgroundEffect from "@/components/Background/BackgroundEffect";
-import { motion } from "framer-motion";
 
 const inter = Inter({
   variable: "--font-inter",

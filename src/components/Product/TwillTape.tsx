@@ -85,47 +85,45 @@ export default function TwillTape() {
   const displayedProducts = showAll ? products : products.slice(0, 8);
 
   return (
-    <div className="flex justify-center w-full">
-      <div className="py-12 w-full max-w-[270px] md:max-w-[768px] lg:max-w-[1280px]">
-        {/* Top */}
-        <div>
-          <h3 className="mx-auto mb-[50px] lg:w-[600px] font-semibold text-[30px] lg:text-[45px] text-center">
-            Twill Tape{" "}
-            <span className="hover:shadow-[0_0_7px_4px_#61caff] px-[10px] py-[5px] rounded-full text-cyan-400 transition-all duration-800">
-              Gallery
-            </span>
-          </h3>
-        </div>
-        {/* Bottom */}
-        <div className="flex md:flex-row lg:flex-row flex-col flex-wrap justify-between gap-[30px]">
-          {displayedProducts.map(product => (
-            <Link href="/product" className="block">
-              <div className="group md:justify-around shadow-[0_0_10px_6px_#61caff] rounded-lg rounded-tl-[50px] rounded-br-[50px] h-[270px] overflow-hidden hover:rotate-360 transition-all duration-5000 rtlative transform">
-                <Image
-                  src={product.imagePath}
-                  alt={product.title}
-                  width={270}
-                  height={270}
-                  className="w-[270px] h-[270px] object-cover"
-                />
-                <div className="right-0 bottom-0 left-0 absolute flex justify-center items-center bg-cyan-400/20 bg-opacity-70 p-4 rounded-tl-[50px] rounded-br-[50px] h-full text-white transition-transform translate-y-full group-hover:translate-y-0 duration-1000 dtlay-4000 transform">
-                  <h3 className="font-bold text-fuchsia-600 text-3xl text-center">
-                    {product.title}
-                  </h3>
-                </div>
+    <div className="flex flex-col items-center mx-auto py-12 w-full max-w-[270px] md:max-w-[768px] lg:max-w-[1280px]">
+      {/* Top */}
+      <div>
+        <h3 className="mx-auto mb-[50px] lg:w-[600px] font-semibold text-[30px] lg:text-[45px] text-center">
+          Twill Tape{" "}
+          <span className="hover:shadow-[0_0_7px_4px_#61caff] px-[10px] py-[5px] rounded-full text-cyan-400 transition-all duration-800">
+            Gallery
+          </span>
+        </h3>
+      </div>
+      {/* Bottom */}
+      <div className="flex md:flex-row lg:flex-row flex-col flex-wrap justify-between gap-[30px]">
+        {displayedProducts.map(product => (
+          <Link href="/product" className="block">
+            <div className="group relative md:justify-around shadow-[0_0_10px_6px_#61caff] rounded-lg rounded-tl-[50px] rounded-br-[50px] h-[270px] overflow-hidden hover:rotate-360 transition-all duration-5000 transform">
+              <Image
+                src={product.imagePath}
+                alt={product.title}
+                width={270}
+                height={270}
+                className="w-[270px] h-[270px] object-cover"
+              />
+              <div className="right-0 bottom-0 left-0 absolute flex justify-center items-center bg-cyan-400/20 bg-opacity-70 p-4 rounded-tl-[50px] rounded-br-[50px] h-full text-white transition-transform translate-y-full group-hover:translate-y-0 duration-1000 delay-4000 transform">
+                <h3 className="font-bold text-fuchsia-600 text-3xl text-center">
+                  {product.title}
+                </h3>
               </div>
-            </Link>
-          ))}
-        </div>
+            </div>
+          </Link>
+        ))}
+      </div>
 
-        <div className="flex justify-center mt-[80px]">
-          <button
-            onClick={() => setShowAll(!showAll)}
-            className="bg-white hover:bg-cyan-50 px-6 py-2 rounded-full font-semibold text-cyan-600 transition-colors"
-          >
-            {showAll ? "See Less" : "See More"}
-          </button>
-        </div>
+      <div className="flex justify-center mt-[80px]">
+        <button
+          onClick={() => setShowAll(!showAll)}
+          className="bg-white hover:bg-cyan-50 px-6 py-2 rounded-full font-semibold text-cyan-600 transition-colors"
+        >
+          {showAll ? "See Less" : "See More"}
+        </button>
       </div>
     </div>
   );
