@@ -11,11 +11,36 @@ const Form = () => {
     name: "",
     email: "",
     message: "",
+    image: null,
   });
+
+  const [previewUrl, setPreviewUrl] = useState("");
 
   const handleChange = e => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
+  };
+
+  const handleImageChange = e => {
+    const file = e.target.files[0];
+    if (file) {
+      // Check if file is in accepted format
+      const fileType = file.type;
+      if (!["image/jpeg", "image/jpg", "image/png"].includes(fileType)) {
+        alert("Please upload only JPEG, JPG or PNG images");
+        e.target.value = null;
+        return;
+      }
+
+      // Create preview URL
+      const url = URL.createObjectURL(file);
+      setPreviewUrl(url);
+
+      setFormData({
+        ...formData,
+        image: file,
+      });
+    }
   };
 
   const handleSubmit = async e => {
@@ -27,9 +52,15 @@ const Form = () => {
         "https://formspree.io/f/mqazzlvk",
         formData
       );
+
       if (response.status === 200) {
         toast.success("Message sent successfully!", { id: toastId });
-        setFormData({ name: "", email: "", message: "" });
+        setFormData({ name: "", email: "", message: "", image: null });
+
+        if (previewUrl) {
+          URL.revokeObjectURL(previewUrl);
+          setPreviewUrl("");
+        }
       }
     } catch (error) {
       toast.error("Error sending message. Please try again.", { id: toastId });
@@ -54,13 +85,6 @@ const Form = () => {
       <div className="flex lg:flex-row flex-col justify-around items-center px-[20px] lg:px-[50px] border-2 border-cyan-400 w-[370px] lg:w-[1280px]">
         {/* Left Side */}
         <div className="w-[640px]">
-          {/* <Image
-            src={email}
-            alt={"email"}
-            width={300}
-            height={300}
-            className="hidden lg:flex hover:shadow-[0_0_40px_25px_#61caff] mx-auto border-2 rounded-full rotate-360 transition-all animate-pulse duration-5000 transform"
-          /> */}
           <Image
             src={email}
             alt={"email"}
@@ -110,6 +134,32 @@ const Form = () => {
                 onChange={handleChange}
                 required
               />
+            </div>
+            <div className="flex flex-col gap-[10px] mb-[10px]">
+              <label htmlFor="image">Upload Smaple Phote: (optional)</label>
+              <div className="flex md:flex-row flex-col items-center lg:items-start gap-4">
+                <input
+                  type="file"
+                  name="image"
+                  id="image"
+                  accept=".jpg,.jpeg,.png"
+                  className="px-4 py-1 border-1 dark:border-amber-100 w-[350px] lg:w-[550px]"
+                  onChange={handleImageChange}
+                />
+                {previewUrl && (
+                  <div className="flex flex-col items-center p-2 border-1 dark:border-amber-100 w-[250px]">
+                    <p className="mb-1 text-md text-center">Preview</p>
+                    <img
+                      src={previewUrl}
+                      alt="Preview"
+                      className="w-[150px] h-[150px] object-contain"
+                    />
+                  </div>
+                )}
+              </div>
+              <p className="text-gray-500 text-xs lg:text-left text-center">
+                Accepted formats: JPEG, JPG, PNG
+              </p>
             </div>
             <button
               type="submit"

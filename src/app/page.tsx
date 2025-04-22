@@ -8,6 +8,9 @@ import { useState, useEffect } from "react";
 import Form from "../components/body/form";
 import { motion } from "framer-motion";
 import Drawstring from "@/components/Product/Drawstring";
+import UnitDetails from "@/components/Product/UnitDetails";
+import Elastic from "@/components/Product/Elastic";
+import TwillTape from "@/components/Product/TwillTape";
 
 export default function Home() {
   const [isModalOpen, setIsModalOpen] = useState(true); // Modal starts open
@@ -89,7 +92,10 @@ export default function Home() {
           <Directors />
           <Units />
           <Dedicated />
+          <UnitDetails />
+          <Elastic />
           <Drawstring />
+          <TwillTape />
           <Form />
         </motion.div>
       )}
