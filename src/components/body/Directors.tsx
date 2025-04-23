@@ -15,7 +15,7 @@ const ImageCard = ({
   designation: string;
 }) => {
   return (
-    <div className="justify-around bg-cyan-950 shadow-[10px] hover:shadow-[0_0_7px_4px_#61caff] active:shadow-[0_0_10px_5px_rgba(168,85,247,0.4)] p-2 border-1 border-amber-100 rounded-[20px] w-[290px] h-[430px] overflow-hidden text-center hover:scale-105 transition-transform duration-700 container transform">
+    <div className="justify-around bg-cyan-950 shadow-[10px] hover:shadow-[0_0_7px_4px_#61caff] active:shadow-[0_0_10px_5px_rgba(168,85,247,0.4)] p-2 border-1 border-amber-100 rounded-[20px] max-w-[290px] h-[430px] overflow-hidden text-center hover:scale-105 transition-transform duration-700 container transform">
       <Image
         src={image}
         alt={name}
@@ -48,13 +48,13 @@ const Directors = () => {
   ];
 
   return (
-    <div className="flex flex-col justify-center items-center mx-auto mt-[50px] mb-[50px] py-[20px] rounded-2xl w-full lg:w-[1280px] min-h-[500px]">
+    <div className="flex flex-col justify-center items-center mx-auto mt-[50px] mb-[50px] py-[20px] rounded-2xl max-w-full lg:max-w-[1280px] min-h-[500px]">
       <div>
-        <h2 className="mb-[30px] py-[10px] border-cyan-400 dark:border-cyan-400 border-b-2 lg:border-b-5 w-[380px] lg:w-[1280px] dark:text-cyan-400 text-2xl lg:text-5xl text-center lobster">
+        <h2 className="mb-[30px] py-[10px] border-cyan-400 dark:border-cyan-400 border-b-2 lg:border-b-5 max-w-[380px] lg:max-w-[1280px] dark:text-cyan-400 text-2xl lg:text-5xl text-center lobster">
           Honurable Board of Directors
         </h2>
       </div>
-      <div className="flex lg:flex-row flex-col justify-between gap-[50px] lg:mt-[-30px] py-[30px] border-cyan-400 dark:border-cyan-400 border-b-2 lg:border-b-5 lg:w-[1280px]">
+      <div className="flex lg:flex-row flex-col justify-between items-center gap-[70px] lg:mt-[-30px] py-[30px] border-cyan-400 dark:border-cyan-400 border-b-2 lg:border-b-5 lg:max-w-[1280px]">
         {people.map((person, index) => (
           <ImageCard
             key={index}

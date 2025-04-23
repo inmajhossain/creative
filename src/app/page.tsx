@@ -81,7 +81,7 @@ export default function Home() {
         <div>
           <Hero />
           <Carousel />
-          <Directors />
+
           <Units />
           <Dedicated />
           <UnitDetails />
@@ -90,6 +90,7 @@ export default function Home() {
           <Drawstring />
           <TwillTape />
           <Form />
+          <Directors />
         </div>
       )}
     </div>

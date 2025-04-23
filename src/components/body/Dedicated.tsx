@@ -4,7 +4,7 @@ import { Link } from "lucide-react";
 import { FaArrowRight } from "react-icons/fa";
 export default function Dedicated() {
   return (
-    <div className="flex flex-col gap-[30px] mx-auto lg:mt-[100px] lg:w-[1280px]">
+    <div className="flex flex-col gap-[30px] mx-auto lg:mt-[100px] lg:max-w-[1280px]">
       {/* Uper Part Start */}
 
       <div>
@@ -18,9 +18,9 @@ export default function Dedicated() {
 
       {/* Upper Part End */}
       {/* Bottom Part Start */}
-      <div className="flex lg:flex-row flex-col justify-between items-center mx-auto mb-[50px] px-[20px] py-[20px] w-[380px] lg:w-[1280px] lg:h-[500px]">
+      <div className="flex lg:flex-row flex-col justify-between items-center lg:gap-[100px] mx-auto mb-[50px] px-[20px] py-[20px] max-w-[380px] lg:max-w-[1280px] lg:h-[500px]">
         {/* Left Start */}
-        <div className="flex flex-col justify-between items-center lg:items-start gap-[20px] mb-[20px] lg:mb-0 lg:w-[600px] lg:text-left text-center">
+        <div className="flex flex-col justify-between items-center lg:items-start gap-[20px] mb-[20px] lg:mb-0 lg:w-[500px] lg:text-left text-center">
           <h2 className="text-[20px] lg:text-[32px] lg:leading-tight">
             Our Experts dedicated teamwork{" "}
             <span className="dark:text-cyan-400">always empowers</span> our
@@ -53,7 +53,7 @@ export default function Dedicated() {
           <Image
             src={dedicated}
             alt={"dedicated"}
-            width={680}
+            width={500}
             height={500}
             className="shadow-[10px] hover:shadow-[0_0_20px_10px_#61caff] active:shadow-[0_0_10px_5px_rgba(168,85,247,0.4)] border-1 dark:border-amber-100 w-[350px] lg:w-[500px] h-[220px] lg:h-[350px] hover:rotate-[180deg] transition-all duration-3000 transform"
           />

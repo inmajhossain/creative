@@ -83,8 +83,8 @@ export default function Units() {
       type: "slider",
       focusAt: "center",
       perView: 1,
-      autoplay: 2000,
-      animationDuration: 2000,
+      autoplay: 5000,
+      animationDuration: 3000,
       gap: 0,
       classes: {
         nav: {
@@ -97,12 +97,7 @@ export default function Units() {
   }, []);
 
   // Common class strings
-  const imageClasses =
-    "shadow-[10px] hover:shadow-[0_0_20px_10px_#61caff] active:shadow-[0_0_10px_5px_rgba(168,85,247,0.4)] mt-5 lg:mt-0 lg:ml-[185px] border-1 dark:border-amber-100 w-[180px] lg:w-[250px] h-[180px] lg:h-[250px] hover:rotate-[360deg] transition-all duration-2000 transform";
-  const slideClasses =
-    "flex lg:flex-row flex-col justify-between items-center p-4 lg:p-5 border-2 dark:border-cyan-400 w-[380px] lg:w-[1280px] h-[400px] lg:h-[332px]";
-  const infoContainerClasses =
-    "flex flex-col justify-center lg:items-start gap-4 lg:px-12 py-5 dark:border-amber-100 lg:border-l-2 lg:w-[600px] lg:h-[280px]";
+
   const titleClasses =
     "dark:border-cyan-400 border-b-2 lg:border-none text-2xl lg:text-3xl dark:text-amber-100 lg:text-left text-center";
   const amountClasses =
@@ -111,7 +106,7 @@ export default function Units() {
     "-mt-5 lg:mt-0 mb-4 lg:mb-0 text-xl lg:text-left text-center";
 
   return (
-    <div className="flex flex-col justify-around items-center mx-auto mt-16 mb-12 w-full lg:w-[1280px]">
+    <div className="flex flex-col justify-around items-center mx-auto mt-16 mb-12 max-w-[380px] lg:max-w-[1024px]">
       {/* Title Section */}
       <div>
         <h3 className="mt-5 lg:w-[600px] font-semibold lg:text-[45px] text-3xl text-center">
@@ -134,27 +129,30 @@ export default function Units() {
       </div>
 
       {/* Slider */}
-      <div className="relative mt-8 w-[380px] lg:w-[1280px] glide-02">
+      <div className="relative mt-8 max-w-[380px] lg:max-w-[1024px] glide-02">
         {/* Slides Track */}
         <div className="overflow-hidden" data-glide-el="track">
-          <div className="relative flex flex-no-wrap py-5 w-full overflow-hidden whitespace-no-wrap">
+          <div className="relative flex flex-nowrap justify-center items-center py-3 w-full overflow-hidden whitespace-no-wrap">
             {productionUnits.map((unit, index) => (
-              <div key={index} className={slideClasses}>
+              <div
+                key={index}
+                className="flex lg:flex-row flex-col justify-between items-center p-[10px] lg:p-[24px] border-2 dark:border-cyan-400 w-[380px] lg:w-[1024px] h-[400px] lg:h-[332px]"
+              >
                 {/* Left Part - Image */}
-                <div>
+                <div className="flex justify-center items-center lg:w-[500px]">
                   <Link href="/">
                     <Image
                       src={unit.image}
                       alt={unit.alt}
                       width={300}
                       height={300}
-                      className={imageClasses}
+                      className="shadow-[10px] hover:shadow-[0_0_20px_10px_#61caff] active:shadow-[0_0_10px_5px_rgba(168,85,247,0.4)] mt-5 lg:mt-0 border-1 dark:border-amber-100 w-[180px] lg:w-[250px] h-[180px] lg:h-[250px] hover:rotate-[360deg] transition-all duration-2000 transform"
                     />
                   </Link>
                 </div>
 
                 {/* Right Part - Info */}
-                <div className={infoContainerClasses}>
+                <div className="flex flex-col justify-center lg:items-start gap-4 lg:px-12 py-5 lg:border-l-2 lg:w-[500px] lg:h-[280px]">
                   <h3 className={titleClasses}>{unit.title}</h3>
                   <h4 className="text-xl lg:text-left text-center">Everyday</h4>
                   <h4 className={amountClasses}>
@@ -169,7 +167,7 @@ export default function Units() {
 
         {/* Indicators */}
         <div
-          className="bottom-[-25] absolute flex justify-center items-center gap-2 w-full lg:w-[1280px]"
+          className="bottom-[-25] left-[25px] lg:left-[340px] absolute flex justify-center items-center gap-2 mx-auto max-w-[380px] lg:max-w-[1024px]"
           data-glide-el="controls[nav]"
         >
           {productionUnits.map((_, index) => (
@@ -182,7 +180,7 @@ export default function Units() {
               aria-label={`goto slide ${index + 1}`}
             >
               <span
-                className={`block bg-amber-${indicatorColors[index]} rounded-full focus:outline-none ring-1 ring-slate-700 w-2 h-2 transition-colors duration-300`}
+                className={`block bg-amber-${indicatorColors[index]} rounded-full focus:outline-none ring-1 ring-amber-300 w-2 h-2 transition-colors duration-300`}
               ></span>
             </button>
           ))}

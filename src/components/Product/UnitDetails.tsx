@@ -4,7 +4,7 @@ import React from "react";
 
 export default function UnitDetails() {
   return (
-    <div className="flex flex-col justify-between items-center mx-auto mt-[50px] w-full md:w-[768px] lg:w-[1280px]">
+    <div className="flex flex-col justify-between items-center mx-auto mt-[50px] w-full md:w-[768px] lg:max-w-[1280px]">
       {/* Top Side */}
 
       <div>
@@ -21,7 +21,7 @@ export default function UnitDetails() {
         {/* Left Side */}
         <div className="flex flex-col justify-between items-start gap-[50px]">
           {/* First */}
-          <div className="flex flex-col justify-around items-center lg:items-start gap-[10px] bg-cyan-900/30 p-[30px] lg:w-[1100px] lg:text-left text-center">
+          <div className="flex flex-col justify-around items-center lg:items-start gap-[10px] bg-cyan-900/30 p-[30px] lg:w-[900px] lg:text-left text-center">
             <h2 className="py-[10px] border-cyan-400 border-b-2 w-full text-amber-200 text-3xl">
               Elastic Unit – Where Flexibility Meets Innovation
             </h2>
@@ -90,7 +90,7 @@ export default function UnitDetails() {
           </div>
           {/* Second */}
 
-          <div className="flex flex-col justify-around items-center lg:items-start gap-[10px] bg-rose-900/30 p-[30px] lg:w-[1100px] lg:text-left text-center">
+          <div className="flex flex-col justify-around items-center lg:items-start gap-[10px] bg-rose-900/30 p-[30px] lg:w-[900px] lg:text-left text-center">
             <h2 className="py-[10px] border-cyan-400 border-b-2 w-full text-amber-200 text-3xl">
               Drawstring Unit – Where Detail Makes the Difference
             </h2>
@@ -139,7 +139,7 @@ export default function UnitDetails() {
             </h3>
           </div>
           {/* Third */}
-          <div className="flex flex-col justify-around items-center lg:items-start gap-[10px] bg-cyan-900/30 p-[30px] lg:w-[1100px] lg:text-left text-center id-twilltape">
+          <div className="flex flex-col justify-around items-center lg:items-start gap-[10px] bg-cyan-900/30 p-[30px] lg:w-[900px] lg:text-left text-center id-twilltape">
             <h2 className="py-[10px] border-cyan-400 border-b-2 w-full text-amber-200 text-3xl">
               Twill Tape Unit – Woven to Impress
             </h2>
@@ -176,7 +176,7 @@ export default function UnitDetails() {
             </h3>
           </div>
           {/* Four */}
-          <div className="flex flex-col justify-around items-center lg:items-start gap-[10px] bg-rose-900/30 p-[30px] lg:w-[1100px] lg:text-left text-center">
+          <div className="flex flex-col justify-around items-center lg:items-start gap-[10px] bg-rose-900/30 p-[30px] lg:w-[900px] lg:text-left text-center">
             <h2 className="py-[10px] border-cyan-400 border-b-2 w-full text-amber-200 text-3xl">
               Belt Unit – Strength in Style
             </h2>
@@ -240,7 +240,7 @@ export default function UnitDetails() {
         </div>
 
         {/* Right Side */}
-        <div className="hidden relative lg:flex border-amber-100 border-l-[5px] h-[2700px]">
+        <div className="hidden md:hidden lg:hidden relative xl:flex border-amber-100 border-l-[5px] h-[2700px]">
           <motion.div
             animate={{ y: [200, 0] }}
             transition={{ duration: 3, delay: 1 }}

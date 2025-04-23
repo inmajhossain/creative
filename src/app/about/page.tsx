@@ -23,7 +23,7 @@ export default function AboutSection() {
 
   return (
     <section className="py-16">
-      <div className="mx-auto px-4 w-[380px] md:w-[768px] lg:w-[1280px] max-w-6xl">
+      <div className="mx-auto px-4 w-[380px] md:w-[768px] lg:max-w-[1280px] max-w-6xl">
         {/* Header Section */}
         <div className="mb-16 text-center">
           <h2 className="mb-2 font-bold dark:text-amber-100 text-sm uppercase tracking-wider">

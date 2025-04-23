@@ -68,7 +68,7 @@ const Form = () => {
   };
 
   return (
-    <div className="flex flex-col items-center gap-[35px] mx-auto mb-[50px] w-[380px] lg:w-[1280px]">
+    <div className="flex flex-col items-center gap-[35px] mx-auto mb-[50px] w-[380px] lg:max-w-[1280px]">
       <Toaster position="top-center" reverseOrder={false} />
 
       {/* Top */}
@@ -82,9 +82,9 @@ const Form = () => {
       </div>
 
       {/* Bottom */}
-      <div className="flex lg:flex-row flex-col justify-around items-center px-[20px] lg:px-[50px] border-2 border-cyan-400 w-[370px] lg:w-[1280px]">
+      <div className="flex lg:flex-row flex-col justify-around items-center px-[20px] lg:px-[20px] xl:px-[50px] border-2 border-cyan-400 w-[370px] lg:w-[1280px]">
         {/* Left Side */}
-        <div className="w-[640px]">
+        <div className="lg:w-[500px] xl:w-[640px]">
           <Image
             src={email}
             alt={"email"}
@@ -95,7 +95,7 @@ const Form = () => {
         </div>
 
         {/* Right Side */}
-        <div className="p-[10px] lg:p-[30px] w-[370px] lg:w-[640px]">
+        <div className="p-[10px] lg:p-[30px] w-[370px] lg:w-[500px] xl:w-[640px]">
           <form onSubmit={handleSubmit}>
             <div className="flex flex-col gap-[10px] mb-[10px]">
               <label htmlFor="name">Name:</label>

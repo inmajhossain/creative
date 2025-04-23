@@ -13,8 +13,8 @@ export default function Header() {
   return (
     <div className="top-0 z-99 sticky bg-cyan-950 mx-auto w-full">
       <HeaderTop />
-      <div className="mx-auto w-full lg:w-[1900px]">
-        <div className="flex lg:flex-row flex-col justify-between items-center drop-shadow-2xl mx-auto px-[50px] py-[10px] lg:py-0 lg:h-[67px]">
+      <div className="mx-auto w-full lg:max-w-[1280px]">
+        <div className="flex lg:flex-row flex-col justify-between items-center drop-shadow-2xl mx-auto px-[10px] py-[10px] lg:py-0 lg:h-[67px]">
           {/* Logo */}
           <div className="flex flex-col justify-between items-center lg:gap-[5px]">
             <div className="flex gap-[20px]">
@@ -48,7 +48,7 @@ export default function Header() {
               <ModeToggle />
             </div>
             <Link href="/contact">
-              <button className="group relative lg:flex bg-black hover:shadow-[0_0_7px_4px_#61caff] active:shadow-[0_0_10px_5px_rgba(168,85,247,0.4)] mt-[10px] lg:mt-0 px-6 py-3 border-2 border-cyan-400 rounded-full font-semibold text-white transition-all duration-800">
+              <button className="group relative lg:flex bg-black hover:shadow-[0_0_7px_4px_#61caff] active:shadow-[0_0_10px_5px_rgba(168,85,247,0.4)] mt-[10px] lg:mt-0 px-4 py-3 border-2 border-cyan-400 rounded-full font-semibold text-white transition-all duration-800">
                 <span className="">Contact us</span>
               </button>
             </Link>
