@@ -68,7 +68,7 @@ const Form = () => {
   };
 
   return (
-    <div className="flex flex-col items-center gap-[35px] mx-auto mb-[50px] w-[380px] lg:max-w-[1280px]">
+    <div className="flex flex-col items-center gap-[35px] mx-auto mb-[50px] w-[380px] lg:max-w-[1024px] xl:max-w-[1280px]">
       <Toaster position="top-center" reverseOrder={false} />
 
       {/* Top */}
@@ -82,7 +82,7 @@ const Form = () => {
       </div>
 
       {/* Bottom */}
-      <div className="flex lg:flex-row flex-col justify-around items-center px-[20px] lg:px-[20px] xl:px-[50px] border-2 border-cyan-400 w-[370px] lg:w-[1280px]">
+      <div className="flex lg:flex-row flex-col justify-around items-center px-[20px] lg:px-[20px] xl:px-[50px] border-2 border-cyan-400 w-[370px] lg:w-[1024px] xl:w-[1280px]">
         {/* Left Side */}
         <div className="lg:w-[500px] xl:w-[640px]">
           <Image

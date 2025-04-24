@@ -85,7 +85,7 @@ export default function TwillTape() {
   const displayedProducts = showAll ? products : products.slice(0, 10);
 
   return (
-    <div className="flex flex-col items-center mx-auto py-12 w-full max-w-[270px] md:max-w-[768px] lg:max-w-[1280px]">
+    <div className="flex flex-col items-center mx-auto py-12 w-full xl:w-[1280px] max-w-[270px] md:max-w-[768px] lg:max-w-[1024px] xl:max-w-[1280px]">
       {/* Top */}
       <div>
         <h3 className="mx-auto mb-[50px] lg:w-[600px] font-semibold text-[30px] lg:text-[45px] text-center">

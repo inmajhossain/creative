@@ -12,11 +12,11 @@ import { TfiEmail } from "react-icons/tfi";
 
 export default function Footer() {
   return (
-    <div className="mx-auto w-full">
+    <div className="bg-cyan-950 mx-auto w-full">
       {/* Upper Part Start */}
-      <div className="flex lg:flex-row flex-col justify-around items-center lg:items-start gap-[30px] lg:gap-0 bg-cyan-950 py-[30px]">
+      <div className="flex lg:flex-row flex-col justify-around items-center lg:items-start gap-[30px] lg:gap-0 mx-auto py-[30px] w-[380px] md:w-[768px] lg:w-[1024px] xl:w-full">
         {/* One Start */}
-        <div className="flex flex-col items-center gap-[20px] lg:mt-[30px]">
+        <div className="flex flex-col items-center gap-[20px] lg:mt-[10px]">
           {/* Logo */}
           <Link href={"/"}>
             <Image
@@ -28,7 +28,7 @@ export default function Footer() {
             />
           </Link>
 
-          <h2 className="mx-auto w-[390px] font-bold text-[25px] text-white dark:text-cyan-400 text-center">
+          <h2 className="mx-auto w-full font-bold text-[25px] text-white dark:text-cyan-400 text-center">
             Creative Tape Industries Ltd.
           </h2>
         </div>
@@ -60,7 +60,7 @@ export default function Footer() {
         </div>
         {/* Two End */}
         {/* Three Start */}
-        <div className="hidden lg:flex flex-col items-start text-white">
+        <div className="hidden xl:flex flex-col items-start text-white">
           <h3 className="flex items-center gap-[10px] mb-[10px] text-[20px] text-amber-100">
             | Products
           </h3>
@@ -84,7 +84,7 @@ export default function Footer() {
         {/* Three End */}
 
         {/* Four Start */}
-        <div className="hidden lg:flex flex-col gap-[10px] text-white">
+        <div className="hidden xl:flex flex-col gap-[10px] text-white">
           <h3 className="flex items-center gap-[10px] text-[20px] text-amber-100">
             | Contact
           </h3>
@@ -93,7 +93,7 @@ export default function Footer() {
             className="flex items-center gap-[10px]"
           >
             <TfiEmail />
-            rouf@creativetapeinds.com
+            <h5>rouf@creativetapeinds.com</h5>
           </Link>
 
           {/* Phone Numbers */}

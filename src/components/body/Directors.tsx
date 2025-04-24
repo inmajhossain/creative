@@ -48,13 +48,13 @@ const Directors = () => {
   ];
 
   return (
-    <div className="flex flex-col justify-center items-center mx-auto mt-[50px] mb-[50px] py-[20px] rounded-2xl max-w-full lg:max-w-[1280px] min-h-[500px]">
+    <div className="flex flex-col justify-center items-center mx-auto mt-[50px] mb-[50px] py-[20px] rounded-2xl max-w-full lg:max-w-[1024px] xl:max-w-[1280px] min-h-[500px]">
       <div>
-        <h2 className="mb-[30px] py-[10px] border-cyan-400 dark:border-cyan-400 border-b-2 lg:border-b-5 max-w-[380px] lg:max-w-[1280px] dark:text-cyan-400 text-2xl lg:text-5xl text-center lobster">
+        <h2 className="mb-[30px] py-[10px] border-cyan-400 dark:border-cyan-400 border-b-2 lg:border-b-5 lg:w-[1024px] xl:w-[1280px] max-max-w-[380px] dark:text-cyan-400 text-2xl lg:text-5xl text-center lobster">
           Honurable Board of Directors
         </h2>
       </div>
-      <div className="flex lg:flex-row flex-col justify-between items-center gap-[70px] lg:mt-[-30px] py-[30px] border-cyan-400 dark:border-cyan-400 border-b-2 lg:border-b-5 lg:max-w-[1280px]">
+      <div className="flex lg:flex-row flex-col justify-between items-center gap-[70px] lg:mt-[-30px] py-[30px] border-cyan-400 dark:border-cyan-400 border-b-2 lg:border-b-5 lg:w-[1024px] xl:w-[1280px]">
         {people.map((person, index) => (
           <ImageCard
             key={index}
