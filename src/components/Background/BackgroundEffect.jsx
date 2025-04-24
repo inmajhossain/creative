@@ -377,7 +377,7 @@ const ColorfulLineRainEffect = () => {
   return (
     <canvas
       ref={canvasRef}
-      className="fixed inset-0 opacity-40 w-full h-full pointer-events-none"
+      className="fixed inset-0 opacity-70 w-full h-full pointer-events-none"
       style={{
         zIndex: -9,
         background: "", // Optional: Add a slight background color
