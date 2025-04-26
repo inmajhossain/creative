@@ -45,7 +45,7 @@ export default function Footer() {
           <Link href="/about" className="flex items-center gap-[10px]">
             <FaHandPointRight className="hidden lg:flex" /> About us
           </Link>
-          <Link href="/machineries" className="flex items-center gap-[10px]">
+          <Link href="/machine" className="flex items-center gap-[10px]">
             <FaHandPointRight className="hidden lg:flex" />
             Our Machineries
           </Link>

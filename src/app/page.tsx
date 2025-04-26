@@ -12,6 +12,10 @@ import UnitDetails from "@/components/Product/UnitDetails";
 import Elastic from "@/components/Product/Elastic";
 import TwillTape from "@/components/Product/TwillTape";
 
+import Image from "next/image";
+import message from "@/image/message.webp";
+import Buyers from "@/components/body/Buyers";
+
 export default function Home() {
   const [isModalOpen, setIsModalOpen] = useState(true); // Modal starts open
 
@@ -78,9 +82,10 @@ export default function Home() {
         </div>
       )}
       {!isModalOpen && (
-        <div>
+        <div className="relative">
           <Hero />
           <Carousel />
+          <Buyers />
 
           <Units />
           <Dedicated />

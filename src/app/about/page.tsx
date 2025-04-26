@@ -19,6 +19,8 @@ export default function AboutSection() {
     { id: "production", label: "Production" },
     { id: "sustainability", label: "Sustainability" },
     { id: "services", label: "Services" },
+    { id: "lab", label: "Lab Test" },
+    { id: "bank", label: "Bank Information" },
   ];
 
   return (
@@ -93,8 +95,9 @@ export default function AboutSection() {
               />
               <div className="absolute inset-0 bg-emerald-600 opacity-20"></div>
               <div className="bottom-4 left-4 absolute bg-white dark:bg-gray-800 shadow-lg px-4 py-2 rounded-lg">
-                <span className="font-bold text-cyan-400">
-                  Dhaka, Bangladesh
+                <span className="font-bold text-[14px] text-cyan-400">
+                  Dewan Idris Road, Kathgara Bazar, Zirabo, Savar, Dhaka,
+                  Bangladesh
                 </span>
               </div>
             </div>
@@ -248,6 +251,8 @@ export default function AboutSection() {
                     { name: "Metal/Needle Detector Machines", count: 2 },
                     { name: "In-House Dyeing Section", count: 1 },
                     { name: "Quality Testing Lab", count: 1 },
+                    { name: "Color Sheed Box", count: 2 },
+                    { name: "Delivery Coverd Van", count: 2 },
                   ].map((machine, index) => (
                     <div
                       key={index}
@@ -293,6 +298,31 @@ export default function AboutSection() {
                       </h4>
                       <p className="text-gray-600 dark:text-gray-400">
                         Promoting an eco-friendly environment
+                      </p>
+                    </div>
+                  </div>
+                  <div className="flex items-start">
+                    <div className="flex flex-shrink-0 justify-center items-center bg-emerald-100 dark:bg-emerald-900 mr-3 rounded-full w-10 h-10">
+                      <svg
+                        className="w-6 h-6 text-cyan-400"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          d="M12 2l9 5-9 5-9-5 9-5zM3 12l9 5 9-5m-9 5v6m-9-6v6m18-6v6"
+                        />
+                      </svg>
+                    </div>
+                    <div>
+                      <h4 className="font-semibold text-gray-800 dark:text-gray-200">
+                        Education Scholarship
+                      </h4>
+                      <p className="text-gray-600 dark:text-gray-400">
+                        Promoting social helping
                       </p>
                     </div>
                   </div>
@@ -435,6 +465,98 @@ export default function AboutSection() {
                     </div>
                   ))}
                 </div>
+              </div>
+            )}
+            {activeTab === "lab" && (
+              <div className="space-y-4">
+                <h3 className="mb-4 font-bold text-gray-900 dark:text-white text-xl">
+                  In House Lab Text Facility
+                </h3>
+                <div className="gap-4 grid grid-cols-1 md:grid-cols-2">
+                  {[
+                    "We always do the following test in our own lab each & every production.",
+                    "We do at first PH test by maintain ISO 3071",
+                    "We do Color fastness to water test by maintain ISO 105 E 01",
+                    "We do Color fastness to Rubbing test by maintain ISO 105 x 12",
+                  ].map((lab, index) => (
+                    <div
+                      key={index}
+                      className="flex items-center bg-gray-50 dark:bg-gray-700 p-4 rounded-lg"
+                    >
+                      <svg
+                        className="mr-3 w-5 h-5 text-emerald-500"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                      >
+                        <path
+                          fillRule="evenodd"
+                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                          clipRule="evenodd"
+                        />
+                      </svg>
+                      <span className="text-gray-700 dark:text-gray-300">
+                        {lab}
+                      </span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+            {activeTab === "bank" && (
+              <div className="flex flex-col justify-between items-center space-y-4">
+                <h3 className="mb-4 font-bold text-gray-900 dark:text-white text-2xl">
+                  Bank Details
+                </h3>
+                <div className="flex lg:flex-row flex-col justify-between items-center gap-[50px] lg:gap-[200px]">
+                  <div className="space-y-[10px] bg-gray-700 px-[20px] py-[30px] w-[385px]">
+                    <h3 className="text-[18px] text-amber-100">
+                      Dhaka Bank Ltd.
+                    </h3>
+                    <h3>Account Name: Creative Tape Industries Ltd.</h3>
+                    <h3>Account Number:</h3>
+                    <h3>Branch: Mirpur</h3>
+                    <h3>Swift Code:</h3>
+                  </div>
+                  <div className="space-y-[10px] bg-gray-700 px-[20px] py-[30px] w-[385px]">
+                    <h3 className="text-[18px] text-amber-100">
+                      IFIC Bank Ltd.
+                    </h3>
+                    <h3>Account Name: Creative Tape Industries</h3>
+                    <h3>Account Number:</h3>
+                    <h3>Branch: Darus Salam</h3>
+                    <h3>Swift Code:</h3>
+                  </div>
+                </div>
+                {/* <div className="gap-4 grid grid-cols-1 md:grid-cols-2">
+                  {[
+                    
+                    "IFIC Bank Ltd.",
+                    "Account Name: Creative Tape Industries",
+                    "Account Number:",
+                    "Branch",
+                    "Swift Code:",
+                  ].map((bank, index) => (
+                    <div
+                      key={index}
+                      className="flex items-center bg-gray-50 dark:bg-gray-700 p-4 rounded-lg"
+                    >
+                      <svg
+                        className="mr-3 w-5 h-5 text-emerald-500"
+                        fill="currentColor"
+                        viewBox="0 0 20 20"
+                      >
+                        <path
+                          fillRule="evenodd"
+                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                          clipRule="evenodd"
+                        />
+                      </svg>
+                      <span className="text-gray-700 dark:text-gray-300">
+                        {bank}
+                      </span>
+                    </div>
+                  ))}
+                </div> */}
               </div>
             )}
           </div>

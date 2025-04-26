@@ -73,7 +73,7 @@ const Form = () => {
 
       {/* Top */}
       <div>
-        <h3 className="mt-5 font-semibold lg:text-[45px] text-3xl text-center">
+        <h3 className="mt-5 lg:w-[600px] font-semibold lg:text-[45px] text-3xl text-center">
           Send Your{" "}
           <span className="hover:shadow-[0_0_7px_4px_#61caff] px-2.5 py-1.5 rounded-full text-cyan-400 transition-all duration-800">
             Message{" "}

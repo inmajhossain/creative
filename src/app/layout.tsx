@@ -5,6 +5,7 @@ import { ThemeProvider } from "@/components/Header/theme-provider";
 import Header from "@/components/Header/Header";
 import Footer from "@/components/Footer/Footer";
 import BackgroundEffect from "@/components/Background/BackgroundEffect";
+import Location from "@/components/body/Location";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -40,7 +41,7 @@ export default function RootLayout({
           <Header />
 
           {children}
-
+          <Location />
           <Footer />
         </ThemeProvider>
       </body>
