@@ -76,7 +76,7 @@ const Navbar = () => {
             Products
           </Link>
           {isSubMenuOpen && (
-            <div className="left-0 z-10 absolute flex flex-col items-start space-y-[5px] bg-cyan-950 shadow-lg mt-2 ml-0 p-[10px] rounded-lg w-[150px] font-semibold text-[14px] text-white text-left">
+            <div className="hidden left-0 z-10 absolute lg:flex flex-col items-start space-y-[5px] bg-cyan-950 shadow-lg mt-2 ml-0 p-[10px] rounded-lg w-[150px] font-semibold text-[14px] text-white text-left">
               <Link
                 href="/product/elastic"
                 className="block hover:bg-cyan-400 px-3 py-2 w-full hover:text-black"
