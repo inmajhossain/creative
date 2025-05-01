@@ -24,7 +24,7 @@ import be19 from "@/image/belt/be19.webp";
 import be20 from "@/image/belt/be20.webp";
 import be21 from "@/image/belt/be21.jpg";
 import be22 from "@/image/belt/be22.webp";
-import be23 from "@/image/belt/be23.avif";
+import be23 from "@/image/belt/be23.jpg";
 import be24 from "@/image/belt/be24.webp";
 import be25 from "@/image/belt/be25.avif";
 import be26 from "@/image/belt/be26.jpg";
