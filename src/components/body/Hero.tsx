@@ -1,87 +1,3 @@
-// "use client";
-// import { motion } from "framer-motion";
-// import { useEffect, useState } from "react";
-// import Image from "next/image";
-// import hero1 from "@/image/CREATIVE-TAP-INDUSTRY-scaled.webp"; // Replace with your actual image paths
-// import hero2 from "@/image/factory-exit.webp"; // Replace with your actual image paths
-// import hero3 from "@/image/factory-office.webp"; // Replace with your actual image paths
-
-// const images = [hero1, hero2, hero3]; // Array of images
-
-// export default function Hero() {
-//   const [currentImageIndex, setCurrentImageIndex] = useState(0);
-//   // const [isModalOpen, setIsModalOpen] = useState(true); // Modal starts open
-
-//   useEffect(() => {
-//     const interval = setInterval(() => {
-//       setCurrentImageIndex(prevIndex => (prevIndex + 1) % images.length);
-//     }, 8000); // Change image every 2 seconds
-
-//     return () => clearInterval(interval); // Cleanup interval on component unmount
-//   }, []);
-
-//   // const closeModal = () => {
-//   //   setIsModalOpen(false);
-//   // };
-
-//   return (
-//     <motion.div
-//       animate={{
-//         y: [1000, 0],
-//       }}
-//       transition={{
-//         duration: 4,
-//         delay: 0,
-//       }}
-//       className="relative mx-auto mt-[50px] lg:mt-0 w-full h-[300px] lg:h-[90vh] overflow-hidden"
-//     >
-//       {images.map((src, index) => (
-//         <div
-//           key={index}
-//           className={`absolute inset-0 transition-opacity duration-1000 ${
-//             currentImageIndex === index ? "opacity-100" : "opacity-0"
-//           }`}
-//         >
-//           <Image
-//             src={src}
-//             alt={`Image ${index + 1}`}
-//             layout="fill" // Use layout fill to cover the parent div
-//             // Ensure the image covers the div without distortion
-//             className=""
-//           />
-//         </div>
-//       ))}
-
-//       {/* Modal */}
-//       {/* {isModalOpen && (
-//         <div className="fixed inset-0 flex justify-center items-center bg-black bg-opacity-50">
-//           <div className="bg-cyan-950 shadow-lg p-6 rounded text-center">
-//             <h2 className="mb-4 font-bold text-amber-100 text-lg lg:text-2xl">
-//               Garments Accessories Manufacturer & Supplier.
-//             </h2>
-//             <h2 className="mb-4 font-bold text-[22px] text-white lg:text-5xl">
-//               Welcome to Creative Tape Industries Ltd.
-//             </h2>
-
-//             <h2 className="mx-auto mb-[25px] w-full lg:w-[880px] text-amber-100">
-//               Creative offers you the most comprehensive & competitive range of
-//               bottom trims in Ready-made Garments Sector. We always strive to
-//               provide customer’s full satisfaction & round the clock basis
-//               services.
-//             </h2>
-//             <button
-//               onClick={closeModal}
-//               className="group relative lg:flex bg-black hover:shadow-[0_0_7px_4px_#61caff] active:shadow-[0_0_10px_5px_rgba(168,85,247,0.4)] mx-auto lg:mt-0 px-8 py-3 border-2 border-cyan-400 font-semibold text-white active:scale-95 transition-all duration-800"
-//             >
-//               Get Started
-//             </button>
-//           </div>
-//         </div>
-//       )} */}
-//     </motion.div>
-//   );
-// }
-
 "use client";
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
@@ -89,6 +5,7 @@ import Image from "next/image";
 import hero1 from "@/image/CREATIVE-TAP-INDUSTRY-scaled.webp"; // Replace with your actual image paths
 import hero2 from "@/image/factory-exit.webp"; // Replace with your actual image paths
 import hero3 from "@/image/factory-office.webp"; // Replace with your actual image paths
+import { Lobster } from "next/font/google";
 
 const images = [hero1, hero2, hero3]; // Array of images
 
@@ -142,7 +59,7 @@ export default function Hero() {
           transition={{ duration: 3, delay: 1 }}
           className="hidden z-96 fixed inset-0 xl:flex justify-center items-center bg-opacity-50 mx-auto mt-[10px] lg:w-[1024px] xl:w-[1280px] hover:scroll-m-4"
         >
-          <div className="bg-cyan-950/90 shadow-lg p-6 rounded text-md text-center cursor-alias">
+          <div className="relative bg-cyan-950/90 shadow-lg p-6 rounded text-md text-center cursor-alias">
             <h2 className="mb-4 font-thin text-white text-lg lg:text-4xl lobster">
               Message From Chairman...
             </h2>
@@ -199,12 +116,13 @@ export default function Hero() {
               </h4>
             </div>
 
-            <button
+            <div
+              className="top-[35px] right-[35px] absolute flex justify-center items-center hover:shadow-[0_0_7px_4px_#61caff] p-[5px] border-2 border-cyan-400 rounded-full w-[35px] h-[35px] rotate-45"
               onClick={closeModal}
-              className="group relative lg:flex bg-black hover:shadow-[0_0_7px_4px_#61caff] active:shadow-[0_0_10px_5px_rgba(168,85,247,0.4)] mx-auto lg:mt-0 px-8 py-3 border-2 border-cyan-400 font-semibold text-white active:scale-95 transition-all duration-800"
             >
-              Close
-            </button>
+              <h3 className="left-[15px] absolute bg-white w-[3px] h-[20px]"></h3>
+              <h3 className="bg-white w-[20px] h-[3px]"></h3>
+            </div>
           </div>
         </motion.div>
       )}
