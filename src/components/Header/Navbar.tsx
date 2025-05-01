@@ -37,11 +37,11 @@ const Navbar = () => {
         } lg:block`}
       >
         <Link
-          href="/"
+          href="/home"
           className={`text-white dark:text-cyan-400 dark:hover:text-white ${
-            activeLink === "/" ? "border-b-2 border-cyan-400" : ""
+            activeLink === "/home" ? "border-b-2 border-cyan-400" : ""
           }`}
-          onClick={() => handleLinkClick("/")}
+          onClick={() => handleLinkClick("/home")}
         >
           Home
         </Link>

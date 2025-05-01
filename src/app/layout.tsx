@@ -32,7 +32,7 @@ export default function RootLayout({
       <body className={`${inter.variable} ${geistMono.variable}`}>
         <ThemeProvider
           attribute="class"
-          defaultTheme="system"
+          defaultTheme="dark"
           enableSystem
           disableTransitionOnChange
         >

@@ -1,11 +1,12 @@
 "use client";
 import { useEffect, useState } from "react";
 import Image from "next/image";
-import hero1 from "@/image/oekotex.png"; // Replace with your actual image paths
-import hero2 from "@/image/sedex2.webp"; // Replace with your actual image paths
-import hero3 from "@/image/grs.png"; // Replace with your actual image paths
-import hero4 from "@/image/gots.jpg"; // Replace with your actual image paths
-const images = [hero1, hero2, hero3, hero4]; // Array of images
+import logo1 from "@/image/oekotex.png"; // Replace with your actual image paths
+import logo2 from "@/image/sedex2.webp"; // Replace with your actual image paths
+import logo3 from "@/image/grs.png"; // Replace with your actual image paths
+import logo4 from "@/image/gots.jpg"; // Replace with your actual image paths
+import logo5 from "@/image/bci.png"; // Replace with your actual image paths
+const images = [logo1, logo2, logo3, logo4, logo5]; // Array of images
 
 export default function Certification() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);

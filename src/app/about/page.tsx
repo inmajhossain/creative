@@ -10,6 +10,7 @@ const metadata: Metadata = {
 import { useState } from "react";
 import Image from "next/image";
 import { Link } from "lucide-react";
+import Directors from "@/components/body/Directors";
 
 export default function AboutSection() {
   const [activeTab, setActiveTab] = useState("infrastructure");
@@ -521,42 +522,12 @@ export default function AboutSection() {
                     <h3 className="text-[18px] text-amber-100">
                       IFIC Bank Ltd.
                     </h3>
-                    <h3>Account Name: Creative Tape Industries</h3>
+                    <h3>Account Name: Creative Tape Industries Ltd.</h3>
                     <h3>Account Number:</h3>
                     <h3>Branch: Darus Salam</h3>
                     <h3>Swift Code:</h3>
                   </div>
                 </div>
-                {/* <div className="gap-4 grid grid-cols-1 md:grid-cols-2">
-                  {[
-                    
-                    "IFIC Bank Ltd.",
-                    "Account Name: Creative Tape Industries",
-                    "Account Number:",
-                    "Branch",
-                    "Swift Code:",
-                  ].map((bank, index) => (
-                    <div
-                      key={index}
-                      className="flex items-center bg-gray-50 dark:bg-gray-700 p-4 rounded-lg"
-                    >
-                      <svg
-                        className="mr-3 w-5 h-5 text-emerald-500"
-                        fill="currentColor"
-                        viewBox="0 0 20 20"
-                      >
-                        <path
-                          fillRule="evenodd"
-                          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                          clipRule="evenodd"
-                        />
-                      </svg>
-                      <span className="text-gray-700 dark:text-gray-300">
-                        {bank}
-                      </span>
-                    </div>
-                  ))}
-                </div> */}
               </div>
             )}
           </div>
@@ -574,6 +545,7 @@ export default function AboutSection() {
             </button>
           </a>
         </div>
+        <Directors />
       </div>
     </section>
   );

@@ -114,7 +114,7 @@ export default function Hero() {
         y: [1000, 0],
       }}
       transition={{
-        duration: 4,
+        duration: 1.5,
         delay: 0,
       }}
       className="relative mx-auto mt-[50px] lg:mt-0 w-full h-[300px] lg:h-[90vh] overflow-hidden"
@@ -139,22 +139,22 @@ export default function Hero() {
       {isModalOpen && (
         <motion.div
           animate={{ opacity: [0, 100] }}
-          transition={{ duration: 5, delay: 5 }}
-          className="hidden z-96 fixed inset-0 lg:flex justify-center items-center bg-opacity-50 mx-auto mt-[10px] lg:w-[1100px]"
+          transition={{ duration: 3, delay: 1 }}
+          className="hidden z-96 fixed inset-0 xl:flex justify-center items-center bg-opacity-50 mx-auto mt-[10px] lg:w-[1024px] xl:w-[1280px] hover:scroll-m-4"
         >
-          <div className="bg-cyan-950/90 shadow-lg p-6 rounded text-center">
+          <div className="bg-cyan-950/90 shadow-lg p-6 rounded text-md text-center cursor-alias">
             <h2 className="mb-4 font-thin text-white text-lg lg:text-4xl lobster">
               Message From Chairman...
             </h2>
-            <h2 className="mb-4 font-bold text-[18px] text-cyan-400 lg:text-4xl">
+            <h2 className="mb-4 font-bold text-cyan-400 lg:text-4xl">
               Welcome to Creative Tape Industries Ltd.
             </h2>
-            <div className="flex flex-col justify-around items-start gap-[10px] mb-[20px] text-[16px] text-left">
+            <div className="flex flex-col justify-around items-start gap-[10px] mb-[20px] text-left">
               <h4 className="text-green-400">
                 Bangladesh is a densely populated developing country. Industrial
                 investment is the sector of most Priority of government.
               </h4>
-              <h4>
+              <h4 className="text-white">
                 Development plan for ultimate development of the country. As the
                 country is mainly Garments industrial development might be the
                 milestone of economic development in our economy. But it is a
@@ -172,7 +172,7 @@ export default function Hero() {
                 proposed project in terms of market demand as well as technical,
                 financial, economic and environmental viability of the project.
               </h4>
-              <h4>
+              <h4 className="text-white">
                 Creative offers you the most comprehensive & competitive range
                 of bottom trims in Ready-made Garments Sector. We always strive
                 to provide customer's full satisfaction & round the clock basis
@@ -182,7 +182,7 @@ export default function Hero() {
                 Our Experts dedicated teamwork always empowers our Buyer's
                 energy.
               </h4>
-              <h4>
+              <h4 className="text-white">
                 Our long time experience in this industry has helped us to
                 acquire knowledge and information for products and services to
                 meet the requirements of our customers. We always offer

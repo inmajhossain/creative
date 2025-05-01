@@ -240,32 +240,32 @@ export default function UnitDetails() {
         </div>
 
         {/* Right Side */}
-        <div className="hidden md:hidden lg:hidden relative xl:flex border-amber-100 border-l-[5px] h-[2700px]">
+        <div className="hidden md:hidden lg:hidden relative xl:flex border-amber-100 border-l-[5px] h-[2880px]">
           <motion.div
             animate={{ y: [200, 0] }}
             transition={{ duration: 3, delay: 1 }}
-            className="top-[110px] right-[-40] absolute flex justify-center items-center bg-slate-100 shadow-[0_0_7px_4px_#61caff] border-2 border-cyan-400 rounded-full w-[80px] h-[80px] overflow-hidden font-bold text-[30px] text-cyan-950 text-center hover:rotate-360 transition-all animate-pulse animate-rotate duration-1000"
+            className="top-[120px] right-[-40] absolute flex justify-center items-center bg-slate-100 shadow-[0_0_7px_4px_#61caff] border-2 border-cyan-400 rounded-full w-[80px] h-[80px] overflow-hidden font-bold text-[30px] text-cyan-950 text-center hover:rotate-360 transition-all animate-pulse animate-rotate duration-1000"
           >
             1
           </motion.div>
           <motion.div
             animate={{ y: [200, 0] }}
             transition={{ duration: 3, delay: 1 }}
-            className="top-[950px] right-[-40] absolute flex justify-center items-center bg-slate-100 shadow-[0_0_7px_4px_#61caff] border-2 border-cyan-400 rounded-full w-[80px] h-[80px] overflow-hidden font-bold text-[30px] text-cyan-950 text-center hover:rotate-360 transition-all animate-pulse animate-rotate duration-1000"
+            className="top-[1060px] right-[-40] absolute flex justify-center items-center bg-slate-100 shadow-[0_0_7px_4px_#61caff] border-2 border-cyan-400 rounded-full w-[80px] h-[80px] overflow-hidden font-bold text-[30px] text-cyan-950 text-center hover:rotate-360 transition-all animate-pulse animate-rotate duration-1000"
           >
             2
           </motion.div>
           <motion.div
             animate={{ y: [200, 0] }}
             transition={{ duration: 3, delay: 1 }}
-            className="top-[1610px] right-[-40] absolute flex justify-center items-center bg-slate-100 shadow-[0_0_7px_4px_#61caff] border-2 border-cyan-400 rounded-full w-[80px] h-[80px] overflow-hidden font-bold text-[30px] text-cyan-950 text-center hover:rotate-360 transition-all animate-pulse animate-rotate duration-1000"
+            className="top-[1740px] right-[-40] absolute flex justify-center items-center bg-slate-100 shadow-[0_0_7px_4px_#61caff] border-2 border-cyan-400 rounded-full w-[80px] h-[80px] overflow-hidden font-bold text-[30px] text-cyan-950 text-center hover:rotate-360 transition-all animate-pulse animate-rotate duration-1000"
           >
             3
           </motion.div>
           <motion.div
             animate={{ y: [200, 0] }}
             transition={{ duration: 3, delay: 1 }}
-            className="top-[2180px] right-[-40] absolute flex justify-center items-center bg-slate-100 shadow-[0_0_7px_4px_#61caff] border-2 border-cyan-400 rounded-full w-[80px] h-[80px] overflow-hidden font-bold text-[30px] text-cyan-950 text-center hover:rotate-360 transition-all animate-pulse animate-rotate duration-1000"
+            className="top-[2340px] right-[-40] absolute flex justify-center items-center bg-slate-100 shadow-[0_0_7px_4px_#61caff] border-2 border-cyan-400 rounded-full w-[80px] h-[80px] overflow-hidden font-bold text-[30px] text-cyan-950 text-center hover:rotate-360 transition-all animate-pulse animate-rotate duration-1000"
           >
             4
           </motion.div>

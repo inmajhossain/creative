@@ -3,20 +3,16 @@ import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-import machine3 from "@/image/machine/machine3.webp";
-
-import machine5 from "@/image/machine/machine5.webp";
-import machine6 from "@/image/machine/machine6.webp";
+import machine3 from "@/image/machine/machine3.jpg";
+import machine5 from "@/image/machine/machine5.jpg";
+import machine6 from "@/image/machine/machine6.jpg";
 import machine7 from "@/image/machine/machine7.webp";
-
 import machine9 from "@/image/machine/machine9.webp";
-import machine11 from "@/image/machine/machine11.jpg";
 import machine10 from "@/image/machine/machine10.webp";
 import machine12 from "@/image/machine/machine12.webp";
 import machine13 from "@/image/machine/machine13.avif";
 import machine14 from "@/image/machine/machine14.jpg";
 import machine15 from "@/image/machine/machine15.webp";
-import machine16 from "@/image/machine/machine16.jpg";
 import machine17 from "@/image/machine/machine17.jpg";
 import machine18 from "@/image/machine/machine18.jpg";
 import machine19 from "@/image/machine/machine19.webp";
@@ -24,22 +20,20 @@ import machine20 from "@/image/machine/machine20.jpg";
 
 const images = [
   { imagePath: machine12, title: "Jaquard Elastic Machine" },
-  { imagePath: machine13, title: "Elastic Machine" },
-  { imagePath: machine14, title: "Drawstring Machine" },
-  { imagePath: machine15, title: "Elastic Machine" },
-  { imagePath: machine16, title: "Elastic Machine" },
-  { imagePath: machine17, title: "Twill Tape Machine" },
+  { imagePath: machine13, title: "Crochet Knitting Machine" },
+  { imagePath: machine14, title: "Full Automatic Drawstring Machine" },
+  { imagePath: machine15, title: "Sporting Tape / Rib Tape Machine" },
+  { imagePath: machine17, title: "Needle Loom Machine Machine" },
   { imagePath: machine18, title: "Auto warping Machine" },
-  { imagePath: machine19, title: "Auto warping Machine" },
-  { imagePath: machine20, title: "Yarn Wraping Machine" },
+  { imagePath: machine19, title: "Automatic Yarn warping Machine" },
+  { imagePath: machine20, title: "Automatic Yarn Wraping Machine Reak" },
   { imagePath: machine3, title: "Jaquard Elastic Machine" },
-
   { imagePath: machine5, title: "Winding Machine" },
   {
     imagePath: machine6,
-    title: "Full automatic digital plastic Tipping Machine",
+    title: "Full Automatic Digital Plastic Tipping Machine",
   },
-  { imagePath: machine7, title: "Drawstring Machine" },
+  { imagePath: machine7, title: "Full Automatic Drawstring Machine" },
 
   { imagePath: machine9, title: "Metal Detector" },
   { imagePath: machine10, title: "Human Metal Detector Machine" },
@@ -67,7 +61,7 @@ export default function Page() {
                 alt={product.title}
                 width={350}
                 height={370}
-                className="w-[220px] lg:w-[350px] h-[220px] lg:h-[350px] object-cover"
+                className="bg-white w-[220px] lg:w-[350px] h-[220px] lg:h-[350px] object-contain"
               />
               <div>
                 <h3 className="mt-[20px] text-[20px] dark:text-white text-center">

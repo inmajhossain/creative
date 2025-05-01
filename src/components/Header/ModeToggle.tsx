@@ -32,12 +32,13 @@ export function ModeToggle() {
         align="center"
         className="flex flex-col justify-center items-center bg-white dark:bg-cyan-950 mt-[10px] border-2 border-black"
       >
-        <DropdownMenuItem onClick={() => setTheme("light")}>
-          Light
-        </DropdownMenuItem>
         <DropdownMenuItem onClick={() => setTheme("dark")}>
           Dark
         </DropdownMenuItem>
+        <DropdownMenuItem onClick={() => setTheme("light")}>
+          Light
+        </DropdownMenuItem>
+
         <DropdownMenuItem onClick={() => setTheme("system")}>
           System
         </DropdownMenuItem>
