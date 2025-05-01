@@ -6,8 +6,10 @@ import Directors from "@/components/body/Directors";
 import Form from "@/components/body/form";
 import Hero from "@/components/body/Hero";
 import Units from "@/components/body/Units";
+import Belt from "@/components/Product/Belt";
 import Drawstring from "@/components/Product/Drawstring";
 import Elastic from "@/components/Product/Elastic";
+import Jaquard from "@/components/Product/Jaquard";
 import TwillTape from "@/components/Product/TwillTape";
 import UnitDetails from "@/components/Product/UnitDetails";
 
@@ -25,6 +27,8 @@ export default function page() {
       <Elastic />
       <Drawstring />
       <TwillTape />
+      <Jaquard />
+      <Belt />
       <Form />
       <Directors />
     </div>

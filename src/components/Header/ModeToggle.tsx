@@ -21,7 +21,7 @@ export function ModeToggle() {
         <Button
           variant="outline"
           size="icon"
-          className="bg-white hover:bg-white"
+          className="bg-white hover:bg-white hover:shadow-[0_0_20px_10px_#61caff]"
         >
           <Sun className="w-[1.2rem] h-[1.2rem] rotate-0 dark:-rotate-90 scale-100 dark:scale-0 transition-all" />
           <Moon className="absolute w-[1.2rem] h-[1.2rem] rotate-90 dark:rotate-0 scale-0 dark:scale-100 transition-all" />
@@ -30,7 +30,7 @@ export function ModeToggle() {
       </DropdownMenuTrigger>
       <DropdownMenuContent
         align="center"
-        className="flex flex-col justify-center items-center bg-white dark:bg-cyan-950 mt-[10px] border-2 border-black"
+        className="flex flex-col justify-center items-center bg-white dark:bg-cyan-950 mt-[10px] border-1 border-cyan-400"
       >
         <DropdownMenuItem onClick={() => setTheme("dark")}>
           Dark

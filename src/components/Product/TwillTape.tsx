@@ -98,7 +98,7 @@ export default function TwillTape() {
       {/* Bottom */}
       <div className="flex md:flex-row lg:flex-row flex-col flex-wrap justify-between gap-[30px]">
         {displayedProducts.map(product => (
-          <Link href="/product" className="block">
+          <Link href="/product/tape" className="block">
             <div className="group relative md:justify-around shadow-[0_0_10px_6px_#61caff] rounded-lg rounded-tl-[50px] rounded-br-[50px] h-[230px] overflow-hidden hover:rotate-360 transition-all duration-5000 transform">
               <Image
                 src={product.imagePath}

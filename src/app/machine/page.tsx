@@ -6,7 +6,7 @@ import Link from "next/link";
 import machine3 from "@/image/machine/machine3.jpg";
 import machine5 from "@/image/machine/machine5.jpg";
 import machine6 from "@/image/machine/machine6.jpg";
-import machine7 from "@/image/machine/machine7.webp";
+import machine7 from "@/image/machine/machine7.jpg";
 import machine9 from "@/image/machine/machine9.webp";
 import machine10 from "@/image/machine/machine10.webp";
 import machine12 from "@/image/machine/machine12.webp";

@@ -1,58 +1,98 @@
 "use client";
-// components/elastic.jsx
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-
-import el2 from "@/image/elastic/el2.webp";
-import el3 from "@/image/elastic/el3.webp";
-import el4 from "@/image/elastic/el4.webp";
-import el5 from "@/image/elastic/el5.webp";
-import el6 from "@/image/elastic/el6.webp";
-import el7 from "@/image/elastic/el7.webp";
-import el8 from "@/image/elastic/el8.webp";
-import el9 from "@/image/elastic/el9.webp";
-import el10 from "@/image/elastic/el10.webp";
-import el11 from "@/image/elastic/el11.webp";
-import el12 from "@/image/elastic/el12.webp";
-import el13 from "@/image/elastic/el13.webp";
-import el14 from "@/image/elastic/el14.webp";
-import el15 from "@/image/elastic/el15.webp";
-import el16 from "@/image/elastic/el16.webp";
-import el17 from "@/image/elastic/el17.webp";
-import el18 from "@/image/elastic/el18.webp";
-import el19 from "@/image/elastic/el19.webp";
-import el20 from "@/image/elastic/el20.webp";
+import be1 from "@/image/belt/be1.webp";
+import be2 from "@/image/belt/be2.jpg";
+import be3 from "@/image/belt/be3.jpeg";
+import be4 from "@/image/belt/be4.webp";
+import be5 from "@/image/belt/be5.avif";
+import be6 from "@/image/belt/be6.jpg";
+import be7 from "@/image/belt/be7.jpg";
+import be8 from "@/image/belt/be8.avif";
+import be9 from "@/image/belt/be9.jpg";
+import be10 from "@/image/belt/be10.jpg";
+import be11 from "@/image/belt/be11.jpg";
+import be12 from "@/image/belt/be12.jpg";
+import be13 from "@/image/belt/be13.jpg";
+import be14 from "@/image/belt/be14.avif";
+import be15 from "@/image/belt/be15.jpg";
+import be16 from "@/image/belt/be16.webp";
+import be17 from "@/image/belt/be17.jpg";
+import be18 from "@/image/belt/be18.avif";
+import be19 from "@/image/belt/be19.webp";
+import be20 from "@/image/belt/be20.webp";
+import be21 from "@/image/belt/be21.jpg";
+import be22 from "@/image/belt/be22.webp";
+import be23 from "@/image/belt/be23.avif";
+import be24 from "@/image/belt/be24.webp";
+import be25 from "@/image/belt/be25.avif";
+import be26 from "@/image/belt/be26.jpg";
+import be27 from "@/image/belt/be27.avif";
+import be28 from "@/image/belt/be28.jpg";
+import be29 from "@/image/belt/be29.avif";
+import be30 from "@/image/belt/be30.jpg";
+import be31 from "@/image/belt/be31.avif";
+import be32 from "@/image/belt/be32.avif";
+import be33 from "@/image/belt/be33.jpg";
+import be34 from "@/image/belt/be34.avif";
+import be35 from "@/image/belt/be35.jpg";
+import be36 from "@/image/belt/be36.avif";
+import be37 from "@/image/belt/be37.jpg";
+import be38 from "@/image/belt/be38.avif";
+import be39 from "@/image/belt/be39.webp";
+import be40 from "@/image/belt/be40.jpg";
 
 const images = [
-  el2,
-  el3,
-  el4,
-  el5,
-  el6,
-  el7,
-  el8,
-  el9,
-  el10,
-  el11,
-  el12,
-  el13,
-  el14,
-  el15,
-  el16,
-  el17,
-  el18,
-  el19,
-  el20,
+  be1,
+  be2,
+  be3,
+  be4,
+  be5,
+  be31,
+  be32,
+  be33,
+  be34,
+  be35,
+  be6,
+  be7,
+  be8,
+  be9,
+  be10,
+  be36,
+  be37,
+  be38,
+  be39,
+  be40,
+  be11,
+  be12,
+  be13,
+  be14,
+  be15,
+  be16,
+  be17,
+  be18,
+  be19,
+  be20,
+  be21,
+  be22,
+  be23,
+  be24,
+  be25,
+  be26,
+  be27,
+  be28,
+  be29,
+  be30,
 ];
 
-export default function Elastic() {
+export default function belt() {
   const [showAll, setShowAll] = useState(false);
 
   const products = images.map((image, index) => ({
     // id: index + 1,
-    // title: `elastic ${index + 1}`,
-    title: `Elastic`,
+    // title: `belt ${index + 1}`,
+    title: `Belt`,
     imagePath: image,
   }));
 
@@ -64,7 +104,7 @@ export default function Elastic() {
         {/* Top */}
         <div>
           <h3 className="mx-auto mb-[50px] lg:w-[600px] font-semibold text-[30px] lg:text-[45px] text-center">
-            Elastic{" "}
+            Tape & Woven Belt{" "}
             <span className="hover:shadow-[0_0_7px_4px_#61caff] px-[10px] py-[5px] rounded-full text-cyan-400 transition-all duration-800">
               Gallery
             </span>
@@ -73,7 +113,7 @@ export default function Elastic() {
         {/* Bottom */}
         <div className="flex md:flex-row lg:flex-row flex-col flex-wrap justify-between gap-[30px]">
           {displayedProducts.map(product => (
-            <Link href="/product/elastic" className="block">
+            <Link href="/product/belt" className="block">
               <div className="group relative md:justify-around shadow-[0_0_10px_6px_#61caff] rounded-lg rounded-tl-[50px] rounded-br-[50px] h-[230px] overflow-hidden hover:rotate-360 transition-all duration-5000 transform">
                 <Image
                   src={product.imagePath}

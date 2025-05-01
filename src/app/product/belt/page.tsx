@@ -1,5 +1,6 @@
 "use client";
 
+import Belt from "@/components/Product/Belt";
 import TwillTape from "@/components/Product/TwillTape";
 import React from "react";
 
@@ -10,7 +11,7 @@ export default function page() {
         {/* Top Side */}
         <div>
           <h3 className="mx-auto mb-[50px] lg:w-[600px] font-semibold text-[30px] lg:text-[45px] text-center">
-            Belt Unit{" "}
+            Tape & Woven Belt{" "}
             <span className="hover:shadow-[0_0_7px_4px_#61caff] px-[10px] py-[5px] rounded-full text-cyan-400 transition-all duration-800">
               Details
             </span>
@@ -81,7 +82,9 @@ export default function page() {
         </div>
       </div>
       {/* Gallery */}
-      <div></div>
+      <div>
+        <Belt />
+      </div>
     </div>
   );
 }

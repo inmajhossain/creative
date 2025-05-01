@@ -237,10 +237,43 @@ export default function UnitDetails() {
               with quality that ties it all together.
             </h3>
           </div>
+          {/* Five */}
+          <div className="flex flex-col justify-around items-center lg:items-start gap-[10px] bg-cyan-900/30 p-[30px] lg:w-[900px] lg:text-left text-center">
+            <h2 className="py-[10px] border-cyan-400 border-b-2 w-full text-amber-200 text-3xl">
+              Jacquard Elastic – Where Style and Structure Intertwine
+            </h2>
+            <p>
+              At Jaquard Elastic Unit, our Jacquard elastic is more than just a
+              component—it's a statement. Woven with precision on advanced
+              Jacquard looms, this elastic combines strength with
+              high-definition patterns to deliver unmatched visual appeal and
+              performance.
+            </p>
+
+            <h4>
+              Available in Polyester and Nylon bases, our Jacquard elastic
+              supports intricate logos, text, and motifs in a variety of colors
+              and finishes. From bold branding on waistbands to delicate
+              detailing on fashion and functional wear, this elastic is designed
+              to elevate your product’s identity.
+            </h4>
+            <h4>
+              Choose from a wide range of widths, textures, and design options,
+              or bring your own pattern to life with our fully customizable
+              Jacquard services. Whether you’re building a high-performance
+              sports line or a luxury lingerie collection, our Jacquard elastic
+              blends durability, flexibility, and design innovation seamlessly.
+            </h4>
+
+            <h3 className="py-[10px] w-full text-amber-100 text-2xl">
+              Distinctive. Durable. Designed for you. That’s Jacquard Elastic
+              Unit.
+            </h3>
+          </div>
         </div>
 
         {/* Right Side */}
-        <div className="hidden md:hidden lg:hidden relative xl:flex border-amber-100 border-l-[5px] h-[2880px]">
+        <div className="hidden md:hidden lg:hidden relative xl:flex border-amber-100 border-l-[5px] h-[3350px]">
           <motion.div
             animate={{ y: [200, 0] }}
             transition={{ duration: 3, delay: 1 }}
@@ -268,6 +301,13 @@ export default function UnitDetails() {
             className="top-[2340px] right-[-40] absolute flex justify-center items-center bg-slate-100 shadow-[0_0_7px_4px_#61caff] border-2 border-cyan-400 rounded-full w-[80px] h-[80px] overflow-hidden font-bold text-[30px] text-cyan-950 text-center hover:rotate-360 transition-all animate-pulse animate-rotate duration-1000"
           >
             4
+          </motion.div>
+          <motion.div
+            animate={{ y: [200, 0] }}
+            transition={{ duration: 3, delay: 1 }}
+            className="top-[3050px] right-[-40] absolute flex justify-center items-center bg-slate-100 shadow-[0_0_7px_4px_#61caff] border-2 border-cyan-400 rounded-full w-[80px] h-[80px] overflow-hidden font-bold text-[30px] text-cyan-950 text-center hover:rotate-360 transition-all animate-pulse animate-rotate duration-1000"
+          >
+            5
           </motion.div>
         </div>
       </div>

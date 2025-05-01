@@ -1,58 +1,78 @@
 "use client";
-// components/elastic.jsx
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-
-import el2 from "@/image/elastic/el2.webp";
-import el3 from "@/image/elastic/el3.webp";
-import el4 from "@/image/elastic/el4.webp";
-import el5 from "@/image/elastic/el5.webp";
-import el6 from "@/image/elastic/el6.webp";
-import el7 from "@/image/elastic/el7.webp";
-import el8 from "@/image/elastic/el8.webp";
-import el9 from "@/image/elastic/el9.webp";
-import el10 from "@/image/elastic/el10.webp";
-import el11 from "@/image/elastic/el11.webp";
-import el12 from "@/image/elastic/el12.webp";
-import el13 from "@/image/elastic/el13.webp";
-import el14 from "@/image/elastic/el14.webp";
-import el15 from "@/image/elastic/el15.webp";
-import el16 from "@/image/elastic/el16.webp";
-import el17 from "@/image/elastic/el17.webp";
-import el18 from "@/image/elastic/el18.webp";
-import el19 from "@/image/elastic/el19.webp";
-import el20 from "@/image/elastic/el20.webp";
+import jq1 from "@/image/jaquard/jq1.webp";
+import jq2 from "@/image/jaquard/jq2.jpg";
+import jq3 from "@/image/jaquard/jq3.jpg";
+import jq4 from "@/image/jaquard/jq4.jpg";
+import jq5 from "@/image/jaquard/jq5.webp";
+import jq6 from "@/image/jaquard/jq6.jpg";
+import jq7 from "@/image/jaquard/jq7.webp";
+import jq8 from "@/image/jaquard/jq8.webp";
+import jq9 from "@/image/jaquard/jq9.webp";
+import jq10 from "@/image/jaquard/jq10.jpg";
+import jq11 from "@/image/jaquard/jq11.png";
+import jq12 from "@/image/jaquard/jq12.jpeg";
+import jq13 from "@/image/jaquard/jq13.jpg";
+import jq14 from "@/image/jaquard/jq14.jpg";
+import jq15 from "@/image/jaquard/jq15.jpeg";
+import jq16 from "@/image/jaquard/jq16.jpg";
+import jq17 from "@/image/jaquard/jq17.webp";
+import jq18 from "@/image/jaquard/jq18.jpg";
+import jq19 from "@/image/jaquard/jq19.jpg";
+import jq20 from "@/image/jaquard/jq20.jpg";
+import jq21 from "@/image/jaquard/jq21.jpg";
+import jq22 from "@/image/jaquard/jq22.jpg";
+import jq23 from "@/image/jaquard/jq23.webp";
+import jq24 from "@/image/jaquard/jq24.jpg";
+import jq25 from "@/image/jaquard/jq25.webp";
+import jq26 from "@/image/jaquard/jq26.jpg";
+import jq27 from "@/image/jaquard/jq27.webp";
+import jq28 from "@/image/jaquard/jq28.avif";
+import jq29 from "@/image/jaquard/jq29.jpg";
+import jq30 from "@/image/jaquard/jq30.jpeg";
 
 const images = [
-  el2,
-  el3,
-  el4,
-  el5,
-  el6,
-  el7,
-  el8,
-  el9,
-  el10,
-  el11,
-  el12,
-  el13,
-  el14,
-  el15,
-  el16,
-  el17,
-  el18,
-  el19,
-  el20,
+  jq1,
+  jq2,
+  jq3,
+  jq4,
+  jq5,
+  jq6,
+  jq7,
+  jq8,
+  jq9,
+  jq10,
+  jq11,
+  jq12,
+  jq13,
+  jq14,
+  jq15,
+  jq16,
+  jq17,
+  jq18,
+  jq19,
+  jq20,
+  jq21,
+  jq22,
+  jq23,
+  jq24,
+  jq25,
+  jq26,
+  jq27,
+  jq28,
+  jq29,
+  jq30,
 ];
 
-export default function Elastic() {
+export default function jaquard() {
   const [showAll, setShowAll] = useState(false);
 
   const products = images.map((image, index) => ({
     // id: index + 1,
-    // title: `elastic ${index + 1}`,
-    title: `Elastic`,
+    // title: `jaquard ${index + 1}`,
+    title: `Jaquard`,
     imagePath: image,
   }));
 
@@ -64,7 +84,7 @@ export default function Elastic() {
         {/* Top */}
         <div>
           <h3 className="mx-auto mb-[50px] lg:w-[600px] font-semibold text-[30px] lg:text-[45px] text-center">
-            Elastic{" "}
+            Jaquard Elastic{" "}
             <span className="hover:shadow-[0_0_7px_4px_#61caff] px-[10px] py-[5px] rounded-full text-cyan-400 transition-all duration-800">
               Gallery
             </span>
@@ -73,7 +93,7 @@ export default function Elastic() {
         {/* Bottom */}
         <div className="flex md:flex-row lg:flex-row flex-col flex-wrap justify-between gap-[30px]">
           {displayedProducts.map(product => (
-            <Link href="/product/elastic" className="block">
+            <Link href="/product/jaquard" className="block">
               <div className="group relative md:justify-around shadow-[0_0_10px_6px_#61caff] rounded-lg rounded-tl-[50px] rounded-br-[50px] h-[230px] overflow-hidden hover:rotate-360 transition-all duration-5000 transform">
                 <Image
                   src={product.imagePath}

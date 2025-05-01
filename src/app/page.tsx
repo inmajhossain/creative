@@ -15,6 +15,8 @@ import TwillTape from "@/components/Product/TwillTape";
 import Image from "next/image";
 import message from "@/image/message.webp";
 import Buyers from "@/components/body/Buyers";
+import Jaquard from "@/components/Product/Jaquard";
+import Belt from "@/components/Product/Belt";
 
 export default function Home() {
   const [isModalOpen, setIsModalOpen] = useState(true); // Modal starts open
@@ -94,6 +96,8 @@ export default function Home() {
 
           <Drawstring />
           <TwillTape />
+          <Jaquard />
+          <Belt />
           <Form />
           <Directors />
         </div>
