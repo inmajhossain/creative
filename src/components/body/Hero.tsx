@@ -2,12 +2,14 @@
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import Image from "next/image";
-import hero1 from "@/image/CREATIVE-TAP-INDUSTRY-scaled.webp"; // Replace with your actual image paths
-import hero2 from "@/image/factory-exit.webp"; // Replace with your actual image paths
-import hero3 from "@/image/factory-office.webp"; // Replace with your actual image paths
+import hero1 from "@/image/hero/CREATIVE-TAP-INDUSTRY-scaled.webp";
+import hero2 from "@/image/hero/factory-exit.webp";
+import hero3 from "@/image/hero/factory-office.webp";
+import hero4 from "@/image/hero/factoryeid.jpg";
+import hero5 from "@/image/hero/factory.webp";
 import { Lobster } from "next/font/google";
 
-const images = [hero1, hero2, hero3]; // Array of images
+const images = [hero1, hero4, hero2, hero5, hero3]; // Array of images
 
 export default function Hero() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);

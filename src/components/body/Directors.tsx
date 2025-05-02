@@ -1,7 +1,7 @@
 import Image, { StaticImageData } from "next/image";
-import image1 from "@/image/profile-image-3.webp"; // Ensure the correct path and filename
-import image2 from "@/image/profile-image.webp"; // Ensure the correct path and filename
-import image3 from "@/image/profile-image-2.webp"; // Ensure the correct path and filename
+import image1 from "@/image/management/profile-image-3.webp"; // Ensure the correct path and filename
+import image2 from "@/image/management/profile-image.webp"; // Ensure the correct path and filename
+import image3 from "@/image/management/profile-image-2.webp"; // Ensure the correct path and filename
 import { Lobster } from "next/font/google";
 
 // Define the ImageCard component

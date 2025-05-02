@@ -112,6 +112,13 @@ const Navbar = () => {
               >
                 Belt
               </Link>
+              <Link
+                href="/product/rib"
+                className="block hover:bg-cyan-400 px-3 py-2 w-full hover:text-black"
+                onClick={() => handleLinkClick("/product/rib")}
+              >
+                Rib Tape
+              </Link>
             </div>
           )}
         </div>

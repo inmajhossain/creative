@@ -17,6 +17,7 @@ import message from "@/image/message.webp";
 import Buyers from "@/components/body/Buyers";
 import Jaquard from "@/components/Product/Jaquard";
 import Belt from "@/components/Product/Belt";
+import Rib from "@/components/Product/Rib";
 
 export default function Home() {
   const [isModalOpen, setIsModalOpen] = useState(true); // Modal starts open
@@ -100,6 +101,7 @@ export default function Home() {
           <Belt />
           <Form />
           <Directors />
+          <Rib />
         </div>
       )}
     </div>

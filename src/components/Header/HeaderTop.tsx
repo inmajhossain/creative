@@ -36,15 +36,17 @@ export function HeaderTop() {
         {/* Social Media Section */}
 
         <div className="hidden lg:flex flex-row gap-[5px]">
-          <FaTwitterSquare
-            href="https://www.facebook.com/creativetapeinds"
-            className="icon"
-          />
+          <Link href="" target="_blank" rel="noopener noreferrer">
+            <FaTwitterSquare className="icon" />
+          </Link>
 
-          <FaFacebookSquare
+          <Link
             href="https://www.facebook.com/creativetapeinds"
-            className="icon"
-          />
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaFacebookSquare className="icon" />
+          </Link>
 
           <FaYoutubeSquare href="#" className="icon" />
         </div>

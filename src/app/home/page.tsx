@@ -10,6 +10,7 @@ import Belt from "@/components/Product/Belt";
 import Drawstring from "@/components/Product/Drawstring";
 import Elastic from "@/components/Product/Elastic";
 import Jaquard from "@/components/Product/Jaquard";
+import Rib from "@/components/Product/Rib";
 import TwillTape from "@/components/Product/TwillTape";
 import UnitDetails from "@/components/Product/UnitDetails";
 
@@ -29,6 +30,7 @@ export default function page() {
       <TwillTape />
       <Jaquard />
       <Belt />
+      <Rib />
       <Form />
       <Directors />
     </div>
