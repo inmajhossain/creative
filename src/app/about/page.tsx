@@ -1,6 +1,6 @@
 "use client";
 import { Metadata } from "next";
-import creative from "@/image/CREATIVE-TAP-INDUSTRY-scaled.webp";
+import creative from "@/image/hero/creative.webp";
 
 const metadata: Metadata = {
   title: "About Us",
