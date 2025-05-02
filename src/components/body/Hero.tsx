@@ -2,7 +2,7 @@
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import Image from "next/image";
-import hero1 from "@/image/hero/CREATIVE-TAP-INDUSTRY-scaled.webp";
+import hero1 from "@/image/hero/creative.webp";
 import hero2 from "@/image/hero/factory-exit.webp";
 import hero3 from "@/image/hero/factory-office.webp";
 import hero4 from "@/image/hero/factoryeid.jpg";
