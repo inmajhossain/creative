@@ -1,4 +1,4 @@
-import { SetStateAction, useState } from "react";
+import { SetStateAction, useState, useRef, useEffect } from "react";
 import Link from "next/link"; // Assuming you're using Next.js
 import { FaBars, FaTimes } from "react-icons/fa"; // Importing icons for the hamburger menu
 
@@ -6,6 +6,7 @@ const Navbar = () => {
   const [activeLink, setActiveLink] = useState("/home"); // Default active link
   const [isMenuOpen, setIsMenuOpen] = useState(false); // State to manage menu visibility
   const [isSubMenuOpen, setIsSubMenuOpen] = useState(false); // State to manage submenu visibility
+  const submenuRef = useRef<HTMLDivElement>(null); // Ref for the submenu
 
   const handleLinkClick = (link: SetStateAction<string>) => {
     setActiveLink(link);
@@ -16,6 +17,23 @@ const Navbar = () => {
   const toggleSubMenu = () => {
     setIsSubMenuOpen(prev => !prev); // Toggle submenu visibility
   };
+
+  // Close submenu when clicking outside of it
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (
+        submenuRef.current &&
+        !submenuRef.current.contains(event.target as Node)
+      ) {
+        setIsSubMenuOpen(false);
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [submenuRef]);
 
   return (
     <nav className="relative">
@@ -65,7 +83,7 @@ const Navbar = () => {
             Our Machineries
           </Link>
         </div>
-        <div className="relative">
+        <div className="relative" ref={submenuRef}>
           <Link
             href="/product"
             className={`text-white dark:text-cyan-400 dark:hover:text-white ${

@@ -1,40 +1,12 @@
-"use client";
-import Buyers from "@/components/body/Buyers";
-import Carousel from "@/components/body/Carousel";
-import ChairmanNote from "@/components/body/ChairmanNote";
-import Dedicated from "@/components/body/Dedicated";
-import Directors from "@/components/body/Directors";
-import Form from "@/components/body/form";
-import Hero from "@/components/body/Hero";
-import Units from "@/components/body/Units";
-import Belt from "@/components/Product/Belt";
-import Drawstring from "@/components/Product/Drawstring";
-import Elastic from "@/components/Product/Elastic";
-import Jaquard from "@/components/Product/Jaquard";
-import Rib from "@/components/Product/Rib";
-import TwillTape from "@/components/Product/TwillTape";
-import UnitDetails from "@/components/Product/UnitDetails";
+import { Metadata } from "next";
+import HomeContent from "./homecontent/HomeContent";
 
-import React from "react";
+export const metadata: Metadata = {
+  title: "Creative Tape - Home",
+  description:
+    "Creative Tape Industries is a best & top garments accessories manufacturer in Bangladesh, producing high-quality elastic bands, jacquard elastic, drawstrings, twill tapes, belts, drawcords, rib tapes, sporting tapes, and tipping solutions. Trusted by global brands since 2006.",
+};
 
 export default function page() {
-  return (
-    <div>
-      <Hero />
-      <Carousel />
-      <ChairmanNote />
-      <Buyers />
-      <Units />
-      <Dedicated />
-      <UnitDetails />
-      <Elastic />
-      <Drawstring />
-      <TwillTape />
-      <Jaquard />
-      <Belt />
-      <Rib />
-      <Form />
-      <Directors />
-    </div>
-  );
+  return <HomeContent />;
 }

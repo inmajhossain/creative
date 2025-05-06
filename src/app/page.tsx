@@ -15,6 +15,7 @@ import Jaquard from "@/components/Product/Jaquard";
 import Belt from "@/components/Product/Belt";
 import Rib from "@/components/Product/Rib";
 import ChairmanNote from "@/components/body/ChairmanNote";
+import Production from "@/components/body/Production";
 
 export default function Home() {
   const [isModalOpen, setIsModalOpen] = useState(true); // Modal starts open
@@ -87,8 +88,9 @@ export default function Home() {
           <Carousel />
           <ChairmanNote />
           <Buyers />
-          <Units />
+          <Production />
           <Dedicated />
+          <Units />
           <UnitDetails />
           <Elastic />
           <Jaquard />
