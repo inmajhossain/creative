@@ -3,12 +3,12 @@ import React from "react";
 
 export default function Buyers() {
   return (
-    <div className="hidden lg:flex xl:flex lg:flex-col xl:flex-col mx-auto lg:mt-[100px] mb-[50px] w-[380px] md:w-[768px] lg:max-w-[1024px] xl:max-w-[1280px] lg:h-[520px] font-semibold text-black">
+    <div className="hidden lg:flex xl:flex lg:flex-col xl:flex-col mx-auto lg:mt-[100px] mb-[50px] w-[380px] md:w-[768px] lg:w-[1024px] xl:w-[1280px] lg:h-[520px] font-semibold text-black">
       {/* Left */}
       <motion.div
-        className="space-y-2 bg-green-300 mx-auto px-[15px] py-[20px] rounded-tl-3xl rounded-tr-3xl rounded-bl-3xl lg:w-[500px] xl:w-[600px] h-[280px] text-[15px]"
-        animate={{ x: [0, -250] }}
-        transition={{ delay: 2, duration: 2 }}
+        className="space-y-2 bg-green-300 mx-auto px-[15px] py-[20px] rounded-tl-3xl rounded-tr-3xl rounded-bl-3xl lg:w-[600px] h-[280px] text-[15px]"
+        animate={{ x: [0, -300] }}
+        transition={{ delay: 1, duration: 1 }}
       >
         <h2 className="text-[22px] text-indigo-900 lobster">
           Dear Valuable Buyers,
@@ -26,9 +26,9 @@ export default function Buyers() {
       </motion.div>
       {/* Right */}
       <motion.div
-        className="space-y-2 bg-cyan-300 mx-auto xl:ml-[185px] px-[15px] py-[20px] rounded-tr-3xl rounded-bl-3xl rounded-br-3xl lg:w-[500px] xl:w-[600px] h-[280px] text-[15px]"
-        animate={{ x: [0, 250] }}
-        transition={{ delay: 2, duration: 2 }}
+        className="space-y-2 bg-cyan-300 mx-auto px-[15px] py-[20px] rounded-tr-3xl rounded-bl-3xl rounded-br-3xl lg:w-[600px] h-[280px] text-[15px]"
+        animate={{ x: [0, 300] }}
+        transition={{ delay: 1, duration: 1 }}
       >
         <h2 className="text-[22px] text-indigo-900 lobster">Dear Customers,</h2>
         <p className="">

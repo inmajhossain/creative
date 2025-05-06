@@ -6,7 +6,7 @@ import ri1 from "@/image/rib/ri1.jpg";
 import ri2 from "@/image/rib/ri2.avif";
 import ri3 from "@/image/rib/ri3.jpg";
 import ri4 from "@/image/rib/ri4.jpg";
-import ri5 from "@/image/rib/ri5.avif";
+
 import ri6 from "@/image/rib/ri6.jpeg";
 import ri7 from "@/image/rib/ri7.jpg";
 import ri8 from "@/image/rib/ri8.webp";
@@ -38,7 +38,7 @@ const images = [
   ri2,
   ri3,
   ri4,
-  ri5,
+
   ri6,
   ri7,
   ri8,
@@ -76,15 +76,15 @@ export default function Rib() {
     imagePath: image,
   }));
 
-  const displayedProducts = showAll ? products : products.slice(0, 10);
+  const displayedProducts = showAll ? products : products.slice(0, 8);
 
   return (
-    <div className="flex flex-col items-center mx-auto mt-[50px] xl:w-[1280px] max-w-[270px] md:max-w-[768px] lg:max-w-[1024px] xl:max-w-[1280px]">
-      <div className="w-full max-w-[230px] md:max-w-[768px] lg:max-w-[1024px] xl:max-w-[1280px]">
+    <div className="flex flex-col items-center mx-auto mt-[50px] xl:w-[1280px] max-w-[270px] md:max-w-[768px] lg:max-w-[1024px]">
+      <div className="w-full xl:w-[1280px] max-w-[230px] md:max-w-[768px] lg:max-w-[1024px]">
         {/* Top */}
         <div>
-          <h3 className="mx-auto mb-[50px] lg:w-[700px] font-semibold text-[30px] lg:text-[45px] text-center">
-            Sporting & Rib Tape{" "}
+          <h3 className="mx-auto mb-[50px] lg:w-[800px] font-semibold text-[30px] text-black lg:text-[45px] dark:text-white text-center">
+            Sporting Tape or Rib Tape{" "}
             <span className="hover:shadow-[0_0_7px_4px_#61caff] px-[10px] py-[5px] rounded-full text-cyan-400 transition-all duration-800">
               Gallery
             </span>
@@ -115,7 +115,7 @@ export default function Rib() {
         <div className="flex justify-center mt-[80px]">
           <button
             onClick={() => setShowAll(!showAll)}
-            className="bg-white hover:bg-cyan-50 px-6 py-2 rounded-full font-semibold text-cyan-600 transition-colors"
+            className="bg-white hover:bg-cyan-50 px-6 py-2 border-1 border-black dark:border-none rounded-full font-semibold text-cyan-600 transition-colors"
           >
             {showAll ? "See Less" : "See More"}
           </button>

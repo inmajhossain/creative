@@ -1,6 +1,7 @@
 "use client";
 import Buyers from "@/components/body/Buyers";
 import Carousel from "@/components/body/Carousel";
+import ChairmanNote from "@/components/body/ChairmanNote";
 import Dedicated from "@/components/body/Dedicated";
 import Directors from "@/components/body/Directors";
 import Form from "@/components/body/form";
@@ -21,6 +22,7 @@ export default function page() {
     <div>
       <Hero />
       <Carousel />
+      <ChairmanNote />
       <Buyers />
       <Units />
       <Dedicated />

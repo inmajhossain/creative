@@ -28,7 +28,7 @@ export default function Footer() {
             />
           </Link>
 
-          <h2 className="mx-auto w-full font-bold text-[25px] text-white dark:text-cyan-400 text-center">
+          <h2 className="mx-auto w-full lg:w-[200px] font-bold text-[25px] text-white dark:text-cyan-400 text-center">
             Creative Tape Industries Ltd.
           </h2>
         </div>
@@ -64,16 +64,36 @@ export default function Footer() {
           <h3 className="flex items-center gap-[10px] mb-[10px] text-[20px] text-amber-100">
             | Products
           </h3>
-          <Link href="/product" className="flex items-center gap-[10px]">
+          <Link
+            href="/product/elastic"
+            className="flex items-center gap-[10px]"
+          >
             <FaHandPointRight />
             Elastic Unit
           </Link>
-          <Link href="/product" className="flex items-center gap-[10px]">
-            <FaHandPointRight /> Twill Tape & Belt Unit
+          <Link
+            href="/product/jaquard"
+            className="flex items-center gap-[10px]"
+          >
+            <FaHandPointRight />
+            Jacquard Unit
           </Link>
-          <Link href="/product" className="flex items-center gap-[10px]">
+          <Link href="/product/tape" className="flex items-center gap-[10px]">
+            <FaHandPointRight /> Tape & Belt Unit
+          </Link>
+          <Link href="/product/belt" className="flex items-center gap-[10px]">
+            <FaHandPointRight /> Belt Unit
+          </Link>
+          <Link
+            href="/product/drawstring"
+            className="flex items-center gap-[10px]"
+          >
             <FaHandPointRight />
             Drawstring Unit With Tipping
+          </Link>
+          <Link href="/product/rib" className="flex items-center gap-[10px]">
+            <FaHandPointRight />
+            Sporting or Rib Tape
           </Link>
 
           <Link href="/capecity" className="flex items-center gap-[10px]">

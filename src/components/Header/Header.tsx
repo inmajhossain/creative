@@ -13,11 +13,11 @@ export default function Header() {
   return (
     <div className="top-0 z-99 sticky bg-cyan-950 mx-auto w-full">
       <HeaderTop />
-      <div className="mx-auto w-full lg:max-w-[1280px]">
-        <div className="flex lg:flex-row flex-col justify-between items-center drop-shadow-2xl mx-auto px-[10px] py-[10px] lg:py-0 lg:h-[67px]">
+      <div className="mx-auto w-full lg:w-[1024px] xl:w-[1280px]">
+        <div className="flex lg:flex-row flex-col justify-between items-center drop-shadow-2xl mx-auto px-[10px] xl:px-[50px] py-[10px] lg:py-0 lg:h-[67px]">
           {/* Logo */}
           <div className="flex flex-col justify-between items-center lg:gap-[5px]">
-            <div className="flex gap-[20px]">
+            <div className="flex items-center gap-[20px]">
               <Link href={"/"}>
                 <Image
                   className="lg:flex animate-pulse"

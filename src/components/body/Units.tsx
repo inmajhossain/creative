@@ -25,12 +25,12 @@ const productionUnits = [
     alt: "elastic",
   },
   {
-    title: "Twill tape Units",
-    amount: "24,000",
+    title: "Jacquard Elastic Units",
+    amount: "20,000",
     unit: "Yards",
-    text: "Twenty Four Thousand Yards",
-    image: tape,
-    alt: "tape",
+    text: "Twenty Thousand Yards",
+    image: jacaured,
+    alt: "jacquard",
   },
   {
     title: "Drawstring Units",
@@ -41,29 +41,31 @@ const productionUnits = [
     alt: "drawstring",
   },
   {
-    title: "Rib Tape Units",
-    amount: "17,000",
+    title: "Tape & Belt Units (Twill Tape, Grosgrain Tape)",
+    amount: "25,000",
     unit: "Yards",
-    text: "Seventeen Thousand Yards",
-    image: ribtape,
-    alt: "ribtape",
+    text: "Twenty Five Thousand Yards",
+    image: tape,
+    alt: "tape",
   },
   {
-    title: "Jacquard Elastic Units",
-    amount: "20,000",
-    unit: "Yards",
-    text: "Twenty Thousand Yards",
-    image: jacaured,
-    alt: "jacquard",
-  },
-  {
-    title: "Tipping Units",
-    amount: "40,000",
+    title: "Tipping Units (Plastic, Metal & Thread)",
+    amount: "50,000",
     unit: "Pcs",
-    text: "Forty Thousand Pcs",
+    text: "Fifty Thousand Pcs",
     image: tipping,
     alt: "tipping",
   },
+
+  {
+    title: "Sporting Tape or Rib Tape Units",
+    amount: "20,000",
+    unit: "Yards",
+    text: "Twenty Thousand Yards",
+    image: ribtape,
+    alt: "ribtape",
+  },
+
   {
     title: "Belt Units",
     amount: "10,000",
@@ -83,8 +85,8 @@ export default function Units() {
       type: "slider",
       focusAt: "center",
       perView: 1,
-      autoplay: 5000,
-      animationDuration: 3000,
+      autoplay: 3000,
+      animationDuration: 2000,
       gap: 0,
       classes: {
         nav: {
@@ -99,9 +101,9 @@ export default function Units() {
   // Common class strings
 
   const titleClasses =
-    "dark:border-cyan-400 border-b-2 lg:border-none text-2xl lg:text-3xl dark:text-amber-100 lg:text-left text-center";
+    "dark:border-cyan-400 border-b-2 lg:border-none text-2xl lg:text-xl dark:text-amber-100 lg:text-left text-center";
   const amountClasses =
-    "-mt-5 lg:mt-0 text-3xl dark:text-amber-100 lg:text-left text-center";
+    "-mt-5 lg:mt-0 text-xl dark:text-amber-100 lg:text-left text-center";
   const textClasses =
     "-mt-5 lg:mt-0 mb-4 lg:mb-0 text-xl lg:text-left text-center";
 
@@ -136,7 +138,7 @@ export default function Units() {
             {productionUnits.map((unit, index) => (
               <div
                 key={index}
-                className="flex lg:flex-row flex-col justify-between items-center p-[10px] lg:p-[24px] border-2 dark:border-cyan-400 w-[380px] lg:w-[1024px] h-[400px] lg:h-[332px]"
+                className="flex lg:flex-row flex-col justify-between items-center bg-cyan-100 dark:bg-transparent p-[10px] lg:p-[24px] border-2 dark:border-cyan-400 w-[380px] lg:w-[1024px] h-[400px] lg:h-[332px]"
               >
                 {/* Left Part - Image */}
                 <div className="flex justify-center items-center lg:w-[500px]">
@@ -180,7 +182,7 @@ export default function Units() {
               aria-label={`goto slide ${index + 1}`}
             >
               <span
-                className={`block bg-amber-${indicatorColors[index]} rounded-full focus:outline-none ring-1 ring-amber-300 w-2 h-2 transition-colors duration-300`}
+                className={`block bg-amber-${indicatorColors[index]} rounded-full focus:outline-none ring-1 dark:ring-amber-300 w-2 h-2 transition-colors duration-300`}
               ></span>
             </button>
           ))}

@@ -13,7 +13,6 @@ const images = [hero1, hero4, hero2, hero5, hero3]; // Array of images
 
 export default function Hero() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
-  const [isModalOpen, setIsModalOpen] = useState(true); // Modal starts open
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -22,10 +21,6 @@ export default function Hero() {
 
     return () => clearInterval(interval); // Cleanup interval on component unmount
   }, []);
-
-  const closeModal = () => {
-    setIsModalOpen(false);
-  };
 
   return (
     <motion.div
@@ -54,7 +49,7 @@ export default function Hero() {
         </div>
       ))}
 
-      {/* Modal */}
+      {/* Modal
       {isModalOpen && (
         <motion.div
           animate={{ opacity: [0, 100] }}
@@ -127,7 +122,7 @@ export default function Hero() {
             </div>
           </div>
         </motion.div>
-      )}
+      )} */}
     </motion.div>
   );
 }

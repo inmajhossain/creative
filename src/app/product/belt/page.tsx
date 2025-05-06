@@ -6,11 +6,11 @@ import React from "react";
 
 export default function page() {
   return (
-    <div className="flex flex-col justify-between items-center mx-auto mt-[50px] w-[380px] md:w-[768px] xl:w-[1280px] lg:max-w-[1024px]">
+    <div className="flex flex-col justify-between items-center mx-auto mt-[50px] w-[380px] md:w-[768px] xl:w-[1280px] lg:max-w-[1024px] text-white">
       <div>
         {/* Top Side */}
         <div>
-          <h3 className="mx-auto mb-[50px] lg:w-[600px] font-semibold text-[30px] lg:text-[45px] text-center">
+          <h3 className="mx-auto mb-[50px] lg:w-[600px] font-semibold text-[30px] text-black lg:text-[45px] dark:text-white text-center">
             Tape & Woven Belt{" "}
             <span className="hover:shadow-[0_0_7px_4px_#61caff] px-[10px] py-[5px] rounded-full text-cyan-400 transition-all duration-800">
               Details
@@ -20,7 +20,7 @@ export default function page() {
 
         {/* Bottom Side */}
 
-        <div className="flex flex-col justify-around items-center lg:items-start gap-[10px] bg-rose-900/30 mb-[50px] p-[30px] lg:w-[1024px] xl:w-[1280px] lg:text-left text-center">
+        <div className="flex flex-col justify-around items-center lg:items-start gap-[10px] bg-green-900 dark:bg-rose-900/30 mb-[50px] p-[30px] lg:w-[1024px] xl:w-[1280px] lg:text-left text-center">
           <h2 className="py-[10px] border-cyan-400 border-b-2 w-full text-amber-200 text-3xl">
             Belt Unit – Strength in Style
           </h2>
@@ -30,7 +30,7 @@ export default function page() {
             manufacture a wide range of custom belts that are as strong as they
             are stylish.
           </p>
-          <h3 className="py-[10px] border-cyan-400 border-b-2 w-full text-amber-100 text-2xl">
+          <h3 className="py-[10px] border-b-2 border-b-cyan-400 text-amber-100 text-2xl">
             Our Belt Collection Includes:
           </h3>
           <h4>
@@ -65,20 +65,26 @@ export default function page() {
             Rich texture meets elegant design in both cotton and polyester.
           </h4>
 
-          <h3 className="py-[10px] border-cyan-400 border-b-2 w-full text-amber-100 text-2xl">
+          <h3 className="py-[10px] border-b-2 border-b-cyan-400 text-amber-100 text-2xl">
             Custom sizes, patterns, colors (DTM), and weaves
           </h3>
           <h3>
             tailored exactly to your vision. From rugged utility to runway-ready
             looks, our belts are crafted to elevate any product.
           </h3>
-          <h3 className="py-[10px] border-cyan-400 border-b-2 w-full text-amber-100 text-2xl">
+          <h3 className="py-[10px] border-b-2 border-b-cyan-400 text-amber-100 text-2xl">
             Custom Colors. Unique Weaves. Tailored Sizes.
           </h3>
           <h3>
-            From fashion to function, we bring your drawstring ideas to life
-            with quality that ties it all together.
+            From fashion to function, we bring your belt ideas to life with
+            quality that ties it all together.
           </h3>
+          {/* Closing Tag */}
+          <div className="flex flex-row justify-between items-center gap-2 mx-auto mt-[10px]">
+            <h3 className="dark:bg-white w-[40px] h-[3px]"></h3>
+            <h3 className="dark:bg-white rounded-full w-[10px] h-[10px]"></h3>
+            <h3 className="dark:bg-white w-[40px] h-[3px]"></h3>
+          </div>
         </div>
       </div>
       {/* Gallery */}

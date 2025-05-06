@@ -11,6 +11,7 @@ import { useState } from "react";
 import Image from "next/image";
 import { Link } from "lucide-react";
 import Directors from "@/components/body/Directors";
+import ChairmanNote from "@/components/body/ChairmanNote";
 
 export default function AboutSection() {
   const [activeTab, setActiveTab] = useState("infrastructure");
@@ -66,7 +67,7 @@ export default function AboutSection() {
               </div>
               <div className="bg-white dark:bg-gray-800/50 shadow-md p-4 rounded-lg text-center">
                 <div className="mb-1 font-bold text-cyan-400 text-xl">
-                  50,000
+                  30,000
                 </div>
                 <div className="text-gray-600 dark:text-gray-300 text-sm">
                   Sq. Ft. Facility
@@ -95,10 +96,10 @@ export default function AboutSection() {
                 className="object-cover"
               />
               <div className="absolute inset-0 bg-emerald-600 opacity-20"></div>
-              <div className="bottom-4 left-4 absolute bg-white dark:bg-gray-800 shadow-lg px-4 py-2 rounded-lg">
-                <span className="font-bold text-[14px] text-cyan-400">
-                  Dewan Idris Road, Kathgara Bazar, Zirabo, Savar, Dhaka,
-                  Bangladesh
+              <div className="right-4 bottom-4 left-4 absolute bg-white dark:bg-gray-800 shadow-lg px-4 py-2 rounded-lg text-center">
+                <span className="font-bold text-[16px] text-cyan-400">
+                  136, Abdul Zabbar Sarker Road Durgapur, Kathgara, Bara
+                  Rangamatia Ashulia, Savar, Dhaka.
                 </span>
               </div>
             </div>
@@ -164,7 +165,7 @@ export default function AboutSection() {
                   Modern Infrastructure
                 </h3>
                 <p className="mb-4 text-gray-600 dark:text-gray-300">
-                  Two spacious buildings spanning 50,000 sq. ft., equipped with
+                  Two spacious buildings spanning 30,000 sq. ft., equipped with
                   advanced machinery and safety systems.
                 </p>
                 <div className="gap-4 grid grid-cols-1 md:grid-cols-2">
@@ -504,13 +505,13 @@ export default function AboutSection() {
               </div>
             )}
             {activeTab === "bank" && (
-              <div className="flex flex-col justify-between items-center space-y-4">
-                <h3 className="mb-4 font-bold text-gray-900 dark:text-white text-2xl">
+              <div className="flex flex-col justify-between items-start space-y-4 mx-auto">
+                <h3 className="mx-auto mb-4 font-bold text-gray-900 dark:text-white text-2xl">
                   Bank Details
                 </h3>
-                <div className="flex lg:flex-row flex-col justify-between items-center gap-[50px] lg:gap-[200px]">
-                  <div className="space-y-[10px] bg-gray-700 px-[20px] py-[30px] w-[385px]">
-                    <h3 className="text-[18px] text-amber-100">
+                <div className="flex lg:flex-row flex-col justify-around items-center gap-[50px] mx-auto">
+                  <div className="space-y-[10px] dark:bg-gray-700 px-[20px] py-[30px] w-[385px] lg:w-[500px]">
+                    <h3 className="text-[18px] dark:text-amber-100">
                       Dhaka Bank Ltd.
                     </h3>
                     <h3>Account Name: Creative Tape Industries Ltd.</h3>
@@ -518,8 +519,8 @@ export default function AboutSection() {
                     <h3>Branch: Mirpur</h3>
                     <h3>Swift Code:</h3>
                   </div>
-                  <div className="space-y-[10px] bg-gray-700 px-[20px] py-[30px] w-[385px]">
-                    <h3 className="text-[18px] text-amber-100">
+                  <div className="space-y-[10px] dark:bg-gray-700 px-[20px] py-[30px] w-[385px] lg:w-[500px]">
+                    <h3 className="text-[18px] dark:text-amber-100">
                       IFIC Bank Ltd.
                     </h3>
                     <h3>Account Name: Creative Tape Industries Ltd.</h3>
@@ -546,6 +547,7 @@ export default function AboutSection() {
           </a>
         </div>
         <Directors />
+        <ChairmanNote />
       </div>
     </section>
   );

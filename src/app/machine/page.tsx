@@ -19,15 +19,15 @@ import machine19 from "@/image/machine/machine19.webp";
 import machine20 from "@/image/machine/machine20.jpg";
 
 const images = [
-  { imagePath: machine12, title: "Jaquard Elastic Machine" },
+  { imagePath: machine12, title: "Jacquard Elastic Machine" },
   { imagePath: machine13, title: "Crochet Knitting Machine" },
   { imagePath: machine14, title: "Full Automatic Drawstring Machine" },
   { imagePath: machine15, title: "Sporting Tape / Rib Tape Machine" },
-  { imagePath: machine17, title: "Needle Loom Machine Machine" },
+  { imagePath: machine17, title: "Needle Loom Machine" },
   { imagePath: machine18, title: "Auto warping Machine" },
   { imagePath: machine19, title: "Automatic Yarn warping Machine" },
   { imagePath: machine20, title: "Automatic Yarn Wraping Machine Reak" },
-  { imagePath: machine3, title: "Jaquard Elastic Machine" },
+  { imagePath: machine3, title: "Jacquard Elastic Machine" },
   { imagePath: machine5, title: "Winding Machine" },
   {
     imagePath: machine6,

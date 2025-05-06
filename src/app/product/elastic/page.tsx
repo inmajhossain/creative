@@ -5,11 +5,11 @@ import React from "react";
 
 export default function page() {
   return (
-    <div className="flex flex-col justify-between items-center mx-auto mt-[50px] w-[380px] md:w-[768px] xl:w-[1280px] lg:max-w-[1024px]">
+    <div className="flex flex-col justify-between items-center mx-auto mt-[50px] w-[380px] md:w-[768px] xl:w-[1280px] lg:max-w-[1024px] text-white">
       <div>
         {/* Top Side */}
         <div>
-          <h3 className="mx-auto mb-[50px] lg:w-[600px] font-semibold text-[30px] lg:text-[45px] text-center">
+          <h3 className="mx-auto mb-[50px] lg:w-[600px] font-semibold text-[30px] text-black lg:text-[45px] dark:text-white text-center">
             Elastic Unit{" "}
             <span className="hover:shadow-[0_0_7px_4px_#61caff] px-[10px] py-[5px] rounded-full text-cyan-400 transition-all duration-800">
               Details
@@ -19,7 +19,7 @@ export default function page() {
 
         {/* Bottom Side */}
 
-        <div className="flex flex-col justify-around items-center lg:items-start gap-[10px] bg-cyan-900/30 p-[30px] lg:w-[1024px] xl:w-[1280px] lg:text-left text-center">
+        <div className="flex flex-col justify-around items-center lg:items-start gap-[10px] bg-cyan-900 dark:bg-cyan-900/30 p-[30px] lg:w-[1024px] xl:w-[1280px] lg:text-left text-center">
           <h2 className="py-[10px] border-cyan-400 border-b-2 w-full text-amber-200 text-3xl">
             Elastic Unit – Where Flexibility Meets Innovation
           </h2>
@@ -30,7 +30,7 @@ export default function page() {
             offer a wide range of styles, textures, and colors tailored to fit
             your vision.
           </p>
-          <h3 className="py-[10px] border-cyan-400 border-b-2 w-full text-amber-100 text-2xl">
+          <h3 className="py-[10px] border-b-2 border-b-cyan-400 text-amber-100 text-2xl">
             Our Collection of Elastic Excellence
           </h3>
           <h4>
@@ -60,14 +60,8 @@ export default function page() {
             precision crochet machines. Fully customizable in hole size, width,
             and spacing, this is the ideal choice for adjustable applications.
           </h4>
-          <h4>
-            <span className="text-green-400 text-lg">Jacquard Elastic :</span>{" "}
-            Where style and structure intertwine. Our Jacquard elastic is
-            available in both Polyester and Nylon, offering endless
-            possibilities in design, color, and size. From bold branding to
-            intricate detailing, we weave your identity into every piece.
-          </h4>
-          <h3 className="py-[10px] border-cyan-400 border-b-2 w-full text-amber-100 text-2xl">
+
+          <h3 className="py-[10px] border-b-2 border-b-cyan-400 text-amber-100 text-2xl">
             Customization is Our Craft
           </h3>
           <h3>
@@ -75,7 +69,7 @@ export default function page() {
             solutions based on your designs, sizes, colors, and technical specs.
             We turn your requirements into reality woven to perfection.
           </h3>
-          <h3 className="py-[10px] border-cyan-400 border-b-2 w-full text-amber-100 text-2xl">
+          <h3 className="py-[10px] border-b-2 border-b-cyan-400 text-amber-100 text-2xl">
             Partner with Elastic Unit
           </h3>
           <h3>
@@ -83,6 +77,12 @@ export default function page() {
             a designer, manufacturer, or innovator we're here to support your
             vision with flexibility, quality, and unmatched service.
           </h3>
+          {/* Closing Tag */}
+          <div className="flex flex-row justify-between items-center gap-2 mx-auto mt-[10px]">
+            <h3 className="dark:bg-white w-[40px] h-[3px]"></h3>
+            <h3 className="dark:bg-white rounded-full w-[10px] h-[10px]"></h3>
+            <h3 className="dark:bg-white w-[40px] h-[3px]"></h3>
+          </div>
         </div>
       </div>
       {/* Gallery */}

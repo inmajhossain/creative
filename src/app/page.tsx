@@ -6,18 +6,15 @@ import Hero from "@/components/body/Hero";
 import Units from "@/components/body/Units";
 import { useState, useEffect } from "react";
 import Form from "../components/body/form";
-
 import Drawstring from "@/components/Product/Drawstring";
 import UnitDetails from "@/components/Product/UnitDetails";
 import Elastic from "@/components/Product/Elastic";
 import TwillTape from "@/components/Product/TwillTape";
-
-import Image from "next/image";
-import message from "@/image/message.webp";
 import Buyers from "@/components/body/Buyers";
 import Jaquard from "@/components/Product/Jaquard";
 import Belt from "@/components/Product/Belt";
 import Rib from "@/components/Product/Rib";
+import ChairmanNote from "@/components/body/ChairmanNote";
 
 export default function Home() {
   const [isModalOpen, setIsModalOpen] = useState(true); // Modal starts open
@@ -88,20 +85,19 @@ export default function Home() {
         <div className="relative">
           <Hero />
           <Carousel />
+          <ChairmanNote />
           <Buyers />
-
           <Units />
           <Dedicated />
           <UnitDetails />
           <Elastic />
-
+          <Jaquard />
           <Drawstring />
           <TwillTape />
-          <Jaquard />
           <Belt />
+          <Rib />
           <Form />
           <Directors />
-          <Rib />
         </div>
       )}
     </div>
