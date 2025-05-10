@@ -70,12 +70,12 @@ export default function Home() {
   return (
     <div className="">
       {isModalOpen && (
-        <div className="fixed inset-0 flex justify-center items-center bg-black bg-opacity-50 mt-[60px] lg:mt-0">
-          <div className="bg-emerald-800 shadow-lg mx-auto p-6 rounded w-[380px] md:w-[700px] lg:w-[1000px] text-center">
-            <h2 className="mb-4 font-bold text-amber-100 text-lg lg:text-2xl">
+        <div className="fixed inset-0 flex justify-center items-center bg-black lg:bg-[url('@/image/hero/creative.webp')] lg:bg-cover bg-no-repeat mt-[60px] lg:mt-0 md:min-h-screen object-cover md:object-center">
+          <div className="bg-emerald-800 shadow-lg mx-auto lg:mt-[50px] p-6 rounded-[10px] w-[380px] md:w-[700px] lg:w-[1000px] text-center">
+            <h2 className="mb-4 font-bold text-amber-100 text-sm lg:text-2xl">
               Garments Accessories Manufacturer & Supplier.
             </h2>
-            <motion.h2 className="flex space-x-2 mb-4 font-bold text-[15px] text-white lg:text-5xl">
+            <motion.h2 className="flex space-x-2 mx-auto mb-4 font-bold text-[15px] text-white lg:text-5xl text-center">
               {words.map((word, index) => (
                 <motion.span
                   key={index}
@@ -85,7 +85,7 @@ export default function Home() {
                     delay: index * 0.5,
                     ease: "easeIn",
                   }}
-                  className={`inline-block font-bold  animate-pulse ${
+                  className={`inline-block font-bold  animate-pulse text-center ${
                     colors[index % colors.length]
                   }`}
                 >
@@ -94,7 +94,7 @@ export default function Home() {
               ))}
             </motion.h2>
 
-            <h2 className="mx-auto mb-[25px] w-full lg:w-[880px] text-white">
+            <h2 className="mx-auto mb-[25px] w-full lg:w-[880px] text-[14px] text-white md:text-[17px]">
               Creative offers you the most comprehensive & competitive range of
               bottom trims in Ready-made Garments Sector. We always strive to
               provide customer’s full satisfaction & round the clock basis
@@ -102,7 +102,7 @@ export default function Home() {
             </h2>
             <button
               onClick={closeModal}
-              className="group relative lg:flex bg-black hover:shadow-[0_0_7px_4px_#61caff] active:shadow-[0_0_10px_5px_rgba(168,85,247,0.4)] mx-auto lg:mt-0 px-8 py-3 border-2 border-cyan-400 font-semibold text-white active:scale-95 transition-all duration-800"
+              className="group relative lg:flex hover:shadow-[0_0_7px_4px_#61caff] active:shadow-[0_0_10px_5px_rgba(168,85,247,0.4)] mx-auto lg:mt-0 px-8 py-3 border-2 border-cyan-400 font-semibold text-white active:scale-95 transition-all duration-800"
             >
               Get Started
             </button>
