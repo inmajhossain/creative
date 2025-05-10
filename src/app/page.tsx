@@ -17,6 +17,8 @@ import Rib from "@/components/Product/Rib";
 import ChairmanNote from "@/components/body/ChairmanNote";
 import Production from "@/components/body/Production";
 import { motion } from "framer-motion";
+import creative from "@/image/hero/creative.webp";
+import Image from "next/image";
 
 export default function Home() {
   const words = "Welcome to Creative Tape Industries Ltd.".split(" ");
@@ -70,8 +72,14 @@ export default function Home() {
   return (
     <div className="">
       {isModalOpen && (
-        <div className="fixed inset-0 flex justify-center items-center bg-black lg:bg-[url('@/image/hero/creative.webp')] lg:bg-cover bg-no-repeat mt-[60px] lg:mt-0 md:min-h-screen object-cover md:object-center">
-          <div className="bg-emerald-800 shadow-lg mx-auto lg:mt-[50px] p-6 rounded-[10px] w-[380px] md:w-[700px] lg:w-[1000px] text-center">
+        <div className="fixed inset-0 flex justify-center items-center bg-black mt-[60px] lg:mt-0">
+          <Image
+            src={creative}
+            alt="creative"
+            layout="fill" // Use layout fill to cover the parent div
+            className="hidden top-[80px] z-[-5] absolute lg:flex lg:mt-[50px] object-fit" // Ensure the image covers the div without distortion
+          />
+          <div className="bg-emerald-800/90 shadow-lg mx-auto lg:mt-[50px] p-6 rounded-[10px] w-[380px] md:w-[700px] lg:w-[1000px] text-center">
             <h2 className="mb-4 font-bold text-amber-100 text-sm lg:text-2xl">
               Garments Accessories Manufacturer & Supplier.
             </h2>
