@@ -16,8 +16,20 @@ import Belt from "@/components/Product/Belt";
 import Rib from "@/components/Product/Rib";
 import ChairmanNote from "@/components/body/ChairmanNote";
 import Production from "@/components/body/Production";
+import { motion } from "framer-motion";
 
 export default function Home() {
+  const words = "Welcome to Creative Tape Industries Ltd.".split(" ");
+
+  const colors = [
+    "text-green-400",
+    "text-white",
+    "text-cyan-400",
+    "text-cyan-400",
+    "text-cyan-400",
+    "text-cyan-400",
+  ];
+
   const [isModalOpen, setIsModalOpen] = useState(true); // Modal starts open
 
   const closeModal = () => {
@@ -38,7 +50,7 @@ export default function Home() {
 
   if (loading)
     return (
-      <div className="flex flex-col items-center gap-[30px] mx-auto mt-[150px] lg:mt-[350px] w-[500px] h-[800px]">
+      <div className="flex flex-col items-center gap-[30px] mx-auto mt-[150px] lg:mt-[350px] w-[380px] md:w-[500px] h-[800px]">
         <div className="flex gap-[30px]">
           <div className="border-4 border-sky-900 border-b-transparent rounded-full w-10 h-10 animate-spin"></div>
           <div className="border-4 border-red-600 border-b-transparent rounded-full w-10 h-10 animate-spin"></div>
@@ -59,15 +71,30 @@ export default function Home() {
     <div className="">
       {isModalOpen && (
         <div className="fixed inset-0 flex justify-center items-center bg-black bg-opacity-50 mt-[60px] lg:mt-0">
-          <div className="bg-emerald-800 shadow-lg p-6 rounded text-center">
+          <div className="bg-emerald-800 shadow-lg mx-auto p-6 rounded w-[380px] md:w-[700px] lg:w-[1000px] text-center">
             <h2 className="mb-4 font-bold text-amber-100 text-lg lg:text-2xl">
               Garments Accessories Manufacturer & Supplier.
             </h2>
-            <h2 className="mb-4 font-bold text-[22px] text-white lg:text-5xl">
-              Welcome to Creative Tape Industries Ltd.
-            </h2>
+            <motion.h2 className="flex space-x-2 mb-4 font-bold text-[15px] text-white lg:text-5xl">
+              {words.map((word, index) => (
+                <motion.span
+                  key={index}
+                  animate={{ opacity: [0, 100] }}
+                  transition={{
+                    duration: 3,
+                    delay: index * 0.5,
+                    ease: "easeIn",
+                  }}
+                  className={`inline-block font-bold  animate-pulse ${
+                    colors[index % colors.length]
+                  }`}
+                >
+                  {word}
+                </motion.span>
+              ))}
+            </motion.h2>
 
-            <h2 className="mx-auto mb-[25px] w-full lg:w-[880px] text-amber-100">
+            <h2 className="mx-auto mb-[25px] w-full lg:w-[880px] text-white">
               Creative offers you the most comprehensive & competitive range of
               bottom trims in Ready-made Garments Sector. We always strive to
               provide customer’s full satisfaction & round the clock basis
