@@ -10,7 +10,7 @@ export default function Dedicated() {
       <div>
         <h3 className="mx-auto mt-[20px] lg:w-[600px] font-semibold text-[30px] lg:text-[45px] text-center">
           Empowers{" "}
-          <span className="hover:shadow-[0_0_7px_4px_#61caff] px-[10px] py-[5px] rounded-full text-cyan-400 transition-all duration-800">
+          <span className="hover:shadow-[0_0_7px_4px_#61caff] px-[10px] py-[5px] rounded-full text-cyan-600 transition-all duration-800">
             Dedication{" "}
           </span>
         </h3>
@@ -23,13 +23,13 @@ export default function Dedicated() {
         <div className="flex flex-col justify-between items-center lg:items-start gap-[20px] mb-[20px] lg:mb-0 lg:w-[500px] lg:text-left text-center">
           <h2 className="text-[20px] lg:text-[32px] lg:leading-tight">
             Our Experts dedicated teamwork{" "}
-            <span className="dark:text-cyan-400">always empowers</span> our
+            <span className="dark:text-cyan-600">always empowers</span> our
             Buyer’s energy.
           </h2>
           <h3 className="text-[14px] lg:text-[18px]">
             Creative offers you the most comprehensive & competitive range of
             bottom trims in Ready-made Garments Sector.{" "}
-            <span className="dark:text-cyan-400">
+            <span className="dark:text-cyan-600">
               We always strive to provide customer’s full satisfaction & round
               the clock basis services.
             </span>

@@ -65,9 +65,9 @@ export default function DrawstringContent() {
           </h3>
           {/* Closing Tag */}
           <div className="flex flex-row justify-between items-center gap-2 mx-auto mt-[10px]">
-            <h3 className="dark:bg-white w-[40px] h-[3px]"></h3>
-            <h3 className="dark:bg-white rounded-full w-[10px] h-[10px]"></h3>
-            <h3 className="dark:bg-white w-[40px] h-[3px]"></h3>
+            <h3 className="bg-white w-[40px] h-[3px]"></h3>
+            <h3 className="bg-white rounded-full w-[10px] h-[10px]"></h3>
+            <h3 className="bg-white w-[40px] h-[3px]"></h3>
           </div>
         </div>
       </div>

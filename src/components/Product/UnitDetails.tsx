@@ -22,7 +22,7 @@ export default function UnitDetails() {
         <div className="flex flex-col justify-between items-start gap-[50px]">
           {/* First */}
           <div className="flex flex-col justify-around items-center lg:items-start gap-[10px] bg-cyan-900 dark:bg-cyan-900/30 p-[30px] lg:w-[900px] lg:text-left text-center">
-            <h2 className="py-[10px] border-cyan-400 border-b-2 w-full dark:text-amber-200 text-3xl">
+            <h2 className="py-[10px] border-cyan-400 border-b-2 w-full text-amber-200 text-3xl">
               Elastic Unit – Where Flexibility Meets Innovation
             </h2>
             <p>
@@ -89,15 +89,55 @@ export default function UnitDetails() {
             </h3>
             {/* Closing Tag */}
             <div className="flex flex-row justify-between items-center gap-2 mx-auto mt-[10px]">
-              <h3 className="dark:bg-white w-[40px] h-[3px]"></h3>
-              <h3 className="dark:bg-white rounded-full w-[10px] h-[10px]"></h3>
-              <h3 className="dark:bg-white w-[40px] h-[3px]"></h3>
+              <h3 className="bg-white w-[40px] h-[3px]"></h3>
+              <h3 className="bg-white rounded-full w-[10px] h-[10px]"></h3>
+              <h3 className="bg-white w-[40px] h-[3px]"></h3>
             </div>
           </div>
           {/* Second */}
-
           <div className="flex flex-col justify-around items-center lg:items-start gap-[10px] bg-green-900 dark:bg-green-900/30 p-[30px] lg:w-[900px] lg:text-left text-center">
-            <h2 className="py-[10px] border-cyan-400 border-b-2 w-full dark:text-amber-200 text-3xl">
+            <h2 className="py-[10px] border-cyan-400 border-b-2 w-full text-amber-200 text-3xl">
+              Jacquard Elastic – Where Style and Structure Intertwine
+            </h2>
+            <p>
+              At Jaquard Elastic Unit, our Jacquard elastic is more than just a
+              component—it's a statement. Woven with precision on advanced
+              Jacquard looms, this elastic combines strength with
+              high-definition patterns to deliver unmatched visual appeal and
+              performance.
+            </p>
+
+            <h4>
+              Available in Polyester and Nylon bases, our Jacquard elastic
+              supports intricate logos, text, and motifs in a variety of colors
+              and finishes. From bold branding on waistbands to delicate
+              detailing on fashion and functional wear, this elastic is designed
+              to elevate your product’s identity.
+            </h4>
+            <h4>
+              Choose from a wide range of widths, textures, and design options,
+              or bring your own pattern to life with our fully customizable
+              Jacquard services. Whether you’re building a high-performance
+              sports line or a luxury lingerie collection, our Jacquard elastic
+              blends durability, flexibility, and design innovation seamlessly.
+            </h4>
+
+            <h3 className="py-[10px] w-full dark:text-amber-100 text-2xl">
+              Distinctive. Durable. Designed for you. That’s Jacquard Elastic
+              Unit.
+            </h3>
+            {/* Closing Tag */}
+            <div className="flex flex-row justify-between items-center gap-2 mx-auto mt-[10px]">
+              <h3 className="bg-white w-[40px] h-[3px]"></h3>
+              <h3 className="bg-white rounded-full w-[10px] h-[10px]"></h3>
+              <h3 className="bg-white w-[40px] h-[3px]"></h3>
+            </div>
+          </div>
+
+          {/* Third */}
+
+          <div className="flex flex-col justify-around items-center lg:items-start gap-[10px] bg-cyan-900 dark:bg-cyan-900/30 p-[30px] lg:w-[900px] lg:text-left text-center">
+            <h2 className="py-[10px] border-cyan-400 border-b-2 w-full text-amber-200 text-3xl">
               Drawstring Unit – Where Detail Makes the Difference
             </h2>
             <p>
@@ -151,14 +191,15 @@ export default function UnitDetails() {
             </h3>
             {/* Closing Tag */}
             <div className="flex flex-row justify-between items-center gap-2 mx-auto mt-[10px]">
-              <h3 className="dark:bg-white w-[40px] h-[3px]"></h3>
-              <h3 className="dark:bg-white rounded-full w-[10px] h-[10px]"></h3>
-              <h3 className="dark:bg-white w-[40px] h-[3px]"></h3>
+              <h3 className="bg-white w-[40px] h-[3px]"></h3>
+              <h3 className="bg-white rounded-full w-[10px] h-[10px]"></h3>
+              <h3 className="bg-white w-[40px] h-[3px]"></h3>
             </div>
           </div>
-          {/* Third */}
-          <div className="flex flex-col justify-around items-center lg:items-start gap-[10px] bg-cyan-900 dark:bg-cyan-900/30 p-[30px] lg:w-[900px] lg:text-left text-center id-twilltape">
-            <h2 className="py-[10px] border-cyan-400 border-b-2 w-full dark:text-amber-200 text-3xl">
+
+          {/* Four */}
+          <div className="flex flex-col justify-around items-center lg:items-start gap-[10px] bg-green-900 dark:bg-green-900/30 p-[30px] lg:w-[900px] lg:text-left text-center id-twilltape">
+            <h2 className="py-[10px] border-cyan-400 border-b-2 w-full text-amber-200 text-3xl">
               Tape & Belt Unit – Woven to Impress
             </h2>
             <p>
@@ -198,14 +239,71 @@ export default function UnitDetails() {
             </h3>
             {/* Closing Tag */}
             <div className="flex flex-row justify-between items-center gap-2 mx-auto mt-[10px]">
-              <h3 className="dark:bg-white w-[40px] h-[3px]"></h3>
-              <h3 className="dark:bg-white rounded-full w-[10px] h-[10px]"></h3>
-              <h3 className="dark:bg-white w-[40px] h-[3px]"></h3>
+              <h3 className="bg-white w-[40px] h-[3px]"></h3>
+              <h3 className="bg-white rounded-full w-[10px] h-[10px]"></h3>
+              <h3 className="bg-white w-[40px] h-[3px]"></h3>
             </div>
           </div>
-          {/* Four */}
+
+          {/* Five */}
+          <div className="flex flex-col justify-around items-center lg:items-start gap-[10px] bg-cyan-900 dark:bg-cyan-900/30 p-[30px] lg:w-[900px] lg:text-left text-center">
+            <h2 className="py-[10px] border-cyan-400 border-b-2 w-full text-amber-200 text-3xl">
+              Sporting Tape or Rib Tape Unit
+            </h2>
+            <h2 className="py-[10px] border-b-2 border-b-cyan-400 text-amber-100 text-3xl">
+              Precision Support, Performance Style
+            </h2>
+            <p>
+              At Rib Tape Unit, we understand that performance wear demands more
+              than just stretch—it needs structure, comfort, and resilience. Our
+              Sporting and Rib Tape Unit delivers just that, offering tailored
+              solutions for activewear, outerwear, and technical garments.
+            </p>
+            <h3 className="py-[10px] border-b-2 border-b-cyan-400 dark:text-amber-100 text-2xl">
+              Our Range of Performance Enhancers
+            </h3>
+            <h4>
+              <span className="dark:text-green-400 text-lg">
+                Sporting Tape :
+              </span>{" "}
+              Designed for durability and flexibility, our sporting tape is
+              ideal for reinforcing seams, waistbands, cuffs, and collars. With
+              excellent stretch recovery and abrasion resistance, it supports
+              movement while retaining shape—even under the most intense
+              conditions. Perfect for activewear, uniforms, and athleisure
+              apparel.
+            </h4>
+            <h4>
+              A staple in garment finishing, our rib tape adds both function and
+              flair. Available in various textures, widths, and rib patterns, it
+              ensures snug fits and clean edges. Whether used in necklines,
+              sleeves, or hems, it provides comfort and structure while
+              enhancing your product’s overall look.
+            </h4>
+            <h4>
+              Manufactured with high-quality yarns and advanced weaving
+              technology, both tapes offer customizable options in color, width,
+              thickness, and elasticity to match your brand’s unique needs.
+            </h4>
+
+            <h3 className="py-[10px] border-b-2 border-b-cyan-400 dark:text-amber-100 text-2xl">
+              Built for Motion. Designed to Last.
+            </h3>
+            <h3>
+              From the gym to the street, our Sporting and Rib Tape Unit keeps
+              your garments in peak form, wear after wear.
+            </h3>
+            {/* Closing Tag */}
+            <div className="flex flex-row justify-between items-center gap-2 mx-auto mt-[10px]">
+              <h3 className="bg-white w-[40px] h-[3px]"></h3>
+              <h3 className="bg-white rounded-full w-[10px] h-[10px]"></h3>
+              <h3 className="bg-white w-[40px] h-[3px]"></h3>
+            </div>
+          </div>
+
+          {/* Six */}
           <div className="flex flex-col justify-around items-center lg:items-start gap-[10px] bg-green-900 dark:bg-green-900/30 p-[30px] lg:w-[900px] lg:text-left text-center">
-            <h2 className="py-[10px] border-cyan-400 border-b-2 w-full dark:text-amber-200 text-3xl">
+            <h2 className="py-[10px] border-cyan-400 border-b-2 w-full text-amber-200 text-3xl">
               Belt Unit – Strength in Style
             </h2>
             <p>
@@ -266,103 +364,9 @@ export default function UnitDetails() {
             </h3>
             {/* Closing Tag */}
             <div className="flex flex-row justify-between items-center gap-2 mx-auto mt-[10px]">
-              <h3 className="dark:bg-white w-[40px] h-[3px]"></h3>
-              <h3 className="dark:bg-white rounded-full w-[10px] h-[10px]"></h3>
-              <h3 className="dark:bg-white w-[40px] h-[3px]"></h3>
-            </div>
-          </div>
-          {/* Five */}
-          <div className="flex flex-col justify-around items-center lg:items-start gap-[10px] bg-cyan-900 dark:bg-cyan-900/30 p-[30px] lg:w-[900px] lg:text-left text-center">
-            <h2 className="py-[10px] border-cyan-400 border-b-2 w-full dark:text-amber-200 text-3xl">
-              Jacquard Elastic – Where Style and Structure Intertwine
-            </h2>
-            <p>
-              At Jaquard Elastic Unit, our Jacquard elastic is more than just a
-              component—it's a statement. Woven with precision on advanced
-              Jacquard looms, this elastic combines strength with
-              high-definition patterns to deliver unmatched visual appeal and
-              performance.
-            </p>
-
-            <h4>
-              Available in Polyester and Nylon bases, our Jacquard elastic
-              supports intricate logos, text, and motifs in a variety of colors
-              and finishes. From bold branding on waistbands to delicate
-              detailing on fashion and functional wear, this elastic is designed
-              to elevate your product’s identity.
-            </h4>
-            <h4>
-              Choose from a wide range of widths, textures, and design options,
-              or bring your own pattern to life with our fully customizable
-              Jacquard services. Whether you’re building a high-performance
-              sports line or a luxury lingerie collection, our Jacquard elastic
-              blends durability, flexibility, and design innovation seamlessly.
-            </h4>
-
-            <h3 className="py-[10px] w-full dark:text-amber-100 text-2xl">
-              Distinctive. Durable. Designed for you. That’s Jacquard Elastic
-              Unit.
-            </h3>
-            {/* Closing Tag */}
-            <div className="flex flex-row justify-between items-center gap-2 mx-auto mt-[10px]">
-              <h3 className="dark:bg-white w-[40px] h-[3px]"></h3>
-              <h3 className="dark:bg-white rounded-full w-[10px] h-[10px]"></h3>
-              <h3 className="dark:bg-white w-[40px] h-[3px]"></h3>
-            </div>
-          </div>
-          {/* Six */}
-          <div className="flex flex-col justify-around items-center lg:items-start gap-[10px] bg-green-900 dark:bg-green-900/30 p-[30px] lg:w-[900px] lg:text-left text-center">
-            <h2 className="py-[10px] border-cyan-400 border-b-2 w-full dark:text-amber-200 text-3xl">
-              Sporting Tape or Rib Tape Unit
-            </h2>
-            <h2 className="py-[10px] border-b-2 border-b-cyan-400 dark:text-amber-200 text-3xl">
-              Precision Support, Performance Style
-            </h2>
-            <p>
-              At Rib Tape Unit, we understand that performance wear demands more
-              than just stretch—it needs structure, comfort, and resilience. Our
-              Sporting and Rib Tape Unit delivers just that, offering tailored
-              solutions for activewear, outerwear, and technical garments.
-            </p>
-            <h3 className="py-[10px] border-b-2 border-b-cyan-400 dark:text-amber-100 text-2xl">
-              Our Range of Performance Enhancers
-            </h3>
-            <h4>
-              <span className="dark:text-green-400 text-lg">
-                Sporting Tape :
-              </span>{" "}
-              Designed for durability and flexibility, our sporting tape is
-              ideal for reinforcing seams, waistbands, cuffs, and collars. With
-              excellent stretch recovery and abrasion resistance, it supports
-              movement while retaining shape—even under the most intense
-              conditions. Perfect for activewear, uniforms, and athleisure
-              apparel.
-            </h4>
-            <h4>
-              A staple in garment finishing, our rib tape adds both function and
-              flair. Available in various textures, widths, and rib patterns, it
-              ensures snug fits and clean edges. Whether used in necklines,
-              sleeves, or hems, it provides comfort and structure while
-              enhancing your product’s overall look.
-            </h4>
-            <h4>
-              Manufactured with high-quality yarns and advanced weaving
-              technology, both tapes offer customizable options in color, width,
-              thickness, and elasticity to match your brand’s unique needs.
-            </h4>
-
-            <h3 className="py-[10px] border-b-2 border-b-cyan-400 dark:text-amber-100 text-2xl">
-              Built for Motion. Designed to Last.
-            </h3>
-            <h3>
-              From the gym to the street, our Sporting and Rib Tape Unit keeps
-              your garments in peak form, wear after wear.
-            </h3>
-            {/* Closing Tag */}
-            <div className="flex flex-row justify-between items-center gap-2 mx-auto mt-[10px]">
-              <h3 className="dark:bg-white w-[40px] h-[3px]"></h3>
-              <h3 className="dark:bg-white rounded-full w-[10px] h-[10px]"></h3>
-              <h3 className="dark:bg-white w-[40px] h-[3px]"></h3>
+              <h3 className="bg-white w-[40px] h-[3px]"></h3>
+              <h3 className="bg-white rounded-full w-[10px] h-[10px]"></h3>
+              <h3 className="bg-white w-[40px] h-[3px]"></h3>
             </div>
           </div>
         </div>
@@ -372,42 +376,42 @@ export default function UnitDetails() {
           <motion.div
             animate={{ y: [200, 0] }}
             transition={{ duration: 3, delay: 1 }}
-            className="top-[120px] right-[-40] absolute flex justify-center items-center bg-slate-100 shadow-[0_0_7px_4px_#61caff] border-2 border-cyan-400 rounded-full w-[80px] h-[80px] overflow-hidden font-bold text-[30px] text-cyan-950 text-center hover:rotate-360 transition-all animate-rotate duration-1000"
+            className="top-[85px] right-[-40] absolute flex justify-center items-center bg-slate-100 shadow-[0_0_7px_4px_#61caff] border-2 border-cyan-400 rounded-full w-[80px] h-[80px] overflow-hidden font-bold text-[30px] text-cyan-950 text-center hover:rotate-360 transition-all animate-rotate duration-1000"
           >
             1
           </motion.div>
           <motion.div
             animate={{ y: [200, 0] }}
             transition={{ duration: 3, delay: 1 }}
-            className="top-[1060px] right-[-40] absolute flex justify-center items-center bg-slate-100 shadow-[0_0_7px_4px_#61caff] border-2 border-cyan-400 rounded-full w-[80px] h-[80px] overflow-hidden font-bold text-[30px] text-cyan-950 text-center hover:rotate-360 transition-all animate-rotate duration-1000"
+            className="top-[970px] right-[-40] absolute flex justify-center items-center bg-slate-100 shadow-[0_0_7px_4px_#61caff] border-2 border-cyan-400 rounded-full w-[80px] h-[80px] overflow-hidden font-bold text-[30px] text-cyan-950 text-center hover:rotate-360 transition-all animate-rotate duration-1000"
           >
             2
           </motion.div>
           <motion.div
             animate={{ y: [200, 0] }}
             transition={{ duration: 3, delay: 1 }}
-            className="top-[1740px] right-[-40] absolute flex justify-center items-center bg-slate-100 shadow-[0_0_7px_4px_#61caff] border-2 border-cyan-400 rounded-full w-[80px] h-[80px] overflow-hidden font-bold text-[30px] text-cyan-950 text-center hover:rotate-360 transition-all animate-rotate duration-1000"
+            className="top-[1475px] right-[-40] absolute flex justify-center items-center bg-slate-100 shadow-[0_0_7px_4px_#61caff] border-2 border-cyan-400 rounded-full w-[80px] h-[80px] overflow-hidden font-bold text-[30px] text-cyan-950 text-center hover:rotate-360 transition-all animate-rotate duration-1000"
           >
             3
           </motion.div>
           <motion.div
             animate={{ y: [200, 0] }}
             transition={{ duration: 3, delay: 1 }}
-            className="top-[2340px] right-[-40] absolute flex justify-center items-center bg-slate-100 shadow-[0_0_7px_4px_#61caff] border-2 border-cyan-400 rounded-full w-[80px] h-[80px] overflow-hidden font-bold text-[30px] text-cyan-950 text-center hover:rotate-360 transition-all animate-rotate duration-1000"
+            className="top-[2190px] right-[-40] absolute flex justify-center items-center bg-slate-100 shadow-[0_0_7px_4px_#61caff] border-2 border-cyan-400 rounded-full w-[80px] h-[80px] overflow-hidden font-bold text-[30px] text-cyan-950 text-center hover:rotate-360 transition-all animate-rotate duration-1000"
           >
             4
           </motion.div>
           <motion.div
             animate={{ y: [200, 0] }}
             transition={{ duration: 3, delay: 1 }}
-            className="top-[3050px] right-[-40] absolute flex justify-center items-center bg-slate-100 shadow-[0_0_7px_4px_#61caff] border-2 border-cyan-400 rounded-full w-[80px] h-[80px] overflow-hidden font-bold text-[30px] text-cyan-950 text-center hover:rotate-360 transition-all animate-rotate duration-1000"
+            className="top-[2820px] right-[-40] absolute flex justify-center items-center bg-slate-100 shadow-[0_0_7px_4px_#61caff] border-2 border-cyan-400 rounded-full w-[80px] h-[80px] overflow-hidden font-bold text-[30px] text-cyan-950 text-center hover:rotate-360 transition-all animate-rotate duration-1000"
           >
             5
           </motion.div>
           <motion.div
             animate={{ y: [200, 0] }}
             transition={{ duration: 3, delay: 1 }}
-            className="top-[3600px] right-[-40] absolute flex justify-center items-center bg-slate-100 shadow-[0_0_7px_4px_#61caff] border-2 border-cyan-400 rounded-full w-[80px] h-[80px] overflow-hidden font-bold text-[30px] text-cyan-950 text-center hover:rotate-360 transition-all animate-rotate duration-1000"
+            className="top-[3580px] right-[-40] absolute flex justify-center items-center bg-slate-100 shadow-[0_0_7px_4px_#61caff] border-2 border-cyan-400 rounded-full w-[80px] h-[80px] overflow-hidden font-bold text-[30px] text-cyan-950 text-center hover:rotate-360 transition-all animate-rotate duration-1000"
           >
             6
           </motion.div>

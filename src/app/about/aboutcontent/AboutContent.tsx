@@ -25,7 +25,7 @@ const AboutContent = () => {
           <h2 className="mb-2 font-bold dark:text-amber-100 text-sm uppercase tracking-wider">
             About Us
           </h2>
-          <h1 className="mb-6 font-bold text-gray-900 dark:text-cyan-400 text-4xl md:text-5xl">
+          <h1 className="mb-6 font-bold text-gray-900 dark:text-cyan-600 text-4xl md:text-5xl">
             <span className="relative">
               Creative Tape Industries Ltd
               <span className="bottom-[-10] left-0 absolute dark:bg-amber-100 mx-auto w-full h-1"></span>
@@ -52,13 +52,13 @@ const AboutContent = () => {
             </p>
             <div className="gap-4 grid grid-cols-2">
               <div className="bg-white dark:bg-gray-800/50 shadow-md p-4 rounded-lg text-center">
-                <div className="mb-1 font-bold text-cyan-400 text-xl">100+</div>
+                <div className="mb-1 font-bold text-cyan-600 text-xl">100+</div>
                 <div className="text-gray-600 dark:text-gray-300 text-sm">
                   Skilled Employees
                 </div>
               </div>
               <div className="bg-white dark:bg-gray-800/50 shadow-md p-4 rounded-lg text-center">
-                <div className="mb-1 font-bold text-cyan-400 text-xl">
+                <div className="mb-1 font-bold text-cyan-600 text-xl">
                   30,000
                 </div>
                 <div className="text-gray-600 dark:text-gray-300 text-sm">
@@ -66,13 +66,13 @@ const AboutContent = () => {
                 </div>
               </div>
               <div className="bg-white dark:bg-gray-800/50 shadow-md p-4 rounded-lg text-center">
-                <div className="mb-1 font-bold text-cyan-400 text-xl">2006</div>
+                <div className="mb-1 font-bold text-cyan-600 text-xl">2006</div>
                 <div className="text-gray-600 dark:text-gray-300 text-sm">
                   Established
                 </div>
               </div>
               <div className="bg-white dark:bg-gray-800/50 shadow-md p-4 rounded-lg text-center">
-                <div className="mb-1 font-bold text-cyan-400 text-xl">24/7</div>
+                <div className="mb-1 font-bold text-cyan-600 text-xl">24/7</div>
                 <div className="text-gray-600 dark:text-gray-300 text-sm">
                   Production Capacity
                 </div>
@@ -89,9 +89,9 @@ const AboutContent = () => {
               />
               <div className="absolute inset-0 bg-emerald-600 opacity-20"></div>
               <div className="right-4 bottom-4 left-4 absolute bg-white dark:bg-gray-800 shadow-lg px-4 py-2 rounded-lg text-center">
-                <span className="font-bold text-[16px] text-cyan-400">
+                <span className="font-bold text-[16px] text-cyan-600">
                   136, Abdul Zabbar Sarker Road Durgapur, Kathgara, Bara
-                  Rangamatia Ashulia, Savar, Dhaka.
+                  Rangamatia, Ashulia, Savar, Dhaka.
                 </span>
               </div>
             </div>
@@ -112,7 +112,7 @@ const AboutContent = () => {
                 >
                   <div className="flex justify-center items-center bg-emerald-100 dark:bg-emerald-900 mr-3 rounded-full w-10 h-10">
                     <svg
-                      className="w-5 h-5 text-cyan-400"
+                      className="w-5 h-5 text-cyan-600"
                       fill="currentColor"
                       viewBox="0 0 20 20"
                     >
@@ -140,7 +140,7 @@ const AboutContent = () => {
                 key={tab.id}
                 className={`py-3 px-6 font-medium text-sm whitespace-nowrap transition-colors ${
                   activeTab === tab.id
-                    ? "text-cyan-400 border-b-2 border-emerald-600"
+                    ? "text-cyan-600 border-b-2 border-emerald-600"
                     : "text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100"
                 }`}
                 onClick={() => setActiveTab(tab.id)}
@@ -252,7 +252,7 @@ const AboutContent = () => {
                       key={index}
                       className="bg-gray-50 dark:bg-gray-700 p-4 rounded-lg text-center"
                     >
-                      <div className="mb-1 font-bold text-cyan-400 text-2xl">
+                      <div className="mb-1 font-bold text-cyan-600 text-2xl">
                         {machine.count}
                       </div>
                       <div className="text-gray-700 dark:text-gray-300">
@@ -273,7 +273,7 @@ const AboutContent = () => {
                   <div className="flex items-start">
                     <div className="flex flex-shrink-0 justify-center items-center bg-emerald-100 dark:bg-emerald-900 mr-3 rounded-full w-10 h-10">
                       <svg
-                        className="w-6 h-6 text-cyan-400"
+                        className="w-6 h-6 text-cyan-600"
                         fill="none"
                         stroke="currentColor"
                         viewBox="0 0 24 24"
@@ -298,7 +298,7 @@ const AboutContent = () => {
                   <div className="flex items-start">
                     <div className="flex flex-shrink-0 justify-center items-center bg-emerald-100 dark:bg-emerald-900 mr-3 rounded-full w-10 h-10">
                       <svg
-                        className="w-6 h-6 text-cyan-400"
+                        className="w-6 h-6 text-cyan-600"
                         fill="none"
                         stroke="currentColor"
                         viewBox="0 0 24 24"
@@ -323,7 +323,7 @@ const AboutContent = () => {
                   <div className="flex items-start">
                     <div className="flex flex-shrink-0 justify-center items-center bg-emerald-100 dark:bg-emerald-900 mr-3 rounded-full w-10 h-10">
                       <svg
-                        className="w-6 h-6 text-cyan-400"
+                        className="w-6 h-6 text-cyan-600"
                         fill="none"
                         stroke="currentColor"
                         viewBox="0 0 24 24"
@@ -348,7 +348,7 @@ const AboutContent = () => {
                   <div className="flex items-start">
                     <div className="flex flex-shrink-0 justify-center items-center bg-emerald-100 dark:bg-emerald-900 mr-3 rounded-full w-10 h-10">
                       <svg
-                        className="w-6 h-6 text-cyan-400"
+                        className="w-6 h-6 text-cyan-600"
                         fill="none"
                         stroke="currentColor"
                         viewBox="0 0 24 24"
@@ -373,7 +373,7 @@ const AboutContent = () => {
                   <div className="flex items-start">
                     <div className="flex flex-shrink-0 justify-center items-center bg-emerald-100 dark:bg-emerald-900 mr-3 rounded-full w-10 h-10">
                       <svg
-                        className="w-6 h-6 text-cyan-400"
+                        className="w-6 h-6 text-cyan-600"
                         fill="none"
                         stroke="currentColor"
                         viewBox="0 0 24 24"
@@ -398,7 +398,7 @@ const AboutContent = () => {
                   <div className="flex items-start">
                     <div className="flex flex-shrink-0 justify-center items-center bg-emerald-100 dark:bg-emerald-900 mr-3 rounded-full w-10 h-10">
                       <svg
-                        className="w-6 h-6 text-cyan-400"
+                        className="w-6 h-6 text-cyan-600"
                         fill="none"
                         stroke="currentColor"
                         viewBox="0 0 24 24"

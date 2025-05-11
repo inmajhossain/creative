@@ -10,7 +10,7 @@ export default function JacquardContent() {
         {/* Top Side */}
         <div>
           <h3 className="mx-auto mb-[50px] lg:w-[700px] font-semibold text-[30px] text-black lg:text-[45px] dark:text-white text-center">
-            Jaquard Elastic Unit{" "}
+            Jacquard Elastic Unit{" "}
             <span className="hover:shadow-[0_0_7px_4px_#61caff] px-[10px] py-[5px] rounded-full text-cyan-400 transition-all duration-800">
               Details
             </span>
@@ -51,9 +51,9 @@ export default function JacquardContent() {
           </h3>
           {/* Closing Tag */}
           <div className="flex flex-row justify-between items-center gap-2 mx-auto mt-[10px]">
-            <h3 className="dark:bg-white w-[40px] h-[3px]"></h3>
-            <h3 className="dark:bg-white rounded-full w-[10px] h-[10px]"></h3>
-            <h3 className="dark:bg-white w-[40px] h-[3px]"></h3>
+            <h3 className="bg-white w-[40px] h-[3px]"></h3>
+            <h3 className="bg-white rounded-full w-[10px] h-[10px]"></h3>
+            <h3 className="bg-white w-[40px] h-[3px]"></h3>
           </div>
         </div>
       </div>

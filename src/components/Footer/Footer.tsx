@@ -122,14 +122,14 @@ export default function Footer() {
               href="tel:+8801708517968"
               className="flex items-center gap-[5px]"
             >
-              <FaPhoneSquareAlt href="#" className="icon" />
+              <FaPhoneSquareAlt href="#" className="text-white icon" />
               <h3>+880 1708517968</h3>
             </Link>
             <Link
               href="tel:+8801795442366"
               className="flex items-center gap-[5px]"
             >
-              <FaPhoneSquareAlt href="#" className="icon" />
+              <FaPhoneSquareAlt href="#" className="text-white icon" />
               <h3>+880 1795442366</h3>
             </Link>
 
@@ -137,7 +137,7 @@ export default function Footer() {
               href="tel:+8801819214694"
               className="flex items-center gap-[5px]"
             >
-              <FaPhoneSquareAlt href="#" className="icon" />
+              <FaPhoneSquareAlt href="#" className="text-white icon" />
               <h3>+880 1819214694</h3>
             </Link>
           </div>
@@ -145,14 +145,14 @@ export default function Footer() {
         {/* Four End */}
 
         {/* Five Start */}
-        <div className="flex flex-col gap-[10px] mt-[-25px] lg:mt-0 w-[350px] text-white lg:text-left text-center">
+        <div className="flex flex-col gap-[10px] mt-[-25px] lg:mt-0 w-[360px] text-white lg:text-left text-center">
           <h3 className="lg:flex lg:flex-row lg:gap-[6px] border-amber-100 lg:border-0 border-b-2 text-[20px] text-amber-100">
             <span className="hidden lg:flex lg:flex-row">|</span> Corporate
             Office
           </h3>
 
           <h3>
-            Plot-54, Road-04, Block-K, Section-02 Rupnagar I/A. Shial Bari
+            Plot-54, Road-04, Block-K, Section-02 Rupnagar I/A. Shial Bari,
             Mirpur, Dhaka-1216.
           </h3>
           <h3 className="lg:flex lg:flex-row lg:gap-[6px] border-amber-100 lg:border-0 border-b-2 text-[20px] text-amber-100">
@@ -160,7 +160,7 @@ export default function Footer() {
           </h3>
           <h3>
             Factory: 136, Abdul Zabbar Sarker Road Durgapur, Kathgara, Bara
-            Rangamatia Ashulia, Savar, Dhaka.
+            Rangamatia, Ashulia, Savar, Dhaka.
           </h3>
         </div>
         {/* Five End */}

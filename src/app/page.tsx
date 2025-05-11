@@ -19,6 +19,7 @@ import Production from "@/components/body/Production";
 import { motion } from "framer-motion";
 import creative from "@/image/hero/creative.webp";
 import Image from "next/image";
+import Vision from "@/components/body/Vision";
 
 export default function Home() {
   const words = "Welcome to Creative Tape Industries Ltd.".split(" ");
@@ -123,7 +124,7 @@ export default function Home() {
           <Carousel />
           <ChairmanNote />
           <Buyers />
-          <Production />
+          <Vision />
           <Dedicated />
           <Units />
           <UnitDetails />
@@ -131,8 +132,8 @@ export default function Home() {
           <Jaquard />
           <Drawstring />
           <TwillTape />
-          <Belt />
           <Rib />
+          <Belt />
           <Form />
           <Directors />
         </div>

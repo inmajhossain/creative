@@ -24,16 +24,15 @@ export default function page() {
       <Carousel />
       <ChairmanNote />
       <Buyers />
-      <Production />
       <Dedicated />
       <Units />
       <UnitDetails />
       <Elastic />
+      <Jaquard />
       <Drawstring />
       <TwillTape />
-      <Jaquard />
-      <Belt />
       <Rib />
+      <Belt />
       <Form />
       <Directors />
     </div>

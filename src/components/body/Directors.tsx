@@ -15,13 +15,13 @@ const ImageCard = ({
   designation: string;
 }) => {
   return (
-    <div className="justify-center bg-cyan-950 shadow-[10px] hover:shadow-[0_0_7px_4px_#61caff] active:shadow-[0_0_10px_5px_rgba(168,85,247,0.4)] p-2 border-1 border-amber-100 rounded-[20px] max-w-[210px] h-[320px] overflow-hidden text-center hover:scale-105 transition-transform duration-700 container transform">
+    <div className="justify-center bg-cyan-950 shadow-[10px] hover:shadow-[0_0_7px_4px_#61caff] active:shadow-[0_0_10px_5px_rgba(168,85,247,0.4)] p-2 border-1 border-amber-100 rounded-[20px] max-w-[200px] h-[295px] overflow-hidden text-center hover:scale-105 transition-transform duration-700 container transform">
       <Image
         src={image}
         alt={name}
-        className="rounded-t-[20px] w-[200px] object-contain"
+        className="mx-auto rounded-t-[20px] w-[180px] object-contain"
       />
-      <h3 className="mt-2 font-semibold text-white text-lg">{name}</h3>
+      <h3 className="mt-2 font-semibold text-md text-white">{name}</h3>
       <p className="text-amber-100">{designation}</p>
     </div>
   );

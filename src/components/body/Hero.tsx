@@ -60,7 +60,7 @@ export default function Hero() {
             <h2 className="mb-4 font-thin text-white text-lg lg:text-4xl lobster">
               Message From Chairman...
             </h2>
-            <h2 className="mb-4 font-bold text-cyan-400 lg:text-4xl">
+            <h2 className="mb-4 font-bold text-cyan-600 lg:text-4xl">
               Welcome to Creative Tape Industries Ltd.
             </h2>
             <div className="flex flex-col justify-around items-start gap-[10px] mb-[20px] text-left">

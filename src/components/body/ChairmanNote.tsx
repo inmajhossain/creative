@@ -5,7 +5,7 @@ export default function ChairmanNote() {
     <motion.div
       animate={{ opacity: [0, 100] }}
       transition={{ duration: 3, delay: 2 }}
-      className="bg-cyan-100 dark:bg-cyan-950/90 shadow-lg mx-auto mt-[50px] lg:mt-[100px] p-6 border-2 border-cyan-400 rounded w-[380px] md:w-[768px] lg:w-[1024px] xl:w-[1200px] text-black text-md text-center"
+      className="bg-cyan-100 dark:bg-cyan-950/90 shadow-lg mx-auto mt-[50px] lg:mt-[100px] p-6 border-3 border-cyan-400 w-[380px] md:w-[768px] lg:w-[1024px] xl:w-[1200px] text-black text-md text-center"
     >
       <h2 className="mb-4 font-thin dark:text-white text-lg lg:text-4xl lobster">
         Message From Chairman...
@@ -54,6 +54,12 @@ export default function ChairmanNote() {
           this partnership, we realize our vision: "Customer satisfaction is our
           main motto."
         </h4>
+        {/* Closing Tag */}
+        <div className="flex flex-row justify-between items-center gap-2 mx-auto mt-[10px]">
+          <h3 className="bg-black dark:bg-white w-[40px] h-[3px]"></h3>
+          <h3 className="bg-black dark:bg-white rounded-full w-[10px] h-[10px]"></h3>
+          <h3 className="bg-black dark:bg-white w-[40px] h-[3px]"></h3>
+        </div>
       </div>
     </motion.div>
   );

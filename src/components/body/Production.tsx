@@ -6,41 +6,38 @@ const Production = () => {
     <motion.div
       animate={{ opacity: [0, 100] }}
       transition={{ duration: 3, delay: 2 }}
-      className="bg-cyan-100 dark:bg-transparent shadow-lg mx-auto mt-[50px] lg:mt-[100px] lg:p-[15px] px-[10px] border-2 border-cyan-400 dark:border-none rounded w-[380px] md:w-[768px] lg:w-[1024px] xl:w-[1200px] text-black text-md text-center"
+      className="flex lg:flex-row flex-col justify-around gap-[10px] bg-cyan-100 dark:bg-transparent shadow-lg mx-auto mt-[20px] lg:mt-[30px] lg:p-[15px] border-3 border-cyan-400 w-[380px] md:w-[768px] lg:w-[1024px] xl:w-[1024px] text-black text-md text-center"
     >
-      <h3 className="mx-auto mb-[20px] py-[10px] lg:w-[800px] font-semibold text-[30px] lg:text-[45px] dark:text-white text-center">
-        Everyday Production{" "}
-        <span className="hover:shadow-[0_0_7px_4px_#61caff] px-[10px] py-[5px] rounded-full text-cyan-400 transition-all duration-800">
-          Capacity{" "}
-        </span>
-      </h3>
-      {/* <h2 className="from-pink-400 to-cyan-400 mb-[50px] font-medium text-g text-lg lg:text-4xl">
-        Everyday Production Capacity...
-      </h2> */}
-
-      <div className="flex flex-col justify-around items-center gap-[10px] mb-[20px] lg:px-[30px] font-bold text-white xl:text-[15px] dark:text-black lg:text-left">
-        <h4 className="bg-cyan-900 dark:bg-slate-50 mx-auto xl:ml-0 px-[10px] py-[20px] rounded-[10px] w-[350px] lg:w-[580px] text-center">
+      <div className="flex lg:flex-row justify-center items-center md:px-[25px] md:py-[30px] border-green-600 md:border-r-3 md:w-[250px]">
+        <h3 className="py-[25px] md:py-0 border-green-600 border-b-3 md:border-none w-full font-bold text-[18px] text-rose-600 md:text-[30px] dark:text-white md:text-left text-center">
+          Everyday Production Capacity
+        </h3>
+      </div>
+      <div className="flex flex-col justify-around items-center space-y-[4px] lg:px-[5px] font-bold text-[12px] text-rose-600 xl:text-[18px] text-left">
+        <h4 className="w-[350px] lg:w-[650px] dark:text-white">
           Elastic & Hole Elastic : 50,000 Yards (Fifty Thousand Yards)
         </h4>
-        <h4 className="bg-cyan-900 dark:bg-slate-50 mx-auto xl:mr-0 px-[10px] py-[20px] rounded-[10px] w-[350px] lg:w-[580px] text-center">
-          Twill Tape, Grosgrain Tape : 25,000 Yards (Twenty Five Thousand Yards)
-        </h4>
-        <h4 className="bg-cyan-900 dark:bg-slate-50 mx-auto xl:ml-0 px-[10px] py-[20px] rounded-[10px] w-[350px] lg:w-[580px] text-center">
+        <h4 className="w-[350px] lg:w-[650px] text-purple-600 dark:text-amber-100">
           Jacquard Elastic : 20,000 Yards (Twenty Thousand Yards)
         </h4>
-        <h4 className="bg-cyan-900 dark:bg-slate-50 mx-auto xl:mr-0 px-[10px] py-[20px] rounded-[10px] w-[350px] lg:w-[580px] text-center">
+
+        <h4 className="w-[350px] lg:w-[650px] dark:text-white">
           Drawstring, Drawcord : 60,000 Yards (Sixty Thousand Yards)
         </h4>
-        <h4 className="bg-cyan-900 dark:bg-slate-50 mx-auto xl:ml-0 px-[10px] py-[20px] rounded-[10px] w-[350px] lg:w-[580px] text-center">
+        <h4 className="w-[350px] lg:w-[650px] text-purple-600 dark:text-amber-100">
+          Twill Tape, Grosgrain Tape : 25,000 Yards (Twenty Five Thousand Yards)
+        </h4>
+        <h4 className="w-[350px] lg:w-[650px] dark:text-white">
           Sporting Tape or Rib Tape : 20,000 Yards (Twenty Thousand Yards)
         </h4>
-        <h4 className="bg-cyan-900 dark:bg-slate-50 mx-auto xl:mr-0 px-[10px] py-[20px] rounded-[10px] w-[350px] lg:w-[580px] text-center">
+        <h4 className="w-[350px] lg:w-[650px] text-purple-600 dark:text-amber-100">
           Belts : 25,000 Pcs (Twenty Five Thousand Pcs)
         </h4>
-        <h4 className="bg-cyan-900 dark:bg-slate-50 mx-auto xl:ml-0 px-[10px] py-[20px] rounded-[10px] w-[350px] lg:w-[580px] text-center">
+        <h4 className="w-[350px] lg:w-[650px] dark:text-white">
           Plastic, Metal & Thread Tipping : 50,000 Pcs (Fifty Thousand Pcs)
         </h4>
       </div>
+      {/* Right */}
     </motion.div>
   );
 };

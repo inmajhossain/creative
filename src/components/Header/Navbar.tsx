@@ -94,7 +94,7 @@ const Navbar = () => {
             Products
           </Link>
           {isSubMenuOpen && (
-            <div className="hidden left-0 z-10 absolute lg:flex flex-col items-start space-y-[5px] bg-cyan-950 shadow-lg mt-2 ml-0 p-[10px] rounded-lg w-[150px] font-semibold text-[14px] text-white text-left">
+            <div className="hidden left-0 z-10 absolute lg:flex flex-col items-start space-y-[5px] bg-cyan-950 shadow-lg mt-2 ml-0 p-[10px] rounded-lg w-[160px] font-semibold text-[14px] text-white text-left">
               <Link
                 href="/product/elastic"
                 className="block hover:bg-cyan-400 px-3 py-2 w-full hover:text-black"
@@ -103,19 +103,20 @@ const Navbar = () => {
                 Elastic
               </Link>
               <Link
+                href="/product/jaquard"
+                className="block hover:bg-cyan-400 px-3 py-2 w-full hover:text-black"
+                onClick={() => handleLinkClick("/product/jaquard")}
+              >
+                Jacquard Elastic
+              </Link>
+              <Link
                 href="/product/drawstring"
                 className="block hover:bg-cyan-400 px-3 py-2 w-full hover:text-black"
                 onClick={() => handleLinkClick("/product/drawstring")}
               >
                 Drawstring
               </Link>
-              <Link
-                href="/product/jaquard"
-                className="block hover:bg-cyan-400 px-3 py-2 w-full hover:text-black"
-                onClick={() => handleLinkClick("/product/jaquard")}
-              >
-                Jaquard Elastic
-              </Link>
+
               <Link
                 href="/product/tape"
                 className="block hover:bg-cyan-400 px-3 py-2 w-full hover:text-black"
@@ -124,18 +125,18 @@ const Navbar = () => {
                 Twill Tape
               </Link>
               <Link
-                href="/product/belt"
-                className="block hover:bg-cyan-400 px-3 py-2 w-full hover:text-black"
-                onClick={() => handleLinkClick("/product/belt")}
-              >
-                Belt
-              </Link>
-              <Link
                 href="/product/rib"
                 className="block hover:bg-cyan-400 px-3 py-2 w-full hover:text-black"
                 onClick={() => handleLinkClick("/product/rib")}
               >
                 Rib Tape
+              </Link>
+              <Link
+                href="/product/belt"
+                className="block hover:bg-cyan-400 px-3 py-2 w-full hover:text-black"
+                onClick={() => handleLinkClick("/product/belt")}
+              >
+                Belt
               </Link>
             </div>
           )}

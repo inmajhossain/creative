@@ -108,7 +108,7 @@ export default function TwillTape() {
                 className="w-[230px] h-[230px] object-cover"
               />
               <div className="right-0 bottom-0 left-0 absolute flex justify-center items-center bg-cyan-400/20 bg-opacity-70 p-4 rounded-tl-[50px] rounded-br-[50px] h-full text-white transition-transform translate-y-full group-hover:translate-y-0 duration-1000 delay-4000 transform">
-                <h3 className="font-bold text-fuchsia-600 text-3xl text-center">
+                <h3 className="font-bold text-rose-600 text-3xl text-center">
                   {product.title}
                 </h3>
               </div>
@@ -120,7 +120,7 @@ export default function TwillTape() {
       <div className="flex justify-center mt-[80px]">
         <button
           onClick={() => setShowAll(!showAll)}
-          className="bg-white hover:bg-cyan-50 px-6 py-2 border-1 border-black dark:border-none rounded-full font-semibold text-cyan-600 transition-colors"
+          className="bg-white hover:bg-cyan-50 px-6 py-2 border-1 border-black dark:border-none rounded-full font-semibold text-cyan-400 transition-colors"
         >
           {showAll ? "See Less" : "See More"}
         </button>

@@ -84,7 +84,7 @@ export default function jaquard() {
         {/* Top */}
         <div>
           <h3 className="mx-auto mb-[50px] lg:w-[600px] font-semibold text-[30px] text-black lg:text-[45px] dark:text-white text-center">
-            Jaquard Elastic{" "}
+            Jacquard Elastic{" "}
             <span className="hover:shadow-[0_0_7px_4px_#61caff] px-[10px] py-[5px] rounded-full text-cyan-400 transition-all duration-800">
               Gallery
             </span>
@@ -102,8 +102,8 @@ export default function jaquard() {
                   height={230}
                   className="w-[230px] h-[230px] object-cover"
                 />
-                <div className="right-0 bottom-0 left-0 absolute flex justify-center items-center bg-cyan-400/20 bg-opacity-70 p-4 rounded-tl-[50px] rounded-br-[50px] h-full text-white transition-transform translate-y-full group-hover:translate-y-0 duration-1000 delay-4000 transform">
-                  <h3 className="font-bold text-fuchsia-600 text-3xl text-center">
+                <div className="right-0 bottom-0 left-0 absolute flex justify-center items-center bg-cyan-400/20 bg-opacity-70 p-4 rounded-tl-[50px] rounded-br-[50px] h-full text-white transition-transform translate-y-full group-hover:translate-y-0 duration-100 delay-4000 transform">
+                  <h3 className="font-bold text-rose-600 text-3xl text-center">
                     {product.title}
                   </h3>
                 </div>
@@ -115,7 +115,7 @@ export default function jaquard() {
         <div className="flex justify-center mt-[80px]">
           <button
             onClick={() => setShowAll(!showAll)}
-            className="bg-white hover:bg-cyan-50 px-6 py-2 border-1 border-black dark:border-none rounded-full font-semibold text-cyan-600 transition-colors"
+            className="bg-white hover:bg-cyan-50 px-6 py-2 border-1 border-black dark:border-none rounded-full font-semibold text-cyan-400 transition-colors"
           >
             {showAll ? "See Less" : "See More"}
           </button>

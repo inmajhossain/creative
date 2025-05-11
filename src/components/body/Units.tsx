@@ -13,6 +13,7 @@ import tape from "@/image/Cotton-Twill-Tape-1.webp";
 import belt from "@/image/Cotton-Belt.webp";
 import tipping from "@/image/Drawsting-with-Tipping1.webp";
 import ribtape from "@/image/Color_Stripe_Elastic_Tape-1-1.webp";
+import Production from "./Production";
 
 // Production units data
 const productionUnits = [
@@ -108,13 +109,13 @@ export default function Units() {
     "-mt-5 lg:mt-0 mb-4 lg:mb-0 text-xl lg:text-left text-center";
 
   return (
-    <div className="flex flex-col justify-around items-center mx-auto mt-16 mb-12 max-w-[380px] lg:max-w-[1024px]">
+    <div className="flex flex-col justify-around items-center mx-auto mt-16 mb-[50px] md:mb-[150px] max-w-[380px] lg:max-w-[1024px]">
       {/* Title Section */}
       <div>
-        <h3 className="mt-5 lg:w-[600px] font-semibold lg:text-[45px] text-3xl text-center">
-          Production{" "}
+        <h3 className="mt-5 lg:w-[800px] font-semibold lg:text-[45px] text-3xl text-center">
+          Our Production{" "}
           <span className="hover:shadow-[0_0_7px_4px_#61caff] px-2.5 py-1.5 rounded-full text-cyan-400 transition-all duration-800">
-            Capacity{" "}
+            Items & Capacity{" "}
           </span>
         </h3>
         <div className="mt-9">
@@ -138,7 +139,7 @@ export default function Units() {
             {productionUnits.map((unit, index) => (
               <div
                 key={index}
-                className="flex lg:flex-row flex-col justify-between items-center bg-cyan-100 dark:bg-transparent p-[10px] lg:p-[24px] border-2 dark:border-cyan-400 w-[380px] lg:w-[1024px] h-[400px] lg:h-[332px]"
+                className="flex lg:flex-row flex-col justify-between items-center bg-cyan-100 dark:bg-transparent p-[10px] lg:p-[24px] border-3 border-cyan-400 w-[380px] lg:w-[1024px] h-[400px] lg:h-[250px]"
               >
                 {/* Left Part - Image */}
                 <div className="flex justify-center items-center lg:w-[500px]">
@@ -148,13 +149,13 @@ export default function Units() {
                       alt={unit.alt}
                       width={300}
                       height={300}
-                      className="shadow-[10px] hover:shadow-[0_0_20px_10px_#61caff] active:shadow-[0_0_10px_5px_rgba(168,85,247,0.4)] mt-5 lg:mt-0 border-1 dark:border-amber-100 w-[180px] lg:w-[250px] h-[180px] lg:h-[250px] hover:rotate-[360deg] transition-all duration-2000 transform"
+                      className="shadow-[10px] hover:shadow-[0_0_20px_10px_#61caff] active:shadow-[0_0_10px_5px_rgba(168,85,247,0.4)] mt-5 lg:mt-0 border-1 dark:border-amber-100 w-[180px] lg:w-[200px] h-[180px] lg:h-[200px] hover:rotate-[360deg] transition-all duration-2000 transform"
                     />
                   </Link>
                 </div>
 
                 {/* Right Part - Info */}
-                <div className="flex flex-col justify-center lg:items-start gap-4 lg:px-12 py-5 lg:border-l-2 lg:w-[500px] lg:h-[280px]">
+                <div className="flex flex-col justify-center lg:items-start gap-4 lg:px-12 py-5 border-green-600 lg:border-l-3 lg:w-[500px] lg:h-[230px]">
                   <h3 className={titleClasses}>{unit.title}</h3>
                   <h4 className="text-xl lg:text-left text-center">Everyday</h4>
                   <h4 className={amountClasses}>
@@ -188,6 +189,7 @@ export default function Units() {
           ))}
         </div>
       </div>
+      <Production />
     </div>
   );
 }
