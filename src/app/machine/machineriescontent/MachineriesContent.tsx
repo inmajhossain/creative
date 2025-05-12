@@ -26,7 +26,7 @@ const images = [
   { imagePath: machine17, title: "Needle Loom Machine" },
   { imagePath: machine18, title: "Auto warping Machine" },
   { imagePath: machine19, title: "Automatic Yarn warping Machine" },
-  { imagePath: machine20, title: "Automatic Yarn Wraping Machine Reak" },
+  { imagePath: machine20, title: "Automatic Yarn warping Machine Reak" },
   { imagePath: machine3, title: "Jacquard Elastic Machine" },
   { imagePath: machine5, title: "Winding Machine" },
   {

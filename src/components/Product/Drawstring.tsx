@@ -56,13 +56,16 @@ import dr49 from "@/image/drawstring/dr49.webp";
 import dr50 from "@/image/drawstring/dr50.webp";
 import dr51 from "@/image/drawstring/dr51.webp";
 import dr52 from "@/image/drawstring/dr52.webp";
-
+import dr55 from "@/image/drawstring/dr55.jpg";
 import dr54 from "@/image/drawstring/dr54.webp";
+import dr57 from "@/image/drawstring/dr57.jpg";
 
 const images = [
   dr1,
   dr2,
+  dr55,
   dr3,
+  dr57,
   dr4,
   dr5,
   dr6,
@@ -132,8 +135,8 @@ export default function Drawstring() {
       <div className="py-12 w-full xl:w-[1280px] max-w-[230px] md:max-w-[768px] lg:max-w-[1024px]">
         {/* Top */}
         <div>
-          <h3 className="mx-auto mb-[50px] lg:w-[600px] font-semibold text-[30px] text-black lg:text-[45px] dark:text-white text-center">
-            Drawstring{" "}
+          <h3 className="mx-auto mb-[50px] lg:w-[800px] font-semibold text-[30px] text-black lg:text-[45px] dark:text-white text-center">
+            Drawstring & Tipping{" "}
             <span className="hover:shadow-[0_0_7px_4px_#61caff] px-[10px] py-[5px] rounded-full text-cyan-400 transition-all duration-800">
               Gallery
             </span>

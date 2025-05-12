@@ -132,8 +132,8 @@ export default function Home() {
           <Jaquard />
           <Drawstring />
           <TwillTape />
-          <Rib />
           <Belt />
+          <Rib />
           <Form />
           <Directors />
         </div>

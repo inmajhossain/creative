@@ -11,7 +11,7 @@ export default function BeltContent() {
         {/* Top Side */}
         <div>
           <h3 className="mx-auto mb-[50px] lg:w-[600px] font-semibold text-[30px] text-black lg:text-[45px] dark:text-white text-center">
-            Tape & Woven Belt{" "}
+            Woven Belt{" "}
             <span className="hover:shadow-[0_0_7px_4px_#61caff] px-[10px] py-[5px] rounded-full text-cyan-400 transition-all duration-800">
               Details
             </span>

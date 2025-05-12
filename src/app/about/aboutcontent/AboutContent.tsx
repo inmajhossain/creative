@@ -108,7 +108,7 @@ const AboutContent = () => {
               (cert, index) => (
                 <div
                   key={index}
-                  className="flex items-center bg-white dark:bg-gray-800/50 shadow-md px-6 py-4 rounded-lg"
+                  className="flex items-center bg-white dark:bg-gray-800/50 shadow-md px-6 py-4 rounded-lg w-[220px] lg:w-auto"
                 >
                   <div className="flex justify-center items-center bg-emerald-100 dark:bg-emerald-900 mr-3 rounded-full w-10 h-10">
                     <svg
@@ -498,27 +498,29 @@ const AboutContent = () => {
             )}
             {activeTab === "bank" && (
               <div className="flex flex-col justify-between items-start space-y-4 mx-auto">
-                <h3 className="mx-auto mb-4 font-bold text-gray-900 dark:text-white text-2xl">
+                <h3 className="mb-4 font-bold text-[20px] text-gray-900 dark:text-white">
                   Bank Details
                 </h3>
-                <div className="flex lg:flex-row flex-col justify-around items-center gap-[50px] mx-auto">
-                  <div className="space-y-[10px] dark:bg-gray-700 px-[20px] py-[30px] w-[385px] lg:w-[500px]">
+                <div className="flex lg:flex-row flex-col justify-between items-center gap-[50px] mx-auto w-[300px] md:w-[1080px]">
+                  <div className="flex flex-col items-start space-y-[10px] dark:bg-gray-700 px-[20px] py-[30px] w-[300px] md:w-[500px] lg:h-[300px]">
                     <h3 className="text-[18px] dark:text-amber-100">
                       Dhaka Bank Ltd.
                     </h3>
                     <h3>Account Name: Creative Tape Industries Ltd.</h3>
-                    <h3>Account Number:</h3>
+                    <h3>Account Number: 2231000011357</h3>
+                    <h3>DFC Account Number: 990130000285</h3>
                     <h3>Branch: Mirpur</h3>
-                    <h3>Swift Code:</h3>
+                    <h3>Swift Code: DHBLBDDH</h3>
+                    <h3>Routing Number: 085262984</h3>
                   </div>
-                  <div className="space-y-[10px] dark:bg-gray-700 px-[20px] py-[30px] w-[385px] lg:w-[500px]">
+                  <div className="flex flex-col items-start space-y-[10px] dark:bg-gray-700 px-[20px] py-[30px] w-[300px] md:w-[500px] lg:h-[300px]">
                     <h3 className="text-[18px] dark:text-amber-100">
                       IFIC Bank Ltd.
                     </h3>
                     <h3>Account Name: Creative Tape Industries Ltd.</h3>
-                    <h3>Account Number:</h3>
+                    <h3>Account Number: 1232440205001</h3>
                     <h3>Branch: Darus Salam</h3>
-                    <h3>Swift Code:</h3>
+                    <h3>Routing Number: 120260946</h3>
                   </div>
                 </div>
               </div>

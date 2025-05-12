@@ -16,6 +16,7 @@ import Rib from "@/components/Product/Rib";
 import TwillTape from "@/components/Product/TwillTape";
 import UnitDetails from "@/components/Product/UnitDetails";
 import Production from "@/components/body/Production";
+import Vision from "@/components/body/Vision";
 
 export default function page() {
   return (
@@ -24,6 +25,7 @@ export default function page() {
       <Carousel />
       <ChairmanNote />
       <Buyers />
+      <Vision />
       <Dedicated />
       <Units />
       <UnitDetails />
@@ -31,8 +33,8 @@ export default function page() {
       <Jaquard />
       <Drawstring />
       <TwillTape />
-      <Rib />
       <Belt />
+      <Rib />
       <Form />
       <Directors />
     </div>
