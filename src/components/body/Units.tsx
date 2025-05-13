@@ -19,7 +19,7 @@ import Production from "./Production";
 const productionUnits = [
   {
     title: "Elastic & Hole Elastic Units",
-    amount: "50,000",
+    amount: "75,000",
     unit: "Yards",
     text: "Fifty Thousand Yards",
     image: elastic,

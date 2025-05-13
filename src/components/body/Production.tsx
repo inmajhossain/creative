@@ -13,29 +13,29 @@ const Production = () => {
           At a Glance Production Capacity (Daily)
         </h3>
       </div>
-      <div className="flex flex-col justify-around space-y-[4px] px-[20px] lg:px-[5px] py-[20px] lg:py-0 font-bold text-[14px] text-rose-600 xl:text-[18px] text-center">
+      <div className="flex flex-col justify-around space-y-[4px] px-[20px] lg:px-[5px] py-[20px] lg:py-0 font-medium text-[14px] text-rose-600 xl:text-[18px] text-center">
         <h4 className="w-[350px] lg:w-[650px] text-black dark:text-white text-left lg:text-left md:text-center">
-          <span className="lg:mr-[140px]">Elastic & Hole Elastic</span> : 50,000
+          <span className="lg:mr-[140px]">Elastic & Hole Elastic</span> : 75,000
           Yards
         </h4>
         <h4 className="w-[350px] lg:w-[650px] text-black dark:text-white text-left lg:text-left md:text-center">
-          <span className="lg:mr-[178px]">Jacquard Elastic</span> : 20,000 Yards
+          <span className="lg:mr-[181px]">Jacquard Elastic</span> : 20,000 Yards
         </h4>
 
         <h4 className="w-[350px] lg:w-[650px] text-black dark:text-white text-left lg:text-left md:text-center">
-          <span className="lg:mr-[131px]">Drawstring, Drawcord</span> : 60,000
+          <span className="lg:mr-[128px]">Drawstring, Drawcord</span> : 60,000
           Yards
         </h4>
         <h4 className="w-[350px] lg:w-[650px] text-black dark:text-white text-left lg:text-left md:text-center">
-          <span className="lg:mr-[92px]">Twill Tape, Grosgrain Tape</span> :
+          <span className="lg:mr-[90px]">Twill Tape, Grosgrain Tape</span> :
           25,000 Yards
         </h4>
         <h4 className="w-[350px] lg:w-[650px] text-black dark:text-white text-left lg:text-left md:text-center">
-          <span className="lg:mr-[98px]">Sporting Tape or Rib Tape</span> :
+          <span className="lg:mr-[95px]">Sporting Tape or Rib Tape</span> :
           20,000 Yards
         </h4>
         <h4 className="w-[350px] lg:w-[650px] text-black dark:text-white text-left lg:text-left md:text-center">
-          <span className="lg:mr-[215px]">Woven Belts</span> : 10,000 Pcs
+          <span className="lg:mr-[209px]">Woven Belts</span> : 10,000 Pcs
         </h4>
         <h4 className="w-[350px] lg:w-[650px] text-black dark:text-white text-left lg:text-left md:text-center">
           <span className="lg:mr-[51px]">Plastic, Metal & Thread Tipping</span>{" "}

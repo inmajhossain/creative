@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter, Geist_Mono } from "next/font/google";
+import { Open_Sans } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/Header/theme-provider";
 import Header from "@/components/Header/Header";
@@ -7,13 +7,9 @@ import Footer from "@/components/Footer/Footer";
 import BackgroundEffect from "@/components/Background/BackgroundEffect";
 import Location from "@/components/body/Location";
 
-const inter = Inter({
-  variable: "--font-inter",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+// Primary Sans Serif font
+const openSans = Open_Sans({
+  variable: "--font-open-sans",
   subsets: ["latin"],
 });
 
@@ -30,7 +26,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} ${geistMono.variable}`}>
+      <body className={`${openSans.variable} font-sans`}>
         <ThemeProvider
           attribute="class"
           defaultTheme="light"
