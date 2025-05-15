@@ -1,13 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import logo from "@/image/logo.png";
-import {
-  FaHandPointRight,
-  FaOptinMonster,
-  FaPhoneAlt,
-  FaPhoneSquareAlt,
-  FaRegHandPointRight,
-} from "react-icons/fa";
+import { FaHandPointRight, FaPhoneSquareAlt } from "react-icons/fa";
 import { TfiEmail } from "react-icons/tfi";
 
 export default function Footer() {

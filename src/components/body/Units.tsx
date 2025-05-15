@@ -102,17 +102,17 @@ export default function Units() {
   // Common class strings
 
   const titleClasses =
-    "dark:border-cyan-400 border-b-2 lg:border-none text-2xl lg:text-xl dark:text-amber-100 lg:text-left text-center";
+    "dark:border-cyan-400 border-b-2 py-[5px] lg:py-0 lg:border-none text-[14px] font-bold lg:text-xl dark:text-amber-100 lg:text-left text-center";
   const amountClasses =
-    "-mt-5 lg:mt-0 text-xl dark:text-amber-100 lg:text-left text-center";
+    "-mt-5 lg:mt-0 text-[16px] dark:text-amber-100 lg:text-left text-center";
   const textClasses =
-    "-mt-5 lg:mt-0 mb-4 lg:mb-0 text-xl lg:text-left text-center";
+    "-mt-5 lg:mt-0 mb-4 lg:mb-0 text-[16px] lg:text-left text-center";
 
   return (
     <div className="flex flex-col justify-around items-center mx-auto mt-16 mb-[50px] md:mb-[150px] max-w-[380px] lg:max-w-[1024px]">
       {/* Title Section */}
       <div>
-        <h3 className="mt-5 lg:w-[800px] font-semibold lg:text-[45px] text-3xl text-center">
+        <h3 className="mt-5 lg:w-[800px] font-semibold text-[22px] lg:text-[45px] text-center">
           Our Production{" "}
           <span className="hover:shadow-[0_0_7px_4px_#61caff] px-2.5 py-1.5 rounded-full text-cyan-400 transition-all duration-800">
             Items & Capacity{" "}
@@ -120,8 +120,7 @@ export default function Units() {
         </h3>
         <div className="mt-9">
           <Link
-            href="https://drive.google.com/file/d/1CDyuiiIyQAxuKYCWKnQ6tPuxo2aJdWrc/view?usp=sharing"
-            download="CompanyProfile.pdf"
+            href="https://www.facebook.com/creativetapeinds"
             target="_blank"
             rel="noopener noreferrer"
             className="group flex justify-around items-center bg-black hover:shadow-[0_0_7px_4px_#61caff] active:shadow-[0_0_10px_5px_rgba(168,85,247,0.4)] mx-auto px-2 py-2 border-2 border-cyan-400 rounded-full w-40 font-semibold text-white active:scale-95 transition-all duration-800"
@@ -139,7 +138,7 @@ export default function Units() {
             {productionUnits.map((unit, index) => (
               <div
                 key={index}
-                className="flex lg:flex-row flex-col justify-between items-center bg-cyan-100 dark:bg-transparent p-[10px] lg:p-[24px] border-3 border-cyan-400 w-[380px] lg:w-[1024px] h-[400px] lg:h-[250px]"
+                className="flex lg:flex-row flex-col justify-between items-center dark:bg-transparent p-[20px] lg:p-[24px] border-3 border-cyan-400 w-[380px] lg:w-[1024px] h-[400px] lg:h-[250px]"
               >
                 {/* Left Part - Image */}
                 <div className="flex justify-center items-center lg:w-[500px]">

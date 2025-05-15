@@ -20,13 +20,13 @@ export default function Dedicated() {
       {/* Bottom Part Start */}
       <div className="flex lg:flex-row flex-col justify-between items-center lg:gap-[100px] mx-auto mb-[50px] px-[20px] py-[20px] max-w-[380px] lg:max-w-[1280px] lg:h-[500px]">
         {/* Left Start */}
-        <div className="flex flex-col justify-between items-center lg:items-start gap-[20px] mb-[20px] lg:mb-0 lg:w-[500px] lg:text-left text-center">
-          <h2 className="text-[20px] lg:text-[32px] lg:leading-tight">
+        <div className="flex flex-col justify-between items-center lg:items-start gap-[20px] mb-[20px] lg:mb-0 lg:w-[500px] text-left">
+          <h2 className="mt-[-20px] lg:mt-0 text-[16px] lg:text-[28px] lg:leading-tight">
             Our Experts dedicated teamwork{" "}
             <span className="dark:text-cyan-600">always empowers</span> our
             Buyer’s energy.
           </h2>
-          <h3 className="text-[14px] lg:text-[18px]">
+          <h3 className="text-[12px] lg:text-[18px]">
             Creative offers you the most comprehensive & competitive range of
             bottom trims in Ready-made Garments Sector.{" "}
             <span className="dark:text-cyan-600">
@@ -34,12 +34,12 @@ export default function Dedicated() {
               the clock basis services.
             </span>
           </h3>
-          <h4 className="text-[14px] lg:text-[16px]">
+          <h4 className="text-[12px] lg:text-[16px]">
             Our long time experience in this industry has helped us to acquire
             knowledge and information for products and services to meet the
             requirements of our customers.
           </h4>
-          <p className="text-[14px] lg:text-[16px]">
+          <p className="text-[12px] lg:text-[16px]">
             We always offer flexibility, competitiveness and sharper lead time
             to reach the customer demand. Our network supported by a dynamic
             team of professionals to serve our clients as a strong chain supply

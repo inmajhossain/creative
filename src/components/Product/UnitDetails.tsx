@@ -21,8 +21,8 @@ export default function UnitDetails() {
         {/* Left Side */}
         <div className="flex flex-col justify-between items-start gap-[50px]">
           {/* First */}
-          <div className="flex flex-col justify-around items-center lg:items-start gap-[10px] bg-cyan-900 dark:bg-cyan-900/30 p-[30px] lg:w-[900px] lg:text-left text-center">
-            <h2 className="py-[10px] border-cyan-400 border-b-2 w-full text-amber-200 text-3xl">
+          <div className="flex flex-col justify-around items-start gap-[10px] bg-cyan-900 dark:bg-cyan-900/30 p-[30px] lg:w-[900px] text-left">
+            <h2 className="py-[10px] border-cyan-400 border-b-2 w-full text-[24px] text-amber-200 md:text-3xl">
               Elastic Unit – Where Flexibility Meets Innovation
             </h2>
             <p>
@@ -32,7 +32,7 @@ export default function UnitDetails() {
               elastic, we offer a wide range of styles, textures, and colors
               tailored to fit your vision.
             </p>
-            <h3 className="py-[10px] border-b-2 border-b-cyan-400 dark:text-amber-100 text-2xl">
+            <h3 className="py-[10px] border-b-2 border-b-cyan-400 text-[20px] dark:text-amber-100 md:text-2xl">
               Our Collection of Elastic Excellence
             </h3>
             <h4>
@@ -70,7 +70,7 @@ export default function UnitDetails() {
               applications.
             </h4>
 
-            <h3 className="py-[10px] border-b-2 border-b-cyan-400 dark:text-amber-100 text-2xl">
+            <h3 className="py-[10px] border-b-2 border-b-cyan-400 text-[20px] dark:text-amber-100 md:text-2xl">
               Customization is Our Craft
             </h3>
             <h3>
@@ -78,7 +78,7 @@ export default function UnitDetails() {
               solutions based on your designs, sizes, colors, and technical
               specs. We turn your requirements into reality woven to perfection.
             </h3>
-            <h3 className="py-[10px] border-b-2 border-b-cyan-400 dark:text-amber-100 text-2xl">
+            <h3 className="py-[10px] border-b-2 border-b-cyan-400 text-[20px] dark:text-amber-100 md:text-2xl">
               Partner with Elastic Unit
             </h3>
             <h3>
@@ -95,8 +95,8 @@ export default function UnitDetails() {
             </div>
           </div>
           {/* Second */}
-          <div className="flex flex-col justify-around items-center lg:items-start gap-[10px] bg-green-900 dark:bg-green-900/30 p-[30px] lg:w-[900px] lg:text-left text-center">
-            <h2 className="py-[10px] border-cyan-400 border-b-2 w-full text-amber-200 text-3xl">
+          <div className="flex flex-col justify-around items-start gap-[10px] bg-green-900 dark:bg-green-900/30 p-[30px] lg:w-[900px] text-left">
+            <h2 className="py-[10px] border-cyan-400 border-b-2 w-full text-[24px] text-amber-200 md:text-3xl">
               Jacquard Elastic – Where Style and Structure Intertwine
             </h2>
             <p>
@@ -122,7 +122,7 @@ export default function UnitDetails() {
               blends durability, flexibility, and design innovation seamlessly.
             </h4>
 
-            <h3 className="py-[10px] w-full dark:text-amber-100 text-2xl">
+            <h3 className="py-[10px] w-full text-[20px] dark:text-amber-100 md:text-2xl">
               Distinctive. Durable. Designed for you. That’s Jacquard Elastic
               Unit.
             </h3>
@@ -136,8 +136,8 @@ export default function UnitDetails() {
 
           {/* Third */}
 
-          <div className="flex flex-col justify-around items-center lg:items-start gap-[10px] bg-cyan-900 dark:bg-cyan-900/30 p-[30px] lg:w-[900px] lg:text-left text-center">
-            <h2 className="py-[10px] border-cyan-400 border-b-2 w-full text-amber-200 text-3xl">
+          <div className="flex flex-col justify-around items-start gap-[10px] bg-cyan-900 dark:bg-cyan-900/30 p-[30px] lg:w-[900px] text-left">
+            <h2 className="py-[10px] border-cyan-400 border-b-2 w-full text-[24px] text-amber-200 md:text-3xl">
               Drawstring Unit – Where Detail Makes the Difference
             </h2>
             <p>
@@ -146,7 +146,7 @@ export default function UnitDetails() {
               machinery and materials, we craft custom drawstrings in every
               style, shape, and color imaginable.
             </p>
-            <h3 className="py-[10px] border-b-2 border-b-cyan-400 dark:text-amber-100 text-2xl">
+            <h3 className="py-[10px] border-b-2 border-b-cyan-400 text-[20px] dark:text-amber-100 md:text-2xl">
               From Stripe to Solid, Round to Flat we offer:
             </h3>
             <h4>
@@ -174,7 +174,7 @@ export default function UnitDetails() {
               43SP & 46SP
             </h4>
 
-            <h3 className="py-[10px] border-cyan-400 border-b-2 dark:text-amber-100 text-2xl">
+            <h3 className="py-[10px] border-cyan-400 border-b-2 text-[20px] dark:text-amber-100 md:text-2xl">
               Premium Tipping Finishes
             </h3>
             <h3>
@@ -182,7 +182,7 @@ export default function UnitDetails() {
               non-logo options Azo free, lead free, magnet free, and made to
               meet global safety standards.
             </h3>
-            <h3 className="py-[10px] border-b-2 border-b-cyan-400 dark:text-amber-100 text-2xl">
+            <h3 className="py-[10px] border-b-2 border-b-cyan-400 text-[20px] dark:text-amber-100 md:text-2xl">
               Custom Colors. Unique Weaves. Tailored Sizes.
             </h3>
             <h3>
@@ -198,8 +198,8 @@ export default function UnitDetails() {
           </div>
 
           {/* Four */}
-          <div className="flex flex-col justify-around items-center lg:items-start gap-[10px] bg-green-900 dark:bg-green-900/30 p-[30px] lg:w-[900px] lg:text-left text-center id-twilltape">
-            <h2 className="py-[10px] border-cyan-400 border-b-2 w-full text-amber-200 text-3xl">
+          <div className="flex flex-col justify-around items-start gap-[10px] bg-green-900 dark:bg-green-900/30 p-[30px] lg:w-[900px] text-left id-twilltape">
+            <h2 className="py-[10px] border-cyan-400 border-b-2 w-full text-[24px] text-amber-200 md:text-3xl">
               Tape & Belt Unit – Woven to Impress
             </h2>
             <p>
@@ -207,7 +207,7 @@ export default function UnitDetails() {
               meets creativity. We specialize in producing a wide variety of
               customizable tapes that bring style and strength to your products.
             </p>
-            <h3 className="py-[10px] border-b-2 border-b-cyan-400 dark:text-amber-100 text-2xl">
+            <h3 className="py-[10px] border-b-2 border-b-cyan-400 text-[20px] dark:text-amber-100 md:text-2xl">
               What We Offer:
             </h3>
             <h4>
@@ -229,11 +229,11 @@ export default function UnitDetails() {
               Intricate weaves, stylish designs, and standout branding.
             </h4>
 
-            <h3 className="py-[10px] border-b-2 border-b-cyan-400 dark:text-amber-100 text-2xl">
+            <h3 className="py-[10px] border-b-2 border-b-cyan-400 text-[20px] dark:text-amber-100 md:text-2xl">
               Custom sizes, colors (DTM), stripe patterns, and weaving styles
             </h3>
             <h3>we bring your tape vision to life.</h3>
-            <h3 className="py-[10px] border-b-2 border-b-cyan-400 dark:text-amber-100 text-2xl">
+            <h3 className="py-[10px] border-b-2 border-b-cyan-400 text-[20px] dark:text-amber-100 md:text-2xl">
               From high-fashion to industrial, our tapes are designed to
               enhance, built to last.
             </h3>
@@ -246,8 +246,8 @@ export default function UnitDetails() {
           </div>
 
           {/* Five */}
-          <div className="flex flex-col justify-around items-center lg:items-start gap-[10px] bg-cyan-900 dark:bg-cyan-900/30 p-[30px] lg:w-[900px] lg:text-left text-center">
-            <h2 className="py-[10px] border-cyan-400 border-b-2 w-full text-amber-200 text-3xl">
+          <div className="flex flex-col justify-around items-start gap-[10px] bg-cyan-900 dark:bg-cyan-900/30 p-[30px] lg:w-[900px] text-left">
+            <h2 className="py-[10px] border-cyan-400 border-b-2 w-full text-[24px] text-amber-200 md:text-3xl">
               Sporting Tape or Rib Tape Unit
             </h2>
             <h2 className="py-[10px] border-b-2 border-b-cyan-400 text-amber-100 text-3xl">
@@ -259,7 +259,7 @@ export default function UnitDetails() {
               Sporting and Rib Tape Unit delivers just that, offering tailored
               solutions for activewear, outerwear, and technical garments.
             </p>
-            <h3 className="py-[10px] border-b-2 border-b-cyan-400 dark:text-amber-100 text-2xl">
+            <h3 className="py-[10px] border-b-2 border-b-cyan-400 text-[20px] dark:text-amber-100 md:text-2xl">
               Our Range of Performance Enhancers
             </h3>
             <h4>
@@ -286,7 +286,7 @@ export default function UnitDetails() {
               thickness, and elasticity to match your brand’s unique needs.
             </h4>
 
-            <h3 className="py-[10px] border-b-2 border-b-cyan-400 dark:text-amber-100 text-2xl">
+            <h3 className="py-[10px] border-b-2 border-b-cyan-400 text-[20px] dark:text-amber-100 md:text-2xl">
               Built for Motion. Designed to Last.
             </h3>
             <h3>
@@ -302,8 +302,8 @@ export default function UnitDetails() {
           </div>
 
           {/* Six */}
-          <div className="flex flex-col justify-around items-center lg:items-start gap-[10px] bg-green-900 dark:bg-green-900/30 p-[30px] lg:w-[900px] lg:text-left text-center">
-            <h2 className="py-[10px] border-cyan-400 border-b-2 w-full text-amber-200 text-3xl">
+          <div className="flex flex-col justify-around items-start gap-[10px] bg-green-900 dark:bg-green-900/30 p-[30px] lg:w-[900px] text-left">
+            <h2 className="py-[10px] border-cyan-400 border-b-2 w-full text-[24px] text-amber-200 md:text-3xl">
               Belt Unit – Strength in Style
             </h2>
             <p>
@@ -312,7 +312,7 @@ export default function UnitDetails() {
               we manufacture a wide range of custom belts that are as strong as
               they are stylish.
             </p>
-            <h3 className="py-[10px] border-b-2 border-b-cyan-400 dark:text-amber-100 text-2xl">
+            <h3 className="py-[10px] border-b-2 border-b-cyan-400 text-[20px] dark:text-amber-100 md:text-2xl">
               Our Belt Collection Includes:
             </h3>
             <h4>
@@ -348,14 +348,14 @@ export default function UnitDetails() {
               Rich texture meets elegant design in both cotton and polyester.
             </h4>
 
-            <h3 className="py-[10px] border-b-2 border-b-cyan-400 dark:text-amber-100 text-2xl">
+            <h3 className="py-[10px] border-b-2 border-b-cyan-400 text-[20px] dark:text-amber-100 md:text-2xl">
               Custom sizes, patterns, colors (DTM), and weaves
             </h3>
             <h3>
               tailored exactly to your vision. From rugged utility to
               runway-ready looks, our belts are crafted to elevate any product.
             </h3>
-            <h3 className="py-[10px] border-b-2 border-b-cyan-400 dark:text-amber-100 text-2xl">
+            <h3 className="py-[10px] border-b-2 border-b-cyan-400 text-[20px] dark:text-amber-100 md:text-2xl">
               Custom Colors. Unique Weaves. Tailored Sizes.
             </h3>
             <h3>
@@ -372,7 +372,7 @@ export default function UnitDetails() {
         </div>
 
         {/* Right Side */}
-        <div className="hidden md:hidden lg:hidden relative xl:flex border-cyan-900 dark:border-amber-100 border-l-[5px] h-[4175px]">
+        <div className="hidden md:hidden lg:hidden relative xl:flex border-cyan-900 dark:border-amber-100 border-l-[5px] h-[4125px]">
           <motion.div
             animate={{ y: [200, 0] }}
             transition={{ duration: 3, delay: 1 }}

@@ -100,7 +100,7 @@ export default function belt() {
 
   return (
     <div className="flex flex-col items-center mx-auto mt-[50px] xl:w-[1280px] max-w-[270px] md:max-w-[768px] lg:max-w-[1024px]">
-      <div className="w-full xl:w-[1280px] max-w-[230px] md:max-w-[768px] lg:max-w-[1024px]">
+      <div className="w-[380px] md:w-[1024px]">
         {/* Top */}
         <div>
           <h3 className="mx-auto mb-[50px] lg:w-[600px] font-semibold text-[30px] text-black lg:text-[45px] dark:text-white text-center">
@@ -111,16 +111,16 @@ export default function belt() {
           </h3>
         </div>
         {/* Bottom */}
-        <div className="flex md:flex-row lg:flex-row flex-col flex-wrap justify-between gap-[30px]">
+        <div className="flex flex-row flex-wrap justify-between items-center gap-[15px] gap-y-[30px] md:gap-y-0 lg:gap-[30px] mx-auto w-[380px] md:w-[1024px]">
           {displayedProducts.map(product => (
             <Link href="/product/belt" className="block">
-              <div className="group relative md:justify-around shadow-[0_0_10px_6px_#61caff] rounded-lg rounded-tl-[50px] rounded-br-[50px] h-[230px] overflow-hidden hover:rotate-360 transition-all duration-5000 transform">
+              <div className="group relative md:justify-around shadow-[0_0_10px_6px_#61caff] rounded-lg md:rounded-tl-[50px] md:rounded-br-[50px] w-[80px] md:w-[230px] h-[80px] md:h-[230px] overflow-hidden hover:rotate-360 transition-all duration-5000 transform">
                 <Image
                   src={product.imagePath}
                   alt={product.title}
                   width={230}
                   height={230}
-                  className="w-[230px] h-[230px] object-cover"
+                  className="w-[80px] md:w-[230px] h-[80px] md:h-[230px] object-cover"
                 />
                 <div className="right-0 bottom-0 left-0 absolute flex justify-center items-center bg-cyan-400/20 bg-opacity-70 p-4 rounded-tl-[50px] rounded-br-[50px] h-full text-white transition-transform translate-y-full group-hover:translate-y-0 duration-1000 delay-4000 transform">
                   <h3 className="font-bold text-rose-600 text-3xl text-center">

@@ -10,10 +10,10 @@ export default function ChairmanNote() {
       <h2 className="block mx-auto mb-4 py-[10px] dark:border-amber-100 border-b-3 border-black lg:w-[350px] font-thin text-md dark:text-white lg:text-2xl lobster">
         Message From Chairman...
       </h2>
-      <h2 className="mb-4 font-bold dark:text-cyan-400 lg:text-4xl">
+      <h2 className="mb-4 font-bold text-[14px] dark:text-cyan-400 lg:text-4xl">
         Welcome to Creative Tape Industries Ltd.
       </h2>
-      <div className="flex flex-col justify-around items-start gap-[10px] mb-[20px] lg:px-[30px] lg:text-left">
+      <div className="flex flex-col justify-around items-start gap-[10px] mb-[20px] lg:px-[30px] text-[10px] md:text-[16px] text-left">
         <h4 className="dark:text-green-400">
           Bangladesh is a densely populated developing country, where industrial
           investment is one of the government's top priorities. To achieve
