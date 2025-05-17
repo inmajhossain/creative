@@ -3,21 +3,21 @@ import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-import machine3 from "@/image/machine/machine3.jpg";
-import machine5 from "@/image/machine/machine5.jpg";
-import machine6 from "@/image/machine/machine6.jpg";
-import machine7 from "@/image/machine/machine7.jpg";
+import machine3 from "@/image/machine/machine3.webp";
+import machine5 from "@/image/machine/machine5.webp";
+import machine6 from "@/image/machine/machine6.webp";
+import machine7 from "@/image/machine/machine7.webp";
 import machine9 from "@/image/machine/machine9.webp";
 import machine10 from "@/image/machine/machine10.webp";
 import machine12 from "@/image/machine/machine12.webp";
-import machine13 from "@/image/machine/machine13.avif";
-import machine14 from "@/image/machine/machine14.jpg";
+import machine13 from "@/image/machine/machine13.webp";
+import machine14 from "@/image/machine/machine14.webp";
 import machine15 from "@/image/machine/machine15.webp";
-import machine17 from "@/image/machine/machine17.jpg";
-import machine18 from "@/image/machine/machine18.jpg";
+import machine17 from "@/image/machine/machine17.webp";
+import machine18 from "@/image/machine/machine18.webp";
 import machine19 from "@/image/machine/machine19.webp";
-import machine20 from "@/image/machine/machine20.jpg";
-import machine22 from "@/image/machine/machine22.avif";
+import machine20 from "@/image/machine/machine20.webp";
+import machine22 from "@/image/machine/machine22.webp";
 const images = [
   { imagePath: machine12, title: "Jacquard Elastic Machine" },
   { imagePath: machine13, title: "Crochet Knitting Machine" },

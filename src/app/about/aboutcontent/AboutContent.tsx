@@ -27,7 +27,7 @@ const AboutContent = () => {
           </h2>
           <h1 className="mb-6 font-bold text-gray-900 dark:text-cyan-600 text-4xl md:text-5xl">
             <span className="relative">
-              Creative Tape Industries Ltd
+              Creative Tape Industries Ltd.
               <span className="bottom-[-10] left-0 absolute dark:bg-amber-100 mx-auto w-full h-1"></span>
             </span>
           </h1>

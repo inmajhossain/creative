@@ -1,9 +1,9 @@
 "use client";
 import { useEffect, useState } from "react";
 import Image from "next/image";
-import logo1 from "@/image/certification/oekotex.png"; // Replace with your actual image paths
+import logo1 from "@/image/certification/oekotex.webp"; // Replace with your actual image paths
 import logo2 from "@/image/certification/sedex2.webp"; // Replace with your actual image paths
-import logo3 from "@/image/certification/grs.png"; // Replace with your actual image paths
+import logo3 from "@/image/certification/grs.webp"; // Replace with your actual image paths
 // Replace with your actual image paths
 const images = [logo1, logo2, logo3]; // Array of images
 

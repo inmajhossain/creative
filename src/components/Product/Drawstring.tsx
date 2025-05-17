@@ -56,9 +56,9 @@ import dr49 from "@/image/drawstring/dr49.webp";
 import dr50 from "@/image/drawstring/dr50.webp";
 import dr51 from "@/image/drawstring/dr51.webp";
 import dr52 from "@/image/drawstring/dr52.webp";
-import dr55 from "@/image/drawstring/dr55.jpg";
+import dr55 from "@/image/drawstring/dr55.webp";
 import dr54 from "@/image/drawstring/dr54.webp";
-import dr57 from "@/image/drawstring/dr57.jpg";
+import dr57 from "@/image/drawstring/dr57.webp";
 
 const images = [
   dr1,

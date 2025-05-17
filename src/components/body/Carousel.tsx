@@ -1,5 +1,5 @@
 import Image from "next/image";
-import asos from "@/image/logo/asos.webp";
+import asos from "@/image/logo/asos.svg";
 import auchan from "@/image/logo/auchan.svg";
 import babyshop from "@/image/logo/babyshop.png";
 import boss from "@/image/logo/boss.svg";

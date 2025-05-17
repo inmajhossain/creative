@@ -36,12 +36,12 @@ import tl29 from "@/image/twilltape/tl29.webp";
 import tl30 from "@/image/twilltape/tl30.webp";
 import tl31 from "@/image/twilltape/tl31.webp";
 import tl32 from "@/image/twilltape/tl32.webp";
-import tl33 from "@/image/twilltape/tl33.jpg";
-import tl34 from "@/image/twilltape/tl34.jpg";
-import tl35 from "@/image/twilltape/tl35.jpg";
-import tl36 from "@/image/twilltape/tl36.jpg";
-import tl37 from "@/image/twilltape/tl37.jpg";
-import tl38 from "@/image/twilltape/tl38.jpg";
+import tl33 from "@/image/twilltape/tl33.webp";
+import tl34 from "@/image/twilltape/tl34.webp";
+import tl35 from "@/image/twilltape/tl35.webp";
+import tl36 from "@/image/twilltape/tl36.webp";
+import tl37 from "@/image/twilltape/tl37.webp";
+import tl38 from "@/image/twilltape/tl38.webp";
 
 const images = [
   tl33,

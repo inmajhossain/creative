@@ -7,14 +7,14 @@ export default function ChairmanNote() {
       transition={{ duration: 3, delay: 2 }}
       className="bg-cyan-100 dark:bg-cyan-950/90 shadow-lg mx-auto mt-[50px] lg:mt-[100px] p-6 border-3 border-cyan-400 w-[380px] md:w-[768px] lg:w-[1024px] xl:w-[1200px] text-black text-md text-center"
     >
-      <h2 className="block mx-auto mb-4 py-[10px] dark:border-amber-100 border-b-3 border-black lg:w-[350px] font-thin text-md dark:text-white lg:text-2xl lobster">
-        Message From Chairman...
+      <h2 className="block mx-auto mb-4 py-[2px] dark:border-amber-100 border-b-3 border-black lg:w-[240px] font-thin text-md dark:text-white lg:text-2xl lobster">
+        Message From Chairman
       </h2>
       <h2 className="mb-4 font-bold text-[14px] dark:text-cyan-400 lg:text-4xl">
         Welcome to Creative Tape Industries Ltd.
       </h2>
       <div className="flex flex-col justify-around items-start gap-[10px] mb-[20px] lg:px-[30px] text-[10px] md:text-[16px] text-left">
-        <h4 className="dark:text-green-400">
+        <h4 className="dark:text-white">
           Bangladesh is a densely populated developing country, where industrial
           investment is one of the government's top priorities. To achieve
           long-term national growth, development plans are increasingly focused
@@ -31,7 +31,7 @@ export default function ChairmanNote() {
           in the country, we have decided to establish a garments accessories
           manufacturing and supply company named Creative Tape Industries Ltd.
         </h4>
-        <h4 className="dark:text-green-400">
+        <h4 className="dark:text-white">
           Creative Tape Industries Ltd. offers the most comprehensive and
           competitive range of bottom trims for the Ready-Made Garments sector.
           We are committed to delivering complete customer satisfaction and
@@ -47,7 +47,7 @@ export default function ChairmanNote() {
           dynamic, professional team, ensuring efficient and responsive service
           to our clients.
         </h4>
-        <h4 className="dark:text-green-400">
+        <h4 className="dark:text-white">
           Our belief, "Together Everyone Achieves More," reflects our commitment
           to collaboration. By working closely with our valued buyers, we
           understand their needs and actively engage in fulfilling them. Through

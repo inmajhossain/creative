@@ -163,7 +163,7 @@ export default function Footer() {
 
       {/* Lower Part Start */}
       <div className="flex lg:flex-row flex-col justify-center items-center bg-black py-[10px] text-white">
-        <h3 className="lg:flex">© 2017 - 2025 Creative Tape Industries Ltd</h3>
+        <h3 className="lg:flex">© 2017 - 2025 Creative Tape Industries Ltd.</h3>
         <h4 className="hidden lg:flex mr-[10px] ml-[10px] text-amber-100">|</h4>
         <h3>All rights reserved. Site by Inmaj Hossain</h3>
         <h4 className="hidden lg:flex mr-[10px] ml-[10px] text-amber-100">|</h4>

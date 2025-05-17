@@ -122,7 +122,7 @@ const Navbar = () => {
                 className="block hover:bg-cyan-400 px-3 py-2 w-full hover:text-black"
                 onClick={() => handleLinkClick("/product/tape")}
               >
-                Tape & Belt
+                Tape
               </Link>
               <Link
                 href="/product/rib"
@@ -136,7 +136,7 @@ const Navbar = () => {
                 className="block hover:bg-cyan-400 px-3 py-2 w-full hover:text-black"
                 onClick={() => handleLinkClick("/product/belt")}
               >
-                Belt
+                Woven Belt
               </Link>
             </div>
           )}
