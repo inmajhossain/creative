@@ -7,7 +7,7 @@ export default function ChairmanNote() {
       transition={{ duration: 3, delay: 2 }}
       className="bg-cyan-100 dark:bg-cyan-950/90 shadow-lg mx-auto mt-[50px] lg:mt-[100px] p-6 border-3 border-cyan-400 w-[380px] md:w-[768px] lg:w-[1024px] xl:w-[1200px] text-black text-md text-center"
     >
-      <h2 className="block mx-auto mb-4 py-[2px] dark:border-amber-100 border-b-3 border-black lg:w-[240px] font-thin text-md dark:text-white lg:text-2xl lobster">
+      <h2 className="block mx-auto mb-4 py-[2px] dark:border-amber-100 border-b-3 border-black lg:w-[240px] font-semibold text-md lg:text-[20px] dark:text-white">
         Message From Chairman
       </h2>
       <h2 className="mb-4 font-bold text-[14px] dark:text-cyan-400 lg:text-4xl">

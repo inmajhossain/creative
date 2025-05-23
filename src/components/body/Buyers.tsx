@@ -6,7 +6,7 @@ export default function Buyers() {
     <div className="hidden lg:flex xl:flex lg:flex-col xl:flex-col mx-auto lg:mt-[50px] mb-[50px] lg:mb-[150px] w-[380px] md:w-[768px] lg:w-[1024px] xl:w-[1280px] lg:h-[520px] font-semibold text-black">
       {/* Top */}
       <div>
-        <h2 className="mx-auto py-[2px] dark:border-amber-100 border-b-3 border-black lg:w-[270px] font-thin text-md dark:text-white lg:text-2xl text-center lobster">
+        <h2 className="mx-auto py-[2px] dark:border-amber-100 border-b-3 border-black lg:w-[280px] font-semibold text-md lg:text-[20px] dark:text-white text-center">
           Message From Management
         </h2>
       </div>

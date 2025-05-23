@@ -49,7 +49,7 @@ const Form = () => {
 
     try {
       const response = await axios.post(
-        "https://formspree.io/f/mqazzlvk",
+        "https://formspree.io/f/xyzwablg",
         formData
       );
 
